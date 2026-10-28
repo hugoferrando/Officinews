@@ -8,7 +8,7 @@ Journal de veille pharmaceutique : actualités ANSM, HAS, Le Moniteur des pharma
 |---|---|
 | `index.html` | La page du journal (aucune dépendance à installer) |
 | `articles.json` | Les articles affichés. C'est le seul fichier modifié par les mises à jour |
-| `manifest.webmanifest`, `icon*.png`, `icon.svg` | Pour ajouter Officinews à l'écran d'accueil comme une appli |
+| `manifest.webmanifest`, `icon-*.png`, `favicon.png` | Pour ajouter Officinews à l'écran d'accueil comme une appli |
 | `.nojekyll` | Dit à GitHub Pages de servir les fichiers tels quels |
 
 ## Mettre en ligne sur GitHub Pages

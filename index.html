@@ -9,18 +9,20 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Officinews">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="icon-180.png">
 <style>html{-webkit-text-size-adjust:100%}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
 <title>Officinews</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Outfit:wght@800&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 /* Layout: masthead d'une édition du jour, barre de filtres collante, fil d'actus groupé par jour (colonne date à gauche, article à droite). */
 :root{
   --paper:#F5F8F6; --card:#FFFFFF; --ink:#13201C; --muted:#5A6A65; --rule:#D8E1DD;
   --accent:#0B7A57; --accent-soft:#E2F1EA; --warn:#B4541A; --warn-soft:#FBEBDD;
   --s-ansm:#B8323A; --s-has:#1E68A8; --s-mon:#B5620F; --s-qph:#5348A6; --s-autre:#5A6A65;
+  --brand-dark:#0C3B2D; --brand:#0A9A58; --mark-bg:transparent;
+  --f-brand:"Outfit", "Public Sans", system-ui, sans-serif;
   --f-display:"Newsreader", Georgia, "Times New Roman", serif;
   --f-body:"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --f-mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -28,11 +30,13 @@
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --paper:#0F1614; --card:#151F1C; --ink:#E4ECE8; --muted:#93A39E; --rule:#26332F;
   --accent:#4CC79A; --accent-soft:#16302A; --warn:#F09A5E; --warn-soft:#33221A;
-  --s-ansm:#F0858B; --s-has:#79B6EC; --s-mon:#F0A862; --s-qph:#ABA2F2; --s-autre:#93A39E; color-scheme:dark}}
+  --s-ansm:#F0858B; --s-has:#79B6EC; --s-mon:#F0A862; --s-qph:#ABA2F2; --s-autre:#93A39E;
+  --brand-dark:#E4ECE8; --brand:#3FD08A; --mark-bg:#F2F7F4; color-scheme:dark}}
 :root[data-theme="dark"]{
   --paper:#0F1614; --card:#151F1C; --ink:#E4ECE8; --muted:#93A39E; --rule:#26332F;
   --accent:#4CC79A; --accent-soft:#16302A; --warn:#F09A5E; --warn-soft:#33221A;
-  --s-ansm:#F0858B; --s-has:#79B6EC; --s-mon:#F0A862; --s-qph:#ABA2F2; --s-autre:#93A39E; color-scheme:dark}
+  --s-ansm:#F0858B; --s-has:#79B6EC; --s-mon:#F0A862; --s-qph:#ABA2F2; --s-autre:#93A39E;
+  --brand-dark:#E4ECE8; --brand:#3FD08A; --mark-bg:#F2F7F4; color-scheme:dark}
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
@@ -45,11 +49,10 @@ a{color:inherit}
 .mast{padding-block:28px 18px;border-bottom:2px solid var(--ink);display:grid;gap:10px}
 .mast-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap;
   font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);text-transform:uppercase}
-h1{font-family:var(--f-display);font-weight:600;font-size:clamp(34px,7vw,52px);line-height:1;margin:0;letter-spacing:-.01em}
-h1 .cross{display:inline-block;width:.62em;height:.62em;margin-right:.18em;vertical-align:.02em;position:relative}
-h1 .cross::before,h1 .cross::after{content:"";position:absolute;background:var(--accent);border-radius:2px}
-h1 .cross::before{left:33%;top:0;width:34%;height:100%}
-h1 .cross::after{top:33%;left:0;height:34%;width:100%}
+h1{font-family:var(--f-brand);font-weight:800;font-size:clamp(36px,8vw,54px);line-height:1;margin:0;letter-spacing:-.02em;
+  display:flex;align-items:center;gap:.28em;color:var(--brand-dark)}
+h1 .w-news{color:var(--brand)}
+.logo-mark{height:1.15em;width:auto;flex:none;background:var(--mark-bg);border-radius:.18em;padding:.06em}
 .tag{color:var(--muted);margin:0;max-width:60ch}
 .stats{display:flex;gap:22px;flex-wrap:wrap;margin-top:4px;font-size:13px;color:var(--muted)}
 .stats b{font-family:var(--f-mono);font-weight:500;color:var(--ink);font-variant-numeric:tabular-nums;margin-right:4px}
@@ -121,7 +124,7 @@ h1 .cross::after{top:33%;left:0;height:34%;width:100%}
 <div class="wrap">
   <header class="mast">
     <div class="mast-top"><span id="today">—</span><span id="updated">Mise à jour —</span></div>
-    <h1><span class="cross" aria-hidden="true"></span>Officinews</h1>
+    <h1><img class="logo-mark" src="logo-mark.png" width="97" height="88" alt=""><span>Offici<span class="w-news">news</span></span></h1>
     <p class="tag">ANSM, HAS, Le Moniteur des pharmacies et Le Quotidien du pharmacien : les nouveautés médicaments, vaccins, ruptures et recos, triées pour le comptoir.</p>
     <div class="stats" id="stats"></div>
   </header>

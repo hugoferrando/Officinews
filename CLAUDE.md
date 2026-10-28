@@ -11,7 +11,7 @@ Site public : https://hugoferrando.github.io/Officinews/ (GitHub Pages, branche 
 | `index.html` | Toute la page : HTML, CSS et JS dans un seul fichier, sans dépendance ni build. Charge `articles.json` au chargement. |
 | `articles.json` | `{ "updatedAt": "<ISO Europe/Paris>", "articles": [...] }`. Seul fichier modifié par les mises à jour automatiques. |
 | `scripts/ajout.py` | `recents [jours]` liste les articles récents ; `fusion fichier.json` ajoute sans doublon, purge > 120 jours, met à jour `updatedAt`. |
-| `manifest.webmanifest`, `icon.svg`, `icon-*.png` | Installation sur l'écran d'accueil (PWA légère, sans service worker). |
+| `manifest.webmanifest`, `favicon.png`, `icon-*.png`, `logo-mark.png`, `logo.png` | Installation sur l'écran d'accueil (PWA légère, sans service worker). |
 | `.nojekyll` | GitHub Pages sert les fichiers tels quels. |
 
 ## Format d'un article
@@ -37,6 +37,7 @@ Une tâche programmée Claude (« Mise à jour Officinews », modèle Sonnet) to
 
 - Thèmes clair et sombre via des tokens CSS sur `:root` ; toute nouvelle couleur passe par un token défini dans les deux thèmes.
 - Doit rester lisible à 390 px de large sans défilement horizontal (les filtres défilent à l'horizontale sur mobile).
-- Polices Google Fonts : Newsreader (titres), Public Sans (texte), IBM Plex Mono (dates, étiquettes).
+- Polices Google Fonts : Outfit 800 (nom Officinews, bicolore comme le logo), Newsreader (titres), Public Sans (texte), IBM Plex Mono (dates, étiquettes).
+- Logo : `logo.png` (original), `logo-mark.png` (symbole détouré pour l'en-tête), icônes générées depuis le symbole.
 - Le statut « lu » est stocké dans le `localStorage` du navigateur (clé `veille-read`).
 - Après une modification de `index.html`, vérifier que le script se parse et que la page charge les articles sans erreur avant de pousser.
