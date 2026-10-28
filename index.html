@@ -54,7 +54,7 @@ a{color:inherit}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
 
 /* En-tête */
-.mast{padding-block:24px 18px;display:grid;grid-template-columns:1fr auto;grid-template-areas:"brand meta" "tag tag" "stats stats";gap:12px 16px;align-items:center}
+.mast{padding-block:24px 18px;display:grid;grid-template-columns:1fr auto;grid-template-areas:"brand meta" "tag tag" "stats stats" "watch watch";gap:12px 16px;align-items:center}
 h1{grid-area:brand;font-family:var(--f-brand);font-weight:800;font-size:clamp(32px,7vw,44px);line-height:1;margin:0;letter-spacing:-.02em;
   display:flex;align-items:center;gap:.25em;color:var(--brand-dark)}
 h1 .w-news{color:var(--brand)}
@@ -70,6 +70,31 @@ h1 .w-news{color:var(--brand)}
 .stat.w b{color:var(--danger)}
 .stat:hover{border-color:var(--accent)}
 .stat[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--ink)}
+
+/* Mes molécules */
+.watch{grid-area:watch;background:var(--card);border:1px solid var(--rule);border-radius:var(--r);padding:14px 16px;display:grid;gap:10px;box-shadow:var(--shadow)}
+.watch-h{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.watch h2{font:700 16px/1.2 var(--f-head);margin:0}
+.watch-sum{font-size:12.5px;color:var(--muted)}
+.watch-sum b{color:var(--danger)}
+.watch form{display:flex;gap:8px}
+.watch .search{padding:9px 12px}
+.btn{font:600 13px/1 var(--f-body);background:var(--accent);color:var(--on-accent);border:0;border-radius:12px;padding:0 16px;cursor:pointer;white-space:nowrap}
+.btn:hover{filter:brightness(1.05)}
+.wlist{display:flex;flex-wrap:wrap;gap:6px}
+.wchip{display:inline-flex;align-items:center;border-radius:999px;background:var(--chip);font-size:13px;overflow:hidden}
+.wchip button{font:inherit;color:var(--ink);background:none;border:0;cursor:pointer;padding:7px 4px 7px 11px;display:inline-flex;align-items:center;gap:7px}
+.wchip button.x{padding:7px 10px 7px 6px;color:var(--muted)}
+.wchip button.x:hover{color:var(--danger)}
+.wchip .dot{width:8px;height:8px;border-radius:50%;background:var(--accent);flex:none}
+.wchip.rupture .dot{background:var(--danger)} .wchip.tension .dot{background:var(--warn)}
+.wchip small{color:var(--muted);font-size:12px}
+.wchip.rupture{background:var(--danger-soft)} .wchip.tension{background:var(--warn-soft)}
+.watch-hint{margin:0;font-size:13px;color:var(--muted)}
+.suivi{font-size:11.5px;font-weight:700;color:var(--accent-ink);background:var(--accent-soft);padding:3px 9px;border-radius:999px}
+.it.watched{border-color:var(--accent)}
+.dr.watched{background:var(--accent-soft)}
+.offline{background:var(--warn-soft);color:var(--warn);font-size:13px;font-weight:600;border-radius:12px;padding:9px 14px;margin-top:12px}
 
 /* Onglets + filtres (bloc collant) */
 .sticky{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);padding-top:8px;
@@ -151,7 +176,7 @@ h1 .w-news{color:var(--brand)}
 .s-ANSM{color:var(--s-ansm)} .s-HAS{color:var(--s-has)} .s-Moniteur{color:var(--s-mon)} .s-Quotidien{color:var(--s-qph)} .s-Autre{color:var(--s-autre)}
 
 @media (max-width:620px){
-  .mast{grid-template-columns:1fr;grid-template-areas:"meta" "brand" "tag" "stats";gap:10px}
+  .mast{grid-template-columns:1fr;grid-template-areas:"meta" "brand" "tag" "stats" "watch";gap:10px}
   .mast-top{justify-items:start;text-align:left;grid-auto-flow:column;justify-content:space-between}
   .stats{gap:8px}
   .stat{padding:10px 11px;font-size:12px}
@@ -172,11 +197,20 @@ h1 .w-news{color:var(--brand)}
 </head>
 <body>
 <div class="wrap">
+  <div class="offline" id="offline" role="status" hidden>Hors ligne : vous consultez la dernière version enregistrée.</div>
   <header class="mast">
     <div class="mast-top"><span id="today">—</span><span id="updated">Mise à jour —</span></div>
     <h1><img class="logo-mark" src="logo-mark.png" width="97" height="88" alt=""><span>Offici<span class="w-news">news</span></span></h1>
     <p class="tag">ANSM, HAS, Le Moniteur des pharmacies et Le Quotidien du pharmacien : les nouveautés médicaments, vaccins, ruptures et recos, triées pour le comptoir.</p>
     <div class="stats" id="stats"></div>
+    <section class="watch" id="watch" aria-labelledby="watchTitle">
+      <div class="watch-h"><h2 id="watchTitle">Mes molécules</h2><span class="watch-sum" id="watchSum"></span></div>
+      <div class="wlist" id="watchList"></div>
+      <form id="watchForm" autocomplete="off">
+        <input id="watchInput" class="search" type="text" placeholder="Ajouter une molécule" aria-label="Molécule à suivre" minlength="3">
+        <button class="btn" type="submit">Suivre</button>
+      </form>
+    </section>
   </header>
 
   <div class="sticky">
@@ -244,6 +278,14 @@ h1 .w-news{color:var(--brand)}
     if(props)for(const k in props){if(k==="class")n.className=props[k];else if(k==="text")n.textContent=props[k];else n.setAttribute(k,props[k]);}
     for(const c of kids)if(c)n.append(c);return n};
 
+  // ---- Mes molécules (stockées dans ce navigateur) ----
+  const normW=s=>(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+  let watch=[];
+  try{watch=JSON.parse(localStorage.getItem("officinews-watch")||"[]").filter(t=>typeof t==="string")}catch(e){}
+  const saveWatch=()=>{try{localStorage.setItem("officinews-watch",JSON.stringify(watch))}catch(e){}};
+  const artText=a=>normW([a.title,a.summary,a.comptoir,(a.tags||[]).join(" ")].join(" "));
+  const watchedIn=txt=>watch.filter(t=>txt.includes(normW(t)));
+
   const fmtLong=s=>{const d=new Date(s+"T12:00:00");return d.toLocaleDateString("fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"})};
   document.getElementById("today").textContent=fmtLong(TODAY_ISO);
 
@@ -281,15 +323,17 @@ h1 .w-news{color:var(--brand)}
     if(state.cat&&a.category!==state.cat)return false;
     if(state.days&&a.date<iso(new Date(TODAY.getTime()-state.days*864e5)))return false;
     if(state.onlyUnread&&read.has(a.id))return false;
-    if(state.q){const hay=[a.title,a.summary,a.comptoir,(a.tags||[]).join(" ")].join(" ").toLowerCase();
-      if(!state.q.split(/\s+/).every(t=>hay.includes(t)))return false}
+    if(state.q){const hay=artText(a);
+      if(!normW(state.q).split(/\s+/).every(t=>hay.includes(t)))return false}
     return true;
   }
 
   function item(a){
     const isRead=read.has(a.id);
-    const art=el("article",{class:"it"+(a.category===ALERT?" alert":"")+(isRead?" read":"")});
+    const hits=watchedIn(artText(a));
+    const art=el("article",{class:"it"+(a.category===ALERT?" alert":"")+(isRead?" read":"")+(hits.length?" watched":"")});
     const meta=el("div",{class:"meta"});
+    if(hits.length)meta.append(el("span",{class:"suivi",text:"Suivi : "+hits.join(", ")}));
     if(!isRead&&a.date>=iso(new Date(TODAY.getTime()-3*864e5)))meta.append(el("span",{class:"new",title:"Nouveau","aria-label":"Nouveau"}));
     meta.append(el("span",{class:"src s-"+a.source,text:SRC_LABEL[a.source]||a.source}));
     meta.append(el("span",{class:"cat"+(a.category===ALERT?" warn":""),text:a.category}));
@@ -340,7 +384,41 @@ h1 .w-news{color:var(--brand)}
   }
   function goFeed(){const top=document.querySelector(".mast").getBoundingClientRect().bottom+window.scrollY;
     window.scrollTo({top,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})}
-  function render(){renderChips();renderFeed()}
+  function render(){renderChips();renderFeed();renderWatch()}
+
+  function watchStatus(t){
+    const k=normW(t),items=(dstate.items||[]).filter(i=>normW(i.nom).includes(k));
+    const rup=items.filter(i=>i.statut==="Rupture de stock").length,ten=items.filter(i=>i.statut==="Tension d'approvisionnement").length;
+    const mo=iso(new Date(TODAY.getTime()-30*864e5));
+    const arts=state.articles.filter(a=>a.date>=mo&&artText(a).includes(k)).length;
+    return {cls:rup?"rupture":ten?"tension":"ok",label:rup?"rupture":ten?"tension":"disponible",arts};
+  }
+  function renderWatch(){
+    const list=document.getElementById("watchList"),sum=document.getElementById("watchSum");
+    if(!watch.length){list.replaceChildren(el("p",{class:"watch-hint",text:"Ajoute les molécules de ton officine (quétiapine, furosémide…) : elles seront signalées dans les actus et les ruptures."}));sum.textContent="";return}
+    let alertes=0;
+    list.replaceChildren(...watch.map(t=>{
+      const s=watchStatus(t);if(s.cls!=="ok")alertes++;
+      const c=el("span",{class:"wchip "+s.cls});
+      const go=el("button",{type:"button",title:"Rechercher "+t});
+      go.append(el("span",{class:"dot","aria-hidden":"true"}),document.createTextNode(t),el("small",{text:(dstate.items?s.label:"…")+(s.arts?" · "+s.arts+" art.":"")}));
+      go.onclick=()=>{
+        if(location.hash==="#disponibilites"){dstate.filter="tout";dstate.q=t;document.getElementById("dq").value=t;renderDispo()}
+        else{state.q=normW(t);document.getElementById("q").value=t;renderFeed()}
+        goFeed()};
+      const x=el("button",{type:"button",class:"x","aria-label":"Ne plus suivre "+t,text:"✕"});
+      x.onclick=()=>{watch=watch.filter(w=>w!==t);saveWatch();render();if(!document.getElementById("dispo").hidden)renderDispo()};
+      c.append(go,x);return c}));
+    sum.replaceChildren();
+    if(!dstate.items){sum.textContent=watch.length+" suivie"+(watch.length>1?"s":"");return}
+    sum.append(document.createTextNode(watch.length+" suivie"+(watch.length>1?"s":"")+" · "));
+    if(alertes){sum.append(el("b",{text:alertes+" en rupture ou tension"}))}else sum.append(document.createTextNode("aucune en rupture"));
+  }
+  document.getElementById("watchForm").addEventListener("submit",e=>{
+    e.preventDefault();const inp=document.getElementById("watchInput");const t=inp.value.trim();
+    if(t.length<3)return;
+    if(!watch.some(w=>normW(w)===normW(t))){watch.push(t);saveWatch()}
+    inp.value="";render();if(!document.getElementById("dispo").hidden)renderDispo()});
 
   // ---- Disponibilités (liste ANSM) ----
   const ST=[["encours","En cours",i=>i.statut==="Rupture de stock"||i.statut==="Tension d'approvisionnement"],
@@ -369,7 +447,7 @@ h1 .w-news{color:var(--brand)}
     list.replaceChildren(...shown.map(i=>{
       const cut=i.nom.search(/, (?=[a-zàâçéèêëîïôûù])/);
       const nom=cut>0?i.nom.slice(0,cut):i.nom, forme=cut>0?[i.nom.slice(cut+2)]:[];
-      const li=el("li",{class:"dr"});
+      const li=el("li",{class:"dr"+(watchedIn(normW(i.nom)).length?" watched":"")});
       li.append(el("span",{class:"st "+(ST_CLASS[i.statut]||"arret"),text:ST_LABEL[i.statut]||i.statut}));
       const n=el("span",{class:"dn",text:nom});
       n.append(el("span",{class:"dd",text:[forme.join(", "),i.domaines.join(", ")].filter(Boolean).join(" · ")}));
@@ -390,7 +468,7 @@ h1 .w-news{color:var(--brand)}
       document.getElementById("dispoCount").textContent=String(enCours);
       document.getElementById("dispoCount").setAttribute("aria-label",enCours+" ruptures ou tensions en cours");
     }catch(e){dstate.error=true}
-    renderDispo();
+    renderDispo();renderWatch();
   }
   function route(){
     const dispo=location.hash==="#disponibilites";
@@ -405,6 +483,11 @@ h1 .w-news{color:var(--brand)}
   route();loadDispo();
   render();
 
+  const offline=document.getElementById("offline");
+  const majReseau=()=>{offline.hidden=navigator.onLine!==false};
+  window.addEventListener("online",majReseau);window.addEventListener("offline",majReseau);majReseau();
+  if("serviceWorker" in navigator)window.addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").catch(()=>{})});
+
   (async()=>{
     try{
       const r=await fetch("articles.json?t="+Date.now(),{cache:"no-store"});
@@ -417,7 +500,7 @@ h1 .w-news{color:var(--brand)}
       box.append(el("h2",{text:"Impossible de charger les articles"}),el("p",{text:"Le fichier articles.json est introuvable ou mal formé. Rechargez la page dans un instant."}));
       f.replaceChildren(box);return;
     }
-    state.ready=true;renderFeed();
+    state.ready=true;renderFeed();renderWatch();
   })();
 })();
 </script>
