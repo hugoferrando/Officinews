@@ -1,0 +1,807 @@
+{
+ "updatedAt": "2026-10-28T09:58:00+01:00",
+ "articles": [
+  {
+   "id": "omalizumab-substituable",
+   "category": "Réglementation",
+   "comptoir": "Omlyclo peut remplacer Xolair, en respectant les conditions de substitution et l'information du patient et du prescripteur.",
+   "date": "2026-10-27",
+   "rank": 1,
+   "related": [
+    {
+     "label": "Pharmactu",
+     "source": "Autre",
+     "url": "https://pharmactu.fr/articles/biosimilaires-omalizumab-xolair-omlyclo-substituable-officine-14-groupes"
+    }
+   ],
+   "source": "Moniteur",
+   "summary": "Un arrêté du 22 octobre, paru au JO du 27, ajoute l'omalizumab à la liste des groupes biologiques similaires substituables par le pharmacien. La liste compte désormais 14 groupes.",
+   "tags": [
+    "biosimilaire",
+    "substitution",
+    "asthme",
+    "Xolair",
+    "Omlyclo"
+   ],
+   "title": "Omalizumab : Xolair devient substituable en officine par son biosimilaire Omlyclo",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/omalizumab-xolair-devient-substituable-en-officine-par-son-biosimilaire-omlyclo"
+  },
+  {
+   "id": "winrevair",
+   "approx": true,
+   "category": "Nouveaux médicaments",
+   "comptoir": "Surveillance de l'hémoglobine et des plaquettes.",
+   "date": "2026-10-27",
+   "rank": 2,
+   "source": "Moniteur",
+   "summary": "Le sotatercept s'ajoute aux traitements de l'HTAP de l'adulte, en sous-cutané toutes les 3 semaines.",
+   "tags": [
+    "sotatercept",
+    "HTAP"
+   ],
+   "title": "Hypertension artérielle pulmonaire : 5 points clés sur Winrevair",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/fiches-medicaments/hypertension-arterielle-pulmonaire-5-points-cles-sur-winrevair"
+  },
+  {
+   "id": "leclerc-otc",
+   "category": "Profession",
+   "date": "2026-10-27",
+   "rank": 3,
+   "related": [
+    {
+     "label": "Le Moniteur",
+     "source": "Moniteur",
+     "url": "https://www.lemoniteurdespharmacies.fr/business/retail/grande-distribution/prix-des-medicaments-leclerc-na-toujours-pas-avale-la-pilule-du-monopole-officinal"
+    }
+   ],
+   "source": "Quotidien",
+   "summary": "Nouvelle campagne de l'enseigne contre le prix des produits OTC en officine, avec la demande de pouvoir les vendre elle-même.",
+   "tags": [
+    "monopole",
+    "OTC",
+    "grande distribution"
+   ],
+   "title": "Leclerc attaque de nouveau le monopole pharmaceutique",
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/leclerc-attaque-de-nouveau-le-monopole-pharmaceutique"
+  },
+  {
+   "id": "ordre-presidentielle",
+   "category": "Profession",
+   "date": "2026-10-27",
+   "rank": 4,
+   "related": [
+    {
+     "label": "Le Moniteur",
+     "source": "Moniteur",
+     "url": "https://www.lemoniteurdespharmacies.fr/profession/socio-professionnel/presidentielle-2027-lordre-des-pharmaciens-reclame-le-droit-de-prescrire-davantage"
+    }
+   ],
+   "source": "Quotidien",
+   "summary": "Prévention, coordination entre professionnels, accès aux soins : l'Ordre interpelle les candidats, avec notamment une visite pharmaceutique à domicile.",
+   "tags": [
+    "Ordre",
+    "présidentielle",
+    "prescription"
+   ],
+   "title": "Présidentielle 2027 : les propositions de l'Ordre pour renforcer le rôle du pharmacien",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/politique-de-sante/presidentielle-les-propositions-de-lordre-pour-renforcer-le-role-du-pharmacien"
+  },
+  {
+   "id": "grippe-campagne-2026",
+   "category": "Vaccins",
+   "date": "2026-10-26",
+   "rank": 1,
+   "related": [
+    {
+     "label": "Le Moniteur : prescrire sans formation ?",
+     "source": "Moniteur",
+     "url": "https://www.lemoniteurdespharmacies.fr/nouvelles-missions/vaccination/vaccination-antigrippale-peut-on-prescrire-sans-formation-specifique"
+    },
+    {
+     "label": "Le Moniteur : femmes enceintes",
+     "source": "Moniteur",
+     "url": "https://www.lemoniteurdespharmacies.fr/nouvelles-missions/vaccination/vaccin-antigrippal-savoir-le-proposer-aux-femmes-enceintes"
+    }
+   ],
+   "source": "Quotidien",
+   "summary": "La campagne grippe a démarré le 13 octobre. Les autorités comptent sur l'officine pour relever la couverture vaccinale des publics cibles.",
+   "tags": [
+    "grippe",
+    "vaccination",
+    "campagne"
+   ],
+   "title": "Vaccination antigrippale 2026-2027 : les pharmaciens au cœur de la campagne",
+   "url": "https://www.lequotidiendupharmacien.fr/vaccination-antigrippale-2026-2027-les-pharmaciens-au-coeur-de-la-campagne"
+  },
+  {
+   "id": "quetiapine-50-preparations",
+   "category": "Ruptures & tensions",
+   "comptoir": "Préparation LI possible sans nouvelle ordonnance ; bien expliquer le changement de rythme de prise au patient.",
+   "date": "2026-10-26",
+   "rank": 2,
+   "related": [
+    {
+     "label": "Le Moniteur",
+     "source": "Moniteur",
+     "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/quetiapine-lp-50-mg-les-mesures-de-remplacement-sont-reactivees"
+    },
+    {
+     "label": "ANSM (point de situation)",
+     "source": "ANSM",
+     "url": "https://ansm.sante.fr/actualites/teralithe-et-quetiapine-point-sur-la-disponibilite-et-levolution-des-mesures-daccompagnement"
+    }
+   ],
+   "source": "Quotidien",
+   "summary": "Les retards de fabrication persistent sans date de retour à la normale. L'ANSM réactive le remplacement par des préparations magistrales à libération immédiate.",
+   "tags": [
+    "quétiapine",
+    "antipsychotique",
+    "préparation magistrale"
+   ],
+   "title": "Quétiapine LP 50 mg : retour des préparations magistrales",
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/quetiapine-un-retour-aux-preparations-magistrales-pour-la-specialite-50-mg"
+  },
+  {
+   "id": "plfss-senat",
+   "category": "Profession",
+   "date": "2026-10-26",
+   "rank": 3,
+   "related": [
+    {
+     "label": "Le Moniteur : médicaments à moins de 5 €",
+     "source": "Moniteur",
+     "url": "https://www.lemoniteurdespharmacies.fr/business/laboratoires/plfss-2027-les-medicaments-a-moins-de-5-euros-seront-ils-les-sacrifies"
+    }
+   ],
+   "source": "Quotidien",
+   "summary": "Après un rejet quasi unanime à l'Assemblée nationale, le texte part au Sénat dans sa version initiale.",
+   "tags": [
+    "PLFSS",
+    "budget",
+    "Sécurité sociale"
+   ],
+   "title": "PLFSS 2027 : rejeté par l'Assemblée, le budget de la Sécu passe au Sénat",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/politique-de-sante/rejete-par-lassemblee-le-budget-de-la-securite-sociale-passe-au-senat"
+  },
+  {
+   "id": "welireg",
+   "approx": true,
+   "category": "Nouveaux médicaments",
+   "date": "2026-10-26",
+   "rank": 3,
+   "source": "Moniteur",
+   "summary": "Le belzutifan, premier traitement ciblé de certaines tumeurs liées à la maladie de VHL, est passé de l'accès précoce au droit commun en juillet 2026.",
+   "tags": [
+    "belzutifan",
+    "VHL",
+    "oncologie"
+   ],
+   "title": "Maladie de von Hippel-Lindau : 5 points clés sur Welireg",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/fiches-medicaments/maladie-de-von-hippel-lindau-5-points-cles-sur-welireg"
+  },
+  {
+   "id": "licence-portail-sante",
+   "category": "Profession",
+   "date": "2026-10-26",
+   "rank": 4,
+   "source": "Quotidien",
+   "summary": "Un décret acte le remplacement du PASS et de la LAS par une licence portail santé pour l'accès aux études de santé.",
+   "tags": [
+    "études",
+    "PASS",
+    "LAS"
+   ],
+   "title": "Fin du PASS/LAS : place à la « licence portail santé » en 2027",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/etudes-formation-continue/adieu-au-passlas-remplace-par-la-licence-portail-sante-en-2027"
+  },
+  {
+   "id": "pub-calendrier-2027",
+   "category": "Réglementation",
+   "date": "2026-10-23",
+   "rank": 1,
+   "source": "ANSM",
+   "summary": "Décision fixant les périodes de dépôt 2027 et la forme des demandes de visa des publicités pour les médicaments à usage humain.",
+   "tags": [
+    "publicité",
+    "visa"
+   ],
+   "title": "Publicité des médicaments : calendrier des dépôts de visa pour 2027",
+   "url": "https://ansm.sante.fr/actualites/decision-du-22-10-2026-fixant-le-calendrier-et-les-periodes-de-depot-pour-lannee-2027-la-forme-et-le-contenu-des-demandes-de-visa-des-publicites-pour-les-medicaments-a-usage-humain"
+  },
+  {
+   "id": "vaccin-anticancer",
+   "category": "Nouveaux médicaments",
+   "date": "2026-10-23",
+   "rank": 1,
+   "source": "Quotidien",
+   "summary": "Des résultats très attendus, dévoilés avant le congrès européen de cancérologie, montrent l'efficacité d'un vaccin anticancer personnalisé.",
+   "tags": [
+    "vaccin",
+    "ARNm",
+    "oncologie",
+    "ESMO"
+   ],
+   "title": "Un vaccin personnalisé anticancer fait ses preuves",
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/un-vaccin-personnalise-anticancer-fait-ses-preuves"
+  },
+  {
+   "id": "jaki-prescription-ville",
+   "category": "Pharmacovigilance",
+   "comptoir": "Une ordonnance initiale de spécialiste libéral devient recevable pour ces JAKi : vérifier la spécialité du prescripteur.",
+   "date": "2026-10-22",
+   "rank": 1,
+   "related": [
+    {
+     "label": "Le Quotidien",
+     "source": "Quotidien",
+     "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/cinq-inhibiteurs-de-janus-kinase-peuvent-desormais-etre-prescrits-en-ville"
+    },
+    {
+     "label": "Le Moniteur",
+     "source": "Moniteur",
+     "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/maladies-inflammatoires-chroniques-prescription-initiale-autorisee-en-ville-pour-les-inhibiteurs-de-jak"
+    }
+   ],
+   "source": "ANSM",
+   "summary": "Depuis le 22 octobre, la prescription initiale et le suivi annuel de cinq inhibiteurs de Janus kinase peuvent être faits en ville par les spécialistes concernés, et plus seulement à l'hôpital.",
+   "tags": [
+    "JAK",
+    "tofacitinib",
+    "baricitinib",
+    "upadacitinib",
+    "filgotinib",
+    "PR",
+    "MICI"
+   ],
+   "title": "Inhibiteurs de JAK : les conditions de prescription changent dans les maladies inflammatoires chroniques",
+   "url": "https://ansm.sante.fr/actualites/modification-des-conditions-de-prescription-dinhibiteurs-de-janus-kinase-jaki-indiques-dans-le-traitement-de-maladies-inflammatoires-chroniques"
+  },
+  {
+   "id": "verkazia-ikervis",
+   "category": "Ruptures & tensions",
+   "comptoir": "Remplacer Verkazia par Ikervis chez l'enfant sans réorienter vers le prescripteur, selon la recommandation ANSM.",
+   "date": "2026-10-21",
+   "rank": 1,
+   "related": [
+    {
+     "label": "Le Quotidien",
+     "source": "Quotidien",
+     "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/le-collyre-ikervis-en-remplacement-de-verkazia-pour-les-enfants"
+    },
+    {
+     "label": "Le Moniteur",
+     "source": "Moniteur",
+     "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/verkazia-en-tension-ikervis-peut-etre-delivre-sans-nouvelle-ordonnance"
+    },
+    {
+     "label": "Vidal",
+     "source": "Autre",
+     "url": "https://vidal.fr/actualites/38504-tension-en-verkazia-une-recommandation-pour-delivrer-ikervis-en-remplacement.html"
+    }
+   ],
+   "source": "ANSM",
+   "summary": "La rupture du collyre Verkazia (ciclosporine) est attendue en novembre. L'ANSM autorise à titre exceptionnel la dispensation d'Ikervis aux enfants et adolescents, sans nouvelle ordonnance.",
+   "tags": [
+    "ciclosporine",
+    "collyre",
+    "kératoconjonctivite",
+    "pédiatrie"
+   ],
+   "title": "Tensions sur Verkazia : Ikervis peut être dispensé temporairement aux enfants et adolescents",
+   "url": "https://ansm.sante.fr/actualites/tensions-dapprovisionnement-en-verkazia-ikervis-peut-etre-dispense-temporairement-aux-enfants-et-adolescents"
+  },
+  {
+   "id": "freestyle-maj",
+   "category": "Pharmacovigilance",
+   "comptoir": "Le rappeler aux patients diabétiques lors de la délivrance des capteurs.",
+   "date": "2026-10-21",
+   "rank": 2,
+   "related": [
+    {
+     "label": "Le Moniteur",
+     "source": "Moniteur",
+     "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/vigilances/freestyle-libre-abbott-fait-marche-arriere-sur-la-mise-a-jour-des-applications"
+    }
+   ],
+   "source": "Quotidien",
+   "summary": "Abbott demande aux utilisateurs de capteurs de glucose en continu de mettre à jour leurs applications FreeStyle Libre 3 et Libre. L'ANSM a relayé l'information aux utilisateurs.",
+   "tags": [
+    "FreeStyle",
+    "CGM",
+    "diabète",
+    "matériovigilance"
+   ],
+   "title": "FreeStyle Libre 3 : une mise à jour de sécurité à faire sans attendre",
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/dispositifs-medicaux/freestyle-3-necessite-une-mise-jour-maintenant"
+  },
+  {
+   "id": "retatrutide-contrefacon",
+   "category": "Pharmacovigilance",
+   "date": "2026-10-21",
+   "rank": 3,
+   "related": [
+    {
+     "label": "ANSM : peptides vendus en ligne",
+     "source": "ANSM",
+     "url": "https://ansm.sante.fr/actualites/peptides-vendus-en-ligne-ne-les-utilisez-pas-ils-peuvent-etre-dangereux"
+    }
+   ],
+   "source": "Quotidien",
+   "summary": "Faute d'accès facile aux anti-obésité, des patients achètent sur les réseaux sociaux du rétatrutide, molécule encore non autorisée, issu de circuits illégaux.",
+   "tags": [
+    "rétatrutide",
+    "contrefaçon",
+    "obésité",
+    "GLP-1"
+   ],
+   "title": "Du rétatrutide de contrefaçon vendu au marché noir",
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/du-retatrutide-de-contrefacon-vendu-au-marche-noir"
+  },
+  {
+   "id": "etudiants-2030",
+   "category": "Profession",
+   "date": "2026-10-21",
+   "rank": 4,
+   "source": "Quotidien",
+   "summary": "Un arrêté publié le 20 octobre fixe les objectifs de formation de quatre professions de santé, dont la pharmacie, d'ici 2030.",
+   "tags": [
+    "études",
+    "numerus apertus"
+   ],
+   "title": "Près de 20 000 étudiants en pharmacie attendus d'ici 2030",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/etudes-formation-continue/pres-de-20-000-etudiants-en-pharmacie-attendus-dici-2030"
+  },
+  {
+   "id": "osys-avenant3",
+   "category": "Profession",
+   "date": "2026-10-21",
+   "rank": 5,
+   "source": "Quotidien",
+   "summary": "Les négociations conventionnelles s'ouvrent, avec la rémunération de missions protocolisées des pharmaciens au programme.",
+   "tags": [
+    "OSyS",
+    "convention",
+    "avenant",
+    "rémunération"
+   ],
+   "title": "OSyS au cœur de l'avenant 3",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/osys-au-coeur-de-lavenant-3"
+  },
+  {
+   "id": "zelboraf",
+   "approx": true,
+   "category": "Ruptures & tensions",
+   "comptoir": "Orienter un nouveau patient vers son prescripteur.",
+   "date": "2026-10-20",
+   "rank": 1,
+   "source": "Moniteur",
+   "summary": "Roche anticipe une rupture et demande de ne pas démarrer de nouveaux patients pour préserver les traitements en cours.",
+   "tags": [
+    "vémurafénib",
+    "mélanome",
+    "oncologie"
+   ],
+   "title": "Zelboraf 240 mg : plus d'instauration avant la rupture de mars 2027",
+   "url": "https://www.lemoniteurdespharmacies.fr/preparateurs/"
+  },
+  {
+   "id": "delistage-feu-vert",
+   "approx": true,
+   "category": "Réglementation",
+   "date": "2026-10-20",
+   "rank": 2,
+   "related": [
+    {
+     "label": "Les 33 molécules (sept.)",
+     "source": "Moniteur",
+     "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/delistage-de-medicaments-33-molecules-concernees-en-priorite"
+    }
+   ],
+   "source": "Moniteur",
+   "summary": "L'ANSM a commencé à examiner les 33 molécules proposées par les industriels et les syndicats. Un premier principe actif va pouvoir passer en conseil.",
+   "tags": [
+    "délistage",
+    "OTC",
+    "médication officinale"
+   ],
+   "title": "Délistage : un premier feu vert pour le conseil officinal",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/delistage-de-medicaments-le-travail-de-lansm-a-commence"
+  },
+  {
+   "id": "bepirovirsen",
+   "approx": true,
+   "category": "Nouveaux médicaments",
+   "date": "2026-10-19",
+   "rank": 1,
+   "source": "Moniteur",
+   "summary": "Premier oligonucléotide antisens contre le VHB, il pourrait apporter une guérison fonctionnelle à environ un patient sur cinq. Arrivée en France espérée en 2027.",
+   "tags": [
+    "VHB",
+    "hépatite B",
+    "antisens"
+   ],
+   "title": "Bépirovirsen : vers une guérison de l'hépatite B ?",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/recherche-et-innovation/bepirovirsen-vers-une-guerison-de-lhepatite-b"
+  },
+  {
+   "id": "adempas",
+   "approx": true,
+   "category": "Ruptures & tensions",
+   "date": "2026-10-15",
+   "rank": 1,
+   "source": "Moniteur",
+   "summary": "Ce dosage du riociguat est en tension. En officine, il est réservé aux patients dont la dose d'entretien est de 0,5 mg, après validation du laboratoire.",
+   "tags": [
+    "riociguat",
+    "HTAP",
+    "HTP-TEC"
+   ],
+   "title": "Adempas 0,5 mg : délivrance restreinte",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/adempas-une-delivrance-restreinte-pour-preserver-la-continuite-des-traitements"
+  },
+  {
+   "id": "beyonttra",
+   "approx": true,
+   "category": "Nouveaux médicaments",
+   "date": "2026-10-14",
+   "rank": 2,
+   "source": "Moniteur",
+   "summary": "L'acoramidis, stabilisateur de la transthyrétine, arrive en officine pour la cardiomyopathie amyloïde à TTR.",
+   "tags": [
+    "acoramidis",
+    "amylose",
+    "TTR",
+    "cardiologie"
+   ],
+   "title": "Beyonttra : un nouveau stabilisateur dans l'amylose cardiaque",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/fiches-medicaments/beyonttra-un-nouveau-stabilisateur-dans-lamylose-cardiaque"
+  },
+  {
+   "id": "plan-hivernal-2026",
+   "category": "Ruptures & tensions",
+   "comptoir": "Indicateurs de disponibilité publiés chaque semaine par l'ANSM, y compris au niveau des pharmacies de ville.",
+   "date": "2026-10-13",
+   "rank": 1,
+   "related": [
+    {
+     "label": "Le Moniteur",
+     "source": "Moniteur",
+     "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/plan-hivernal-2026-2027-surveillance-activee"
+    }
+   ],
+   "source": "ANSM",
+   "summary": "Plan au niveau 1 « veille saisonnière ». 14 molécules sentinelles (environ 180 médicaments) sont suivies : amoxicilline, amoxicilline-acide clavulanique, azithromycine, clarithromycine, paracétamol, prednisolone, fluticasone, salbutamol. 79 types de dispositifs médicaux sont aussi sous surveillance.",
+   "tags": [
+    "hiver",
+    "amoxicilline",
+    "paracétamol",
+    "salbutamol",
+    "pénurie"
+   ],
+   "title": "L'ANSM active le plan hivernal 2026-2027 de suivi des médicaments et DM",
+   "url": "https://ansm.sante.fr/actualites/lansm-active-le-plan-2026-2027-de-suivi-des-medicaments-et-des-dispositifs-medicaux-de-lhiver"
+  },
+  {
+   "id": "has-dt2-accompagnement",
+   "category": "Recommandations",
+   "comptoir": "Futur entretien pharmaceutique DT2 : adhésion au traitement et prévention de la iatrogénie.",
+   "date": "2026-10-13",
+   "rank": 2,
+   "source": "HAS",
+   "summary": "Saisie par la Cnam, la HAS rend son avis sur le guide d'entretien et les fiches de suivi destinés aux adultes sous traitement chronique pour un diabète de type 2. Un avenant conventionnel est envisagé.",
+   "tags": [
+    "diabète",
+    "entretien pharmaceutique",
+    "convention",
+    "nouvelles missions"
+   ],
+   "title": "Accompagnement pharmaceutique des patients diabétiques de type 2 : avis de la HAS sur le guide",
+   "url": "https://www.has-sante.fr/jcms/p_4579272/fr/reponse-a-la-saisine-de-l-assurance-maladie-guide-d-accompagnement-pharmaceutique-des-patients-diabetiques-de-type-2-et-fiches-de-suivi-patient"
+  },
+  {
+   "id": "has-dossiers-chauds",
+   "category": "Réglementation",
+   "date": "2026-10-12",
+   "rank": 1,
+   "source": "Autre",
+   "summary": "Le PLFSS 2027 pourrait imposer une « règle d'or » : réévaluer les médicaments anciens à l'arrivée d'une innovation. Un avis sur les anti-migraineux est attendu d'ici fin 2026 (Medscape).",
+   "tags": [
+    "HAS",
+    "PLFSS",
+    "migraine",
+    "SMR"
+   ],
+   "title": "Les dossiers qui attendent la HAS : réévaluation des médicaments anciens, anti-migraineux, IA",
+   "url": "https://francais.medscape.com/viewarticle/avis-recos-nouvelles-missions-dossiers-chauds-qui-attendent-2026a10011yh"
+  },
+  {
+   "id": "duloxetine-appro",
+   "category": "Ruptures & tensions",
+   "date": "2026-10-09",
+   "rank": 1,
+   "related": [
+    {
+     "label": "Le Moniteur",
+     "source": "Moniteur",
+     "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/vigilances/duloxetine-lansm-mobilise-les-stocks-de-securite"
+    }
+   ],
+   "source": "ANSM",
+   "summary": "Face aux tensions, l'Agence mobilise les stocks de sécurité et exige des laboratoires un approvisionnement renforcé.",
+   "tags": [
+    "duloxétine",
+    "antidépresseur",
+    "IRSNa"
+   ],
+   "title": "Duloxétine : l'ANSM demande aux laboratoires de renforcer leurs approvisionnements",
+   "url": "https://ansm.sante.fr/actualites/duloxetine-lansm-demande-aux-laboratoires-de-renforcer-leurs-approvisionnements"
+  },
+  {
+   "id": "respiratoires-hiver",
+   "category": "Vaccins",
+   "date": "2026-10-08",
+   "rank": 1,
+   "source": "ANSM",
+   "summary": "Message commun de l'ANSM, du ministère, de l'Assurance maladie et de Santé publique France pour lancer la saison : vaccination des publics cibles et immunisation des nourrissons contre le VRS.",
+   "tags": [
+    "grippe",
+    "covid",
+    "VRS",
+    "bronchiolite"
+   ],
+   "title": "Grippe, Covid-19, bronchiolite : se protéger des infections respiratoires de l'hiver",
+   "url": "https://ansm.sante.fr/actualites/grippe-covid-19-bronchiolite-se-proteger-contre-les-infections-respiratoires-de-lhiver"
+  },
+  {
+   "id": "aglp1-rapport-pv",
+   "category": "Pharmacovigilance",
+   "comptoir": "Vigilance sur les demandes hors indication et sur les traitements associés (absorption retardée des médicaments oraux).",
+   "date": "2026-10-07",
+   "rank": 1,
+   "source": "ANSM",
+   "summary": "Le mésusage des agonistes du GLP-1 continue, avec des complications graves. Le rapport met aussi en avant un risque d'interactions médicamenteuses.",
+   "tags": [
+    "GLP-1",
+    "sémaglutide",
+    "tirzépatide",
+    "Wegovy",
+    "Mounjaro",
+    "obésité"
+   ],
+   "title": "3e rapport de pharmacovigilance sur les aGLP-1 : mésusage persistant et risque d'interactions",
+   "url": "https://ansm.sante.fr/actualites/3-rapport-de-pharmacovigilance-sur-les-aglp-1-persistance-du-mesusage-associe-a-des-complications-graves-et-mise-en-evidence-du-risque-dinteractions-medicamenteuses"
+  },
+  {
+   "id": "mitm-liste",
+   "approx": true,
+   "category": "Réglementation",
+   "date": "2026-10-07",
+   "rank": 2,
+   "source": "Moniteur",
+   "summary": "Mise à jour du 5 octobre : la liste MITM compte 7 855 présentations, avec surtout des antinéoplasiques, immunomodulateurs, médicaments du sang et du système nerveux.",
+   "tags": [
+    "MITM",
+    "stocks de sécurité"
+   ],
+   "title": "345 présentations ajoutées à la liste des médicaments d'intérêt thérapeutique majeur",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/"
+  },
+  {
+   "id": "furosemide-tensions",
+   "category": "Ruptures & tensions",
+   "date": "2026-10-06",
+   "rank": 1,
+   "source": "ANSM",
+   "summary": "L'ANSM fait le point sur l'approvisionnement des comprimés de furosémide et les mesures en place.",
+   "tags": [
+    "furosémide",
+    "diurétique",
+    "insuffisance cardiaque"
+   ],
+   "title": "Furosémide 20 mg et 40 mg comprimés : point sur les tensions",
+   "url": "https://ansm.sante.fr/actualites/point-de-situation-sur-les-tensions-en-furosemide-20-mg-et-40-mg-comprimes"
+  },
+  {
+   "id": "has-cediag",
+   "category": "Réglementation",
+   "date": "2026-10-02",
+   "rank": 1,
+   "source": "HAS",
+   "summary": "Nouvelle commission chargée d'évaluer actes, médicaments (radiopharmaceutiques, produits de contraste) et dispositifs (autotests) à visée diagnostique, pronostique ou prédictive.",
+   "tags": [
+    "CEDiag",
+    "autotest",
+    "diagnostic"
+   ],
+   "title": "La HAS crée la CEDiag, commission d'évaluation des technologies diagnostiques",
+   "url": "https://www.has-sante.fr/jcms/p_3426329/fr/commission-d-evaluation-des-technologies-de-sante-diagnostiques-pronostiques-et-predictives-cediag"
+  },
+  {
+   "id": "has-bronchiolite-decision",
+   "category": "Vaccins",
+   "comptoir": "Abrysvo et grippe peuvent être faits le même jour ; pour une femme immunodéprimée, préférer l'anticorps chez le bébé.",
+   "date": "2026-09-30",
+   "rank": 1,
+   "source": "HAS",
+   "summary": "Deux options équivalentes : vaccin Abrysvo chez la mère entre 32 et 36 SA, ou anticorps préventif (Beyfortus, Enflonsia) chez le nouveau-né. 14 jours d'écart sont recommandés entre Abrysvo et le vaccin coqueluche.",
+   "tags": [
+    "VRS",
+    "Abrysvo",
+    "Beyfortus",
+    "Enflonsia",
+    "grossesse"
+   ],
+   "title": "Bronchiolite : l'aide à la décision pour les futurs parents est mise à jour",
+   "url": "https://has-sante.fr/jcms/p_3537893/fr/bronchiolite-comment-proteger-votre-futur-bebe-d-une-forme-grave"
+  },
+  {
+   "id": "accord-cadre-ceps",
+   "approx": true,
+   "category": "Profession",
+   "date": "2026-09-29",
+   "rank": 1,
+   "source": "Moniteur",
+   "summary": "Le CEPS et les représentants de l'industrie ont signé le 28 septembre un nouvel accord-cadre qui redéfinit la fixation des prix, avec la souveraineté sanitaire en toile de fond.",
+   "tags": [
+    "CEPS",
+    "prix",
+    "Leem"
+   ],
+   "title": "Accord-cadre du médicament : le CEPS rebat les cartes des prix",
+   "url": "https://www.lemoniteurdespharmacies.fr/business/laboratoires/"
+  },
+  {
+   "id": "fluoxetine-tensions",
+   "category": "Ruptures & tensions",
+   "date": "2026-09-25",
+   "rank": 1,
+   "source": "ANSM",
+   "summary": "Point de situation de l'ANSM sur l'approvisionnement en fluoxétine 20 mg.",
+   "tags": [
+    "fluoxétine",
+    "ISRS",
+    "antidépresseur"
+   ],
+   "title": "Fluoxétine 20 mg : point sur les tensions",
+   "url": "https://ansm.sante.fr/actualites/point-de-situation-sur-les-tensions-en-fluoxetine-20-mg"
+  },
+  {
+   "id": "has-koselugo",
+   "category": "Nouveaux médicaments",
+   "date": "2026-09-24",
+   "rank": 1,
+   "source": "HAS",
+   "summary": "Nouvelle décision d'accès précoce de la HAS pour le sélumétinib dans la NF1.",
+   "tags": [
+    "sélumétinib",
+    "NF1",
+    "accès précoce",
+    "maladie rare"
+   ],
+   "title": "Accès précoce : décision pour Koselugo (sélumétinib) dans la neurofibromatose de type 1",
+   "url": "https://www.has-sante.fr/jcms/p_3281266/fr/avis-et-decisions-sur-les-medicaments"
+  },
+  {
+   "id": "alepsal-retour",
+   "category": "Ruptures & tensions",
+   "date": "2026-09-22",
+   "rank": 1,
+   "source": "ANSM",
+   "summary": "Fin des tensions sur cet antiépileptique (phénobarbital-caféine) après plusieurs mois d'indisponibilité.",
+   "tags": [
+    "Alepsal",
+    "phénobarbital",
+    "épilepsie"
+   ],
+   "title": "Alepsal : tous les dosages sont à nouveau disponibles",
+   "url": "https://ansm.sante.fr/actualites/indisponibilite-dalepsal-tous-dosages-des-alternatives-existent"
+  },
+  {
+   "id": "vrs-securite",
+   "category": "Pharmacovigilance",
+   "date": "2026-09-16",
+   "rank": 1,
+   "source": "ANSM",
+   "summary": "Le suivi des produits anti-VRS est rassurant sur la tolérance, mais des erreurs d'administration continuent d'être signalées.",
+   "tags": [
+    "VRS",
+    "Beyfortus",
+    "Abrysvo",
+    "nirsévimab",
+    "erreur médicamenteuse"
+   ],
+   "title": "Prévention des bronchiolites à VRS : sécurité rassurante, erreurs médicamenteuses persistantes",
+   "url": "https://ansm.sante.fr/actualites/prevention-des-bronchiolites-a-vrs-un-profil-de-securite-rassurant-des-erreurs-medicamenteuses-qui-persistent"
+  },
+  {
+   "id": "has-dentaire-atb",
+   "category": "Recommandations",
+   "comptoir": "La HAS recommande d'indiquer une dispensation à l'unité sur l'ordonnance.",
+   "date": "2026-09-14",
+   "rank": 1,
+   "related": [
+    {
+     "label": "Vidal",
+     "source": "Autre",
+     "url": "https://www.vidal.fr/actualites/38301-soins-dentaires-limiter-l-usage-des-antibiotiques.html"
+    }
+   ],
+   "source": "HAS",
+   "summary": "Nouvelles recos bucco-dentaires : la douleur dentaire est surtout inflammatoire, l'antibioprophylaxie n'est pas systématique, l'amoxicilline reste le premier choix, réévaluation à 48-72 h, pas d'association automatique avec un anti-inflammatoire.",
+   "tags": [
+    "antibiotique",
+    "amoxicilline",
+    "dentaire",
+    "antibiorésistance"
+   ],
+   "title": "En soins dentaires aussi, les antibiotiques ne sont pas automatiques",
+   "url": "https://has-sante.fr/jcms/p_4423461/fr/en-soins-dentaires-aussi-les-antibiotiques-ne-sont-pas-automatiques"
+  },
+  {
+   "id": "desogestrel-meningiome",
+   "category": "Pharmacovigilance",
+   "comptoir": "Rassurer sur un risque très faible et rappeler les signes qui doivent faire consulter.",
+   "date": "2026-09-10",
+   "rank": 1,
+   "related": [
+    {
+     "label": "Questions-réponses ANSM",
+     "source": "ANSM",
+     "url": "https://ansm.sante.fr/actualites/contraception-a-base-de-desogestrel-et-risque-de-meningiome-questions-reponses"
+    }
+   ],
+   "source": "ANSM",
+   "summary": "L'ANSM informe directement les femmes concernées du très faible risque de méningiome lié aux contraceptifs à base de désogestrel. Un questions-réponses accompagne l'envoi.",
+   "tags": [
+    "désogestrel",
+    "contraception",
+    "méningiome",
+    "progestatif"
+   ],
+   "title": "Désogestrel et méningiome : une lettre personnalisée envoyée aux utilisatrices",
+   "url": "https://ansm.sante.fr/actualites/lansm-diffuse-une-lettre-personnalisee-pour-informer-les-femmes-du-tres-faible-risque-de-meningiome-associe-a-la-contraception-a-base-de-desogestrel"
+  },
+  {
+   "id": "fluoropyrimidines",
+   "category": "Pharmacovigilance",
+   "comptoir": "Pour la capécitabine en ville : repérer tôt diarrhées, mucite, syndrome main-pied.",
+   "date": "2026-09-09",
+   "rank": 1,
+   "source": "ANSM",
+   "summary": "Rappel sur la surveillance des toxicités des fluoropyrimidines et l'ajustement des doses, après une enquête nationale dans les établissements.",
+   "tags": [
+    "capécitabine",
+    "5-FU",
+    "DPD",
+    "oncologie"
+   ],
+   "title": "Capécitabine et 5-FU : surveiller les effets indésirables et adapter les doses",
+   "url": "https://ansm.sante.fr/actualites/chimiotherapies-a-base-de-fluoropyrimidines-capecitabine-et-5-fu-surveiller-les-effets-indesirables-et-adapter-les-doses"
+  },
+  {
+   "id": "has-pneumocoque",
+   "category": "Vaccins",
+   "comptoir": "Un nourrisson débuté en VPC13 ou VPC15 poursuit avec le VPC20. Pas de rattrapage pour l'adulte déjà vacciné par VPC20.",
+   "date": "2026-07-30",
+   "rank": 1,
+   "related": [
+    {
+     "label": "Vidal",
+     "source": "Autre",
+     "url": "https://www.vidal.fr/actualites/38184-avis-de-la-has-evolution-des-recommandations-vaccinales-contre-le-pneumocoque-avec-prevenar-20-et-capvaxive.html"
+    }
+   ],
+   "source": "HAS",
+   "summary": "Prevenar 20 remplace Prevenar 13 et Vaxneuvance chez le nourrisson (2, 4, 6 mois, rappel à 11 mois) et l'enfant à risque. Capvaxive (VPC21) en dose unique est préféré chez l'adulte à risque et à partir de 65 ans.",
+   "tags": [
+    "pneumocoque",
+    "Prevenar 20",
+    "Capvaxive",
+    "VPC20",
+    "VPC21"
+   ],
+   "title": "Pneumocoques : une stratégie vaccinale actualisée",
+   "url": "https://www.has-sante.fr/jcms/p_4259831/fr/pneumocoques-une-strategie-vaccinale-actualisee-pour-mieux-proteger-les-populations-a-risque"
+  }
+ ]
+}
