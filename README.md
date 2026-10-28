@@ -9,7 +9,7 @@ Journal de veille pharmaceutique : actualités ANSM, HAS, Le Moniteur des pharma
 | `index.html` | La page du journal (aucune dépendance à installer) |
 | `articles.json` | Les articles affichés, mis à jour trois fois par jour |
 | `dispo.json` | La liste ANSM des ruptures et tensions (onglet Ruptures), mise à jour chaque matin |
-| `vaccins.json` | Les campagnes de vaccination en cours (onglet Vaccins), mises à jour à la main |
+| `vaccins.json` | Les campagnes de vaccination en cours (onglet Vaccins), mises à jour quand l'ANSM ou la HAS en parlent |
 | `sw.js` | Mode hors ligne |
 | `manifest.webmanifest`, `icon-*.png`, `favicon.png` | Pour ajouter Officinews à l'écran d'accueil comme une appli |
 | `.nojekyll` | Dit à GitHub Pages de servir les fichiers tels quels |
