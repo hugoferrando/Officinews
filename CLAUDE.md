@@ -16,7 +16,7 @@ Site public : https://hugoferrando.github.io/Officinews/ (GitHub Pages, branche 
 | `scripts/dispo.py` | `derniere` donne la date de mise à jour la plus récente ; `fusion lignes.txt` ajoute ou met à jour les produits ; `complet lignes.txt` remplace toute la liste. Les remises à disposition et arrêts de plus de 90 jours sont retirés. |
 | `scripts/ajout.py` | `recents [jours]` liste les articles récents ; `fusion fichier.json` ajoute sans doublon, purge > 120 jours, met à jour `updatedAt`. |
 | `manifest.webmanifest`, `favicon.png`, `icon-*.png`, `logo-mark.png`, `logo.png` | Installation sur l'écran d'accueil. |
-| `sw.js` | Mode hors ligne : réseau d'abord pour les pages et les `.json` (dernière version en cache si pas de réseau), cache d'abord pour images et polices. Incrémenter `VERSION` si la liste `ESSENTIELS` change. |
+| `sw.js` | Mode hors ligne : réseau d'abord **sans cache HTTP** (`no-store`) pour les pages et les `.json` (dernière version en cache si pas de réseau), cache d'abord pour images et polices. Enregistré avec `updateViaCache: "none"` et vérifié à chaque retour sur l'appli. Incrémenter `VERSION` si la liste `ESSENTIELS` ou la logique change. |
 | `.nojekyll` | GitHub Pages sert les fichiers tels quels. |
 
 ## Format d'un article
@@ -58,4 +58,5 @@ Une tâche programmée Claude (« Mise à jour Officinews », modèle Sonnet) to
 - Logo : `logo.png` (original), `logo-mark.png` (symbole détouré pour l'en-tête), icônes générées depuis le symbole.
 - Le statut « lu » est stocké dans le `localStorage` du navigateur (clé `veille-read`).
 - **Mes molécules** : liste de molécules suivies, stockée dans le `localStorage` (clé `officinews-watch`). Rangée de puces sous les tuiles, colorées selon le statut ANSM (rouge rupture, orange tension, vert sinon), formulaire d'ajout replié derrière « + Ajouter » ; les articles et lignes de disponibilité correspondants sont mis en évidence. Comparaison sans accents ni majuscules.
+- **Mise à jour sans réinstaller l'appli** : à chaque retour au premier plan (`visibilitychange`), la page relit `index.html` sans cache et se recharge si son empreinte a changé ; les `.json` sont relus si la dernière lecture date de plus d'une minute. Ne pas supprimer ce mécanisme.
 - Après une modification de `index.html`, vérifier que le script se parse et que la page charge les articles sans erreur avant de pousser.

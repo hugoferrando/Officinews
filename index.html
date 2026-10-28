@@ -539,21 +539,41 @@ h1 .w-news{color:var(--brand)}
   // ---------- Chargement ----------
   const getJSON=async f=>{const r=await fetch(f+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw new Error(r.status);return r.json()};
   route();render();
-  getJSON("articles.json").then(d=>{
-    state.articles=(d.articles||[]).slice().sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:(a.rank||0)-(b.rank||0));
-    state.updatedAt=d.updatedAt||null;state.ready=true;render();
-  }).catch(()=>{state.ready=true;const e=el("div",{class:"empty"});e.append(el("h2",{text:"Impossible de charger les actus"}),el("p",{text:"Rechargez la page dans un instant."}));$("feed").replaceChildren(e)});
-  getJSON("dispo.json").then(d=>{
-    dstate.items=d.items||[];fillDomains();
-    const n=dstate.items.filter(ST[0][2]).length;$("dispoCount").textContent=String(n);$("dispoCount").setAttribute("aria-label",n+" en cours");
-    renderDispo();renderWatch();renderFeed();
-  }).catch(()=>{dstate.error=true;renderDispo()});
-  getJSON("vaccins.json").then(d=>{vax=d;renderVax()}).catch(()=>{vaxError=true;renderVax()});
+  let lastLoad=0;
+  function loadAll(){
+    lastLoad=Date.now();
+    getJSON("articles.json").then(d=>{
+      state.articles=(d.articles||[]).slice().sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:(a.rank||0)-(b.rank||0));
+      state.updatedAt=d.updatedAt||null;state.ready=true;render();
+    }).catch(()=>{if(state.ready)return;state.ready=true;const e=el("div",{class:"empty"});e.append(el("h2",{text:"Impossible de charger les actus"}),el("p",{text:"Rechargez la page dans un instant."}));$("feed").replaceChildren(e)});
+    getJSON("dispo.json").then(d=>{
+      dstate.items=d.items||[];dstate.error=false;fillDomains();$("ddom").value=dstate.dom;
+      const n=dstate.items.filter(ST[0][2]).length;$("dispoCount").textContent=String(n);$("dispoCount").setAttribute("aria-label",n+" en cours");
+      renderDispo();renderWatch();renderFeed();
+    }).catch(()=>{if(!dstate.items){dstate.error=true;renderDispo()}});
+    getJSON("vaccins.json").then(d=>{vax=d;vaxError=false;renderVax()}).catch(()=>{if(!vax){vaxError=true;renderVax()}});
+  }
+  loadAll();
+
+  // ---------- Mises à jour automatiques à l'ouverture ----------
+  // Au retour sur l'appli : nouvelles données si la dernière lecture date de plus d'une minute,
+  // et rechargement complet si la page elle-même a changé sur GitHub.
+  const empreinte=t=>{let x=0;for(let i=0;i<t.length;i++)x=(x*31+t.charCodeAt(i))|0;return x};
+  let pageVersion=null;
+  const lirePage=()=>fetch("./?v="+Date.now(),{cache:"no-store"}).then(r=>r.ok?r.text():null).then(t=>t&&empreinte(t)).catch(()=>null);
+  lirePage().then(v=>{pageVersion=v});
+  document.addEventListener("visibilitychange",async()=>{
+    if(document.visibilityState!=="visible")return;
+    const v=await lirePage();
+    if(v&&pageVersion&&v!==pageVersion){location.reload();return}
+    if(v&&!pageVersion)pageVersion=v;
+    if(Date.now()-lastLoad>60000)loadAll();
+  });
 
   // ---------- Hors ligne ----------
   const majReseau=()=>{$("offline").hidden=navigator.onLine!==false};
   window.addEventListener("online",majReseau);window.addEventListener("offline",majReseau);majReseau();
-  if("serviceWorker" in navigator)window.addEventListener("load",()=>{navigator.serviceWorker.register("sw.js").catch(()=>{})});
+  if("serviceWorker" in navigator)window.addEventListener("load",()=>{navigator.serviceWorker.register("sw.js",{updateViaCache:"none"}).then(r=>{document.addEventListener("visibilitychange",()=>{if(document.visibilityState==="visible")r.update().catch(()=>{})})}).catch(()=>{})});
 })();
 </script>
 </body>

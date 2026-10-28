@@ -1,13 +1,15 @@
 // Officinews : mode hors ligne.
 // Pages et données (articles.json, dispo.json) : réseau d'abord, dernière version enregistrée si pas de réseau.
 // Images, icônes et polices : cache d'abord, rafraîchi en arrière-plan.
-const VERSION = "officinews-v2";
+const VERSION = "officinews-v3";
 const ESSENTIELS = ["./", "index.html", "manifest.webmanifest", "logo-mark.png", "favicon.png",
   "icon-180.png", "icon-192.png", "articles.json", "dispo.json", "vaccins.json"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(ESSENTIELS)).then(() => self.skipWaiting()));
 });
+
+self.addEventListener("message", (e) => { if (e.data === "skipWaiting") self.skipWaiting(); });
 
 self.addEventListener("activate", (e) => {
   e.waitUntil(caches.keys()
@@ -20,7 +22,9 @@ const sansParametres = (url) => url.origin + url.pathname;
 async function reseauDabord(req, url) {
   const cache = await caches.open(VERSION);
   try {
-    const rep = await fetch(req);
+    // contourne le cache HTTP du navigateur (GitHub Pages garde les pages 10 min) pour toujours avoir la dernière version
+    const frais = req.mode === "navigate" ? new Request(req.url, { cache: "no-store", credentials: "same-origin" }) : new Request(req, { cache: "no-store" });
+    const rep = await fetch(frais);
     if (rep.ok) cache.put(sansParametres(url), rep.clone());
     return rep;
   } catch (err) {
