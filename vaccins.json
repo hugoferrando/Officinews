@@ -1,0 +1,43 @@
+{
+ "updatedAt": "2026-10-28",
+ "campagnes": [
+  {
+   "id": "grippe",
+   "nom": "Grippe saisonnière",
+   "debut": "2026-10-13",
+   "fin": null,
+   "pourQui": "65 ans et plus, femmes enceintes, malades chroniques dès 6 mois, IMC ≥ 40, entourage des personnes à risque, professionnels de santé.",
+   "produits": "Efluelda et Fluad (65 ans et plus), Flucelvax, Influvac, Vaxigrip.",
+   "officine": "Prescription sous conditions et injection en officine. Bon de prise en charge envoyé par l'Assurance maladie aux publics cibles, imprimable sur amelipro sinon. Hors cible : ordonnance obligatoire, pas de remboursement.",
+   "source": "https://www.vidal.fr/actualites/38333-grippe-et-covid-19-tous-les-details-de-la-campagne-de-vaccination-2026-2027.html"
+  },
+  {
+   "id": "covid",
+   "nom": "Covid-19",
+   "debut": "2026-10-13",
+   "fin": null,
+   "pourQui": "Mêmes publics que la grippe, plus trisomie 21, troubles psychiatriques et démence. Gratuit pour toute personne qui le souhaite.",
+   "produits": "Comirnaty XFG 30 µg (dès 12 ans), Comirnaty XFG 10 µg (6 mois à 11 ans).",
+   "officine": "Portail de commande des vaccins fermé du 21 décembre 2026 au 3 janvier 2027 : anticiper les commandes.",
+   "source": "https://www.vidal.fr/actualites/38333-grippe-et-covid-19-tous-les-details-de-la-campagne-de-vaccination-2026-2027.html"
+  },
+  {
+   "id": "vrs",
+   "nom": "Bronchiolite (VRS)",
+   "debut": "2026-09-14",
+   "fin": "2027-02-28",
+   "pourQui": "Nourrissons nés pendant la campagne, idéalement avant la sortie de maternité. Femmes enceintes entre 32 et 36 SA.",
+   "produits": "Beyfortus (50 mg sous 5 kg, 100 mg dès 5 kg), Enflonsia (105 mg), Abrysvo chez la femme enceinte.",
+   "officine": "Beyfortus et Enflonsia : dispensation seulement, pas d'injection en officine. Abrysvo : prescription et injection possibles par le pharmacien.",
+   "source": "https://pharmactu.fr/articles/bronchiolite-vrs-campagne-2026-2027-beyfortus-enflonsia-pharmacien"
+  }
+ ],
+ "recos": [
+  {
+   "date": "2026-07-30",
+   "titre": "Pneumocoque : nouvelle stratégie vaccinale",
+   "texte": "Prevenar 20 chez le nourrisson (2, 4, 6 mois, rappel à 11 mois) et l'enfant à risque. Capvaxive en dose unique, de préférence, chez l'adulte à risque et dès 65 ans.",
+   "source": "https://www.has-sante.fr/jcms/p_4259831/fr/pneumocoques-une-strategie-vaccinale-actualisee-pour-mieux-proteger-les-populations-a-risque"
+  }
+ ]
+}

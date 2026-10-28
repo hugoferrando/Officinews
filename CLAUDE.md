@@ -8,9 +8,10 @@ Site public : https://hugoferrando.github.io/Officinews/ (GitHub Pages, branche 
 
 | Fichier | Rôle |
 |---|---|
-| `index.html` | Toute la page : HTML, CSS et JS dans un seul fichier, sans dépendance ni build. Charge `articles.json` au chargement. |
+| `index.html` | Toute la page : HTML, CSS et JS dans un seul fichier, sans dépendance ni build. Charge `articles.json`, `dispo.json` et `vaccins.json`. |
 | `articles.json` | `{ "updatedAt": "<ISO Europe/Paris>", "articles": [...] }`. Seul fichier modifié par les mises à jour automatiques. |
-| `dispo.json` | `{ "updatedAt", "source", "items": [{statut, maj, nom, remise, domaines}] }` : liste ANSM « Disponibilité des produits de santé – médicaments », affichée dans l'onglet Disponibilités. |
+| `dispo.json` | `{ "updatedAt", "source", "items": [{statut, maj, nom, remise, domaines}] }` : liste ANSM « Disponibilité des produits de santé – médicaments », affichée dans l'onglet Ruptures. |
+| `vaccins.json` | `{ "updatedAt", "campagnes": [{id, nom, debut, fin, pourQui, produits, officine, source}], "recos": [{date, titre, texte, source}] }` : onglet Vaccins. **Mis à jour à la main** (pas par la tâche programmée), quand une campagne commence, se termine ou change ; vérifier les faits sur une source officielle ou spécialisée. |
 | `scripts/dispo.py` | `derniere` donne la date de mise à jour la plus récente ; `fusion lignes.txt` ajoute ou met à jour les produits ; `complet lignes.txt` remplace toute la liste. Les remises à disposition et arrêts de plus de 90 jours sont retirés. |
 | `scripts/ajout.py` | `recents [jours]` liste les articles récents ; `fusion fichier.json` ajoute sans doublon, purge > 120 jours, met à jour `updatedAt`. |
 | `manifest.webmanifest`, `favicon.png`, `icon-*.png`, `logo-mark.png`, `logo.png` | Installation sur l'écran d'accueil. |
@@ -29,9 +30,11 @@ Ajouter une source ou une catégorie demande de modifier à la fois `index.html`
 
 ## Onglets
 
-- **Actualités** (`#actualites`, par défaut) : le fil d'articles.
-- **Disponibilités** (`#disponibilites`) : la liste ANSM, filtrable par statut (en cours, ruptures, tensions, remises à disposition, arrêts) et par recherche. Chaque rupture ou tension renvoie vers Vigirupture (https://vigirupture.fr/), qui n'a pas d'API publique : on ne fait que lier, sans récupérer ses données.
-- Les articles de la catégorie Ruptures & tensions ont aussi un lien « Vérifier sur Vigirupture ».
+- **Actus** (`#actualites`, par défaut) : le fil d'articles. Recherche + bouton « Filtres » (source, non lus) replié ; les thèmes restent visibles en une ligne défilante.
+- **Ruptures** (`#disponibilites`) : la liste ANSM, filtrable par statut (puces), par domaine et ordre (dans « Filtres »), et par recherche. Chaque rupture ou tension renvoie vers Vigirupture (https://vigirupture.fr/), qui n'a pas d'API publique : on ne fait que lier, sans récupérer ses données.
+- **Vaccins** (`#vaccins`) : campagnes en cours (grippe, Covid-19, VRS) et recommandations récentes, depuis `vaccins.json`.
+- Les articles de la catégorie Ruptures & tensions ont un lien « Vigirupture ↗ ».
+- Journal officiel : écarté pour l'instant (pas de page publique simple à lire automatiquement sans alourdir la tâche) ; les textes importants arrivent via l'ANSM et la presse.
 
 ## Règles de contenu
 
@@ -48,9 +51,9 @@ Une tâche programmée Claude (« Mise à jour Officinews », modèle Sonnet) to
 
 - Thèmes clair et sombre via des tokens CSS sur `:root` ; toute nouvelle couleur passe par un token défini dans les deux thèmes.
 - Doit rester lisible à 390 px de large sans défilement horizontal (les filtres défilent à l'horizontale sur mobile).
-- Direction artistique : appli douce alignée sur le logo (fond vert très pâle, cartes blanches arrondies `--r: 16px` avec ombre légère, pastilles colorées pour sources et statuts, onglets en contrôle segmenté, tuiles de synthèse cliquables en en-tête).
+- Direction artistique : **épurée**, demandée par Hugo (peu de texte, peu de boutons). Fond vert très pâle, cartes blanches arrondies (`--r: 16px`), onglets en contrôle segmenté, 3 tuiles cliquables (cette semaine, ruptures 30 j, non lus), filtres secondaires repliés derrière un bouton « Filtres », sources supplémentaires d'un article repliées (« + N sources »), « marquer lu » réduit à une coche ronde en haut à droite des cartes. Ne pas réintroduire de paragraphes d'explication ni de boutons visibles en permanence.
 - Polices Google Fonts : Outfit (nom Officinews en 800 bicolore comme le logo, titres en 600-700) et Public Sans (texte).
 - Logo : `logo.png` (original), `logo-mark.png` (symbole détouré pour l'en-tête), icônes générées depuis le symbole.
 - Le statut « lu » est stocké dans le `localStorage` du navigateur (clé `veille-read`).
-- **Mes molécules** : liste de molécules suivies, stockée dans le `localStorage` (clé `officinews-watch`). Panneau sous les tuiles avec le statut de chaque molécule (rupture, tension, disponible, d'après `dispo.json`) et le nombre d'articles sur 30 jours ; les articles et lignes de disponibilité correspondants sont mis en évidence. Comparaison sans accents ni majuscules.
+- **Mes molécules** : liste de molécules suivies, stockée dans le `localStorage` (clé `officinews-watch`). Rangée de puces sous les tuiles, colorées selon le statut ANSM (rouge rupture, orange tension, vert sinon), formulaire d'ajout replié derrière « + Ajouter » ; les articles et lignes de disponibilité correspondants sont mis en évidence. Comparaison sans accents ni majuscules.
 - Après une modification de `index.html`, vérifier que le script se parse et que la page charge les articles sans erreur avant de pousser.

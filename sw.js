@@ -1,9 +1,9 @@
 // Officinews : mode hors ligne.
 // Pages et données (articles.json, dispo.json) : réseau d'abord, dernière version enregistrée si pas de réseau.
 // Images, icônes et polices : cache d'abord, rafraîchi en arrière-plan.
-const VERSION = "officinews-v1";
+const VERSION = "officinews-v2";
 const ESSENTIELS = ["./", "index.html", "manifest.webmanifest", "logo-mark.png", "favicon.png",
-  "icon-180.png", "icon-192.png", "articles.json", "dispo.json"];
+  "icon-180.png", "icon-192.png", "articles.json", "dispo.json", "vaccins.json"];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(ESSENTIELS)).then(() => self.skipWaiting()));
