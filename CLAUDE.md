@@ -49,7 +49,7 @@ Une tâche programmée Claude (« Mise à jour Officinews », modèle Sonnet) to
 
 La procédure complète de la tâche est dans **`scripts/TACHE.md`** ; le prompt de la tâche se contente de dire de la suivre. Pour modifier le flux, modifier ce fichier (et le prompt seulement si nécessaire).
 
-**Règle permanente (demandée par Hugo)** : toute modification du site qui touche ce flux (nouveau fichier de données, nouveau script, changement de format, de source ou d'horaire) doit s'accompagner, dans la même session et sans attendre qu'Hugo le demande, de la mise à jour du prompt de la tâche programmée « Mise à jour Officinews » (identifiant `trig_01Fd6gdYnwGHwx84cpa3Te8Q`, outil `update_trigger`), puis de cette section. Le signaler en une ligne dans la réponse.
+**Règle permanente (demandée par Hugo)** : toute modification du site qui touche ce flux (nouveau fichier de données, nouveau script, changement de format, de source ou d'horaire) doit s'accompagner, dans la même session et sans attendre qu'Hugo le demande, de la mise à jour de `scripts/TACHE.md` (que suit la tâche programmée « Mise à jour Officinews 2 », identifiant `trig_01BkQ7em91LWtGJmt9xt7wWz`, créée par Hugo sur claude.ai/code/routines avec le dépôt attaché ; Claude ne peut ni la lancer ni modifier son prompt, Hugo le fait depuis cette page si besoin), puis de cette section. Le signaler en une ligne dans la réponse.
 
 ## Conventions de la page
 
