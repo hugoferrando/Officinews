@@ -579,6 +579,22 @@ h1 .w-news{color:var(--brand)}
     if(Date.now()-lastLoad>60000)loadAll();
   });
 
+  // ---------- iPhone : ouvrir les articles dans Safari ----------
+  // Lancée depuis l'écran d'accueil, l'appli ouvre les liens dans une fenêtre intégrée qui ne partage pas
+  // les connexions de Safari. Le préfixe x-safari- ouvre le lien directement dans Safari (iOS 15, 17, 18…).
+  // Si Safari ne s'ouvre pas dans la seconde (version d'iOS qui ne le gère pas), on ouvre le lien normalement.
+  const iosApp=/iP(hone|ad|od)/.test(navigator.userAgent)&&(navigator.standalone===true||matchMedia("(display-mode: standalone)").matches);
+  if(iosApp)document.addEventListener("click",e=>{
+    const a=e.target.closest&&e.target.closest('a[target="_blank"]');
+    if(!a||!/^https?:\/\//.test(a.href))return;
+    e.preventDefault();
+    const url=a.href;let parti=false;
+    const quitte=()=>{if(document.hidden)parti=true};
+    document.addEventListener("visibilitychange",quitte);
+    location.href="x-safari-"+url;
+    setTimeout(()=>{document.removeEventListener("visibilitychange",quitte);if(!parti&&!document.hidden)location.href=url},1200);
+  });
+
   // ---------- Hors ligne ----------
   const majReseau=()=>{$("offline").hidden=navigator.onLine!==false};
   window.addEventListener("online",majReseau);window.addEventListener("offline",majReseau);majReseau();
