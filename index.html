@@ -160,6 +160,8 @@ h1 .w-news{color:var(--brand)}
   color:var(--muted);cursor:pointer;display:grid;place-items:center;font-size:13px;line-height:1}
 .mark:hover{border-color:var(--accent);color:var(--accent-ink)}
 .it.read .mark{background:var(--accent-soft);border-color:var(--accent-soft);color:var(--accent-ink)}
+.more-btn{display:block;margin:18px auto 0;font:600 14px var(--f-body);color:var(--accent-ink);background:var(--card);border:1px solid var(--rule);border-radius:999px;padding:10px 18px;cursor:pointer}
+.more-btn:hover{border-color:var(--accent)}
 .empty{padding:36px 4px;color:var(--muted);max-width:52ch;list-style:none}
 .empty h2{font:700 20px/1.2 var(--f-head);color:var(--ink);margin:0 0 6px}
 
@@ -329,7 +331,7 @@ h1 .w-news{color:var(--brand)}
   $("today").textContent=fmtLong(TODAY_ISO);
 
   // ---------- État ----------
-  const state={src:null,cat:null,days:null,q:"",onlyUnread:false,articles:[],updatedAt:null,ready:false};
+  const state={src:null,cat:null,days:null,q:"",onlyUnread:false,articles:[],updatedAt:null,ready:false,window:30};
   const dstate={items:null,filter:"encours",q:"",dom:"",sort:"az",error:false};
   let read=new Set(store.get("veille-read",[]));
   const saveRead=()=>store.set("veille-read",[...read]);
@@ -421,9 +423,16 @@ h1 .w-news{color:var(--brand)}
     const list=state.articles.filter(matches);
     if(!list.length){const e=el("div",{class:"empty"});e.append(el("h2",{text:state.articles.length?"Rien ne correspond":"Aucun article pour l'instant"}),
       el("p",{text:state.articles.length?"Retirez un filtre ou changez la recherche.":"Les nouveautés arrivent à la prochaine mise à jour."}));feed.replaceChildren(e);return}
-    const groups=new Map();for(const a of list){if(!groups.has(a.date))groups.set(a.date,[]);groups.get(a.date).push(a)}
-    feed.replaceChildren(...[...groups].map(([d,arts])=>{const sec=el("section",{class:"day","aria-label":fmtLong(d)});
-      const items=el("div",{class:"items"});arts.forEach(a=>items.append(item(a)));sec.append(dayHeader(d),items);return sec}));
+    // Sans recherche, seuls les state.window derniers jours s'affichent ; la recherche couvre toute l'année
+    const limite=state.q?null:daysAgo(state.window);
+    const shown=limite?list.filter(a=>a.date>=limite):list,older=list.length-shown.length;
+    const groups=new Map();for(const a of shown){if(!groups.has(a.date))groups.set(a.date,[]);groups.get(a.date).push(a)}
+    const out=[...groups].map(([d,arts])=>{const sec=el("section",{class:"day","aria-label":fmtLong(d)});
+      const items=el("div",{class:"items"});arts.forEach(a=>items.append(item(a)));sec.append(dayHeader(d),items);return sec});
+    if(!shown.length)out.push(el("p",{class:"empty",text:"Rien sur les "+state.window+" derniers jours."}));
+    if(older){const more=el("button",{class:"more-btn",type:"button",text:"Voir les plus anciens ("+older+")"});
+      more.onclick=()=>{state.window+=90;renderFeed()};out.push(more)}
+    feed.replaceChildren(...out);
   }
 
   // ---------- Mes molécules ----------

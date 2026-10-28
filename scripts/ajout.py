@@ -4,7 +4,7 @@
 Usage :
   python3 scripts/ajout.py recents [jours]      -> liste id | date | titre | url des articles récents (7 jours par défaut)
   python3 scripts/ajout.py fusion nouveaux.json -> ajoute les nouveaux articles, complète les "related",
-                                                   supprime les articles de plus de 120 jours, met à jour updatedAt
+                                                   supprime les articles de plus d'un an, met à jour updatedAt
 
 nouveaux.json contient une liste d'objets :
   - un article complet (champs id, date, rank, source, category, title, summary, url, tags,
@@ -22,7 +22,7 @@ SOURCES = {"ANSM", "HAS", "Moniteur", "Quotidien", "Autre"}
 CATEGORIES = {"Ruptures & tensions", "Vaccins", "Pharmacovigilance", "Nouveaux médicaments",
               "Recommandations", "Réglementation", "Profession"}
 OBLIGATOIRES = ("id", "date", "source", "category", "title", "summary", "url")
-CONSERVATION_JOURS = 120
+CONSERVATION_JOURS = 365
 
 
 def charger():
