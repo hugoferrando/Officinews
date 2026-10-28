@@ -57,6 +57,10 @@ h1 .w-news{color:var(--brand)}
 .stats{display:flex;gap:22px;flex-wrap:wrap;margin-top:4px;font-size:13px;color:var(--muted)}
 .stats b{font-family:var(--f-mono);font-weight:500;color:var(--ink);font-variant-numeric:tabular-nums;margin-right:4px}
 .stats .w b{color:var(--warn)}
+.stat{font:inherit;color:inherit;background:none;border:0;padding:4px 0;cursor:pointer;text-align:left;
+  text-decoration:underline dotted;text-decoration-color:var(--rule);text-underline-offset:4px}
+.stat:hover,.stat[aria-pressed="true"]{color:var(--ink);text-decoration:underline solid;text-decoration-color:currentColor}
+.chip.clear::after{content:"✕";font-size:11px;margin-left:2px}
 
 /* Filtres */
 .bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);
@@ -162,7 +166,7 @@ h1 .w-news{color:var(--brand)}
   const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
   const TODAY_ISO=iso(TODAY);
 
-  const state={src:null,cat:null,q:"",onlyUnread:false,articles:[],updatedAt:null,ready:false};
+  const state={src:null,cat:null,days:null,q:"",onlyUnread:false,articles:[],updatedAt:null,ready:false};
   let read=new Set();
   try{read=new Set(JSON.parse(localStorage.getItem("veille-read")||"[]"))}catch(e){}
   const saveRead=()=>{try{localStorage.setItem("veille-read",JSON.stringify([...read]))}catch(e){}};
@@ -192,8 +196,13 @@ h1 .w-news{color:var(--brand)}
       ...SOURCES.map(([k,l])=>{const b=chip(l,state.src===k,()=>{state.src=state.src===k?null:k;render()},"s-"+k);b.style.color="";return b}));
     // keep text in ink color, only the dot takes source color
     srcRow.querySelectorAll(".chip").forEach(b=>{const dot=b.querySelector(".dot");if(dot){const c=getComputedStyle(b).color;dot.style.background=c;b.style.color=b.getAttribute("aria-pressed")==="true"?"var(--paper)":"var(--ink)"}});
-    catRow.replaceChildren(chip("Tous thèmes",state.cat===null,()=>{state.cat=null;render()}),
+    const days=state.days?[(()=>{const b=chip(state.days+" derniers jours",true,()=>{state.days=null;render()});b.classList.add("clear");b.setAttribute("aria-label","Retirer le filtre "+state.days+" derniers jours");return b})()]:[];
+    catRow.replaceChildren(...days,chip("Tous thèmes",state.cat===null,()=>{state.cat=null;render()}),
       ...CATS.map(c=>chip(c,state.cat===c,()=>{state.cat=state.cat===c?null:c;render()})));
+    // garder le filtre actif visible quand les puces défilent à l'horizontale
+    for(const row of [srcRow,catRow]){const on=[...row.querySelectorAll('.chip[aria-pressed="true"]:not(.clear)')].pop();
+      if(on&&row.scrollWidth>row.clientWidth&&(on.offsetLeft+on.offsetWidth>row.scrollLeft+row.clientWidth||on.offsetLeft<row.scrollLeft))
+        row.scrollLeft=on.offsetLeft-row.offsetLeft-24}
   }
   document.getElementById("q").addEventListener("input",e=>{state.q=e.target.value.trim().toLowerCase();renderFeed()});
   document.getElementById("onlyUnread").addEventListener("change",e=>{state.onlyUnread=e.target.checked;renderFeed()});
@@ -201,6 +210,7 @@ h1 .w-news{color:var(--brand)}
   function matches(a){
     if(state.src&&a.source!==state.src&&!(a.related||[]).some(r=>r.source===state.src))return false;
     if(state.cat&&a.category!==state.cat)return false;
+    if(state.days&&a.date<iso(new Date(TODAY.getTime()-state.days*864e5)))return false;
     if(state.onlyUnread&&read.has(a.id))return false;
     if(state.q){const hay=[a.title,a.summary,a.comptoir,(a.tags||[]).join(" ")].join(" ").toLowerCase();
       if(!state.q.split(/\s+/).every(t=>hay.includes(t)))return false}
@@ -235,8 +245,12 @@ h1 .w-news{color:var(--brand)}
     const week=state.articles.filter(a=>a.date>=wk).length;
     const alerts=state.articles.filter(a=>a.category===ALERT&&a.date>=mo).length;
     const unread=state.articles.filter(a=>!read.has(a.id)).length;
-    const mk=(n,t,c)=>{const sp=el("span",c?{class:c}:null);sp.append(el("b",{text:String(n)}),document.createTextNode(t));return sp};
-    s.replaceChildren(mk(week," articles sur 7 jours"),mk(alerts," ruptures ou tensions sur 30 jours","w"),mk(unread," non lus"));
+    const mk=(n,t,c,on,act)=>{const b=el("button",{class:"stat"+(c?" "+c:""),type:"button","aria-pressed":String(on)});
+      b.append(el("b",{text:String(n)}),document.createTextNode(t));b.onclick=()=>{act();render();goFeed()};return b};
+    s.replaceChildren(
+      mk(week," articles sur 7 jours","",state.days===7&&!state.cat,()=>{state.days=7;state.cat=null}),
+      mk(alerts," ruptures ou tensions sur 30 jours","w",state.days===30&&state.cat===ALERT,()=>{state.days=30;state.cat=ALERT}),
+      mk(unread," non lus","",state.onlyUnread,()=>{state.onlyUnread=!state.onlyUnread;document.getElementById("onlyUnread").checked=state.onlyUnread}));
     const u=document.getElementById("updated");
     u.textContent=state.updatedAt?"Mise à jour "+new Date(state.updatedAt).toLocaleString("fr-FR",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"}):"";
   }
@@ -254,6 +268,8 @@ h1 .w-news{color:var(--brand)}
       const items=el("div",{class:"items"});arts.forEach(a=>items.append(item(a)));sec.append(dayHeader(d),items);out.push(sec)}
     feed.replaceChildren(...out);
   }
+  function goFeed(){const top=document.querySelector(".mast").getBoundingClientRect().bottom+window.scrollY;
+    window.scrollTo({top,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})}
   function render(){renderChips();renderFeed()}
   render();
 
