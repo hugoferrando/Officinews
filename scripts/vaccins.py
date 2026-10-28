@@ -12,7 +12,8 @@ patch.json :
     "recos": [ {"date": "YYYY-MM-DD", "titre": "...", "texte": "...", "source": "https://..."} ],
     "retirer": ["id-de-campagne"]                                       # optionnel : supprime des campagnes
   }
-Champs d'une campagne : id, nom, debut (YYYY-MM-DD), fin (YYYY-MM-DD ou null), pourQui, produits, officine, source.
+Champs d'une campagne : id, nom, debut (YYYY-MM-DD), fin (YYYY-MM-DD ou null), pourQui, produits, officine, source,
+liens (optionnel, [{label, url}] vers ameli, Meddispar, etc.).
 Les recommandations sont dédoublonnées par source et seules les 5 plus récentes sont gardées.
 """
 import json
@@ -22,7 +23,7 @@ from datetime import date
 from pathlib import Path
 
 FICHIER = Path(__file__).resolve().parent.parent / "vaccins.json"
-CHAMPS = ("id", "nom", "debut", "fin", "pourQui", "produits", "officine", "source")
+CHAMPS = ("id", "nom", "debut", "fin", "pourQui", "produits", "officine", "source", "liens")
 DATE = re.compile(r"\d{4}-\d{2}-\d{2}")
 
 

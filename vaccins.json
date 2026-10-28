@@ -9,7 +9,17 @@
    "pourQui": "65 ans et plus, femmes enceintes, malades chroniques dès 6 mois, IMC ≥ 40, entourage des personnes à risque, professionnels de santé.",
    "produits": "Efluelda et Fluad (65 ans et plus), Flucelvax, Influvac, Vaxigrip.",
    "officine": "Prescription sous conditions et injection en officine. Bon de prise en charge envoyé par l'Assurance maladie aux publics cibles, imprimable sur amelipro sinon. Hors cible : ordonnance obligatoire, pas de remboursement.",
-   "source": "https://www.vidal.fr/actualites/38333-grippe-et-covid-19-tous-les-details-de-la-campagne-de-vaccination-2026-2027.html"
+   "source": "https://www.vidal.fr/actualites/38333-grippe-et-covid-19-tous-les-details-de-la-campagne-de-vaccination-2026-2027.html",
+   "liens": [
+    {
+     "label": "Campagne grippe (ameli)",
+     "url": "https://www.ameli.fr/pharmacien/sante-prevention/vaccination/vaccination-grippe-saisonniere"
+    },
+    {
+     "label": "Vaccination en officine (ameli)",
+     "url": "https://www.ameli.fr/pharmacien/sante-prevention/vaccination/vaccination-par-pharmacien-officine"
+    }
+   ]
   },
   {
    "id": "covid",
@@ -19,7 +29,13 @@
    "pourQui": "Mêmes publics que la grippe, plus trisomie 21, troubles psychiatriques et démence. Gratuit pour toute personne qui le souhaite.",
    "produits": "Comirnaty XFG 30 µg (dès 12 ans), Comirnaty XFG 10 µg (6 mois à 11 ans).",
    "officine": "Portail de commande des vaccins fermé du 21 décembre 2026 au 3 janvier 2027 : anticiper les commandes.",
-   "source": "https://www.vidal.fr/actualites/38333-grippe-et-covid-19-tous-les-details-de-la-campagne-de-vaccination-2026-2027.html"
+   "source": "https://www.vidal.fr/actualites/38333-grippe-et-covid-19-tous-les-details-de-la-campagne-de-vaccination-2026-2027.html",
+   "liens": [
+    {
+     "label": "Vaccination en officine (ameli)",
+     "url": "https://www.ameli.fr/pharmacien/sante-prevention/vaccination/vaccination-par-pharmacien-officine"
+    }
+   ]
   },
   {
    "id": "vrs",

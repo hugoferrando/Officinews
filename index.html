@@ -190,6 +190,7 @@ h1 .w-news{color:var(--brand)}
 .vc dl{margin:0;display:grid;gap:8px}
 .vc dt{font-size:12px;font-weight:600;color:var(--muted)}
 .vc dd{margin:0;font-size:14.5px}
+.vlinks{display:flex;flex-wrap:wrap;gap:4px 14px}
 .vc .src-link{font-size:12.5px;color:var(--muted);text-underline-offset:3px}
 .vx h2{font:600 14px/1.2 var(--f-head);color:var(--muted);margin:10px 4px 0}
 .reco{background:var(--card);border:1px solid var(--rule);border-radius:var(--r);padding:14px 16px;display:grid;gap:4px;text-decoration:none}
@@ -201,6 +202,7 @@ h1 .w-news{color:var(--brand)}
 /* Pied de page */
 .sources{border-top:1px solid var(--rule);padding-block:16px 36px;font-size:12.5px;color:var(--muted);display:flex;gap:4px 14px;flex-wrap:wrap}
 .sources a{color:var(--muted);text-underline-offset:3px}
+.sources.tools{border-top:0;padding-top:0;margin-top:-24px}
 .s-ANSM{color:var(--s-ansm)} .s-HAS{color:var(--s-has)} .s-Moniteur{color:var(--s-mon)} .s-Quotidien{color:var(--s-qph)} .s-Autre{color:var(--s-autre)}
 .offline{background:var(--warn-soft);color:var(--warn);font-size:13px;font-weight:600;border-radius:12px;padding:9px 14px;margin-top:12px}
 
@@ -287,6 +289,14 @@ h1 .w-news{color:var(--brand)}
     <a href="https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/" target="_blank" rel="noopener">Le Moniteur</a>
     <a href="https://www.lequotidiendupharmacien.fr/tous-les-articles" target="_blank" rel="noopener">Le Quotidien</a>
   </footer>
+  <footer class="sources tools">
+    <span>Outils :</span>
+    <a href="https://www.meddispar.fr/" target="_blank" rel="noopener">Meddispar</a>
+    <a href="https://www.omedit-paysdelaloire.fr/" target="_blank" rel="noopener">OMéDIT</a>
+    <a href="https://www.ameli.fr/pharmacien" target="_blank" rel="noopener">ameli</a>
+    <a href="https://antibioclic.com/" target="_blank" rel="noopener">Antibioclic</a>
+    <a href="https://vigirupture.fr/" target="_blank" rel="noopener">Vigirupture</a>
+  </footer>
 </div>
 
 <script>
@@ -296,6 +306,14 @@ h1 .w-news{color:var(--brand)}
   const CATS=["Ruptures & tensions","Vaccins","Pharmacovigilance","Nouveaux médicaments","Recommandations","Réglementation","Profession"];
   const ALERT="Ruptures & tensions";
   const VIGI="https://vigirupture.fr/";
+  // Liens vers les outils de référence, montrés seulement si le texte (sans accents) s'y rapporte
+  const ATB=/antibio|amoxicilline|azithromycine|clarithromycine|pristinamycine|cefpodoxime|cefixime|ceftriaxone|fosfomycine|pivmecillinam|nitrofurantoine|ofloxacine|ciprofloxacine|levofloxacine|doxycycline|clindamycine|linezolide|oracilline|rifampicine|cystite|angine|otite|pyelonephrite|sinusite|pneumopathie/;
+  const TOOLS=[
+    {n:"Antibioclic",u:"https://antibioclic.com/",re:ATB},
+    {n:"Meddispar",u:"https://www.meddispar.fr/",re:/dispensation particuliere|stupefiant|prescription restreinte|prescription initiale|reserve hospitali|medicament d.exception|isotretinoine|valproate|depakote|micropakine|methylphenidate|concerta|quasym|buprenorphine|methadone|clozapine|janus kinase|\bjak|thalidomide|lenalidomide|pomalidomide|retrocession/},
+    {n:"Fiches OMéDIT",u:"https://www.omedit-paysdelaloire.fr/",re:/anticancereux|chimiotherapie orale|capecitabine|5-fu|fluoropyrimidine|vemurafenib|zelboraf|sunitinib|ibrutinib|imbruvica|belzutifan|welireg|olaparib|methotrexate/},
+    {n:"ameli",u:"https://www.ameli.fr/pharmacien",re:/rembours|prise en charge|tiers payant|amelipro|entretien pharmaceutique|accompagnement pharmaceutique|avenant|convention|honoraire/}];
+  const toolsFor=txt=>TOOLS.filter(t=>t.re.test(txt)).slice(0,2);
   const TODAY=new Date();
   const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
   const TODAY_ISO=iso(TODAY);
@@ -370,6 +388,7 @@ h1 .w-news{color:var(--brand)}
       d.append(el("summary",{text:"+ "+a.related.length+" source"+(a.related.length>1?"s":"")}));
       for(const r of a.related)d.append(el("a",{href:r.url,target:"_blank",rel:"noopener",text:r.label}));foot.append(d)}
     if(a.category===ALERT)foot.append(el("a",{href:VIGI,target:"_blank",rel:"noopener",text:"Vigirupture ↗"}));
+    for(const t of toolsFor(artText(a)))foot.append(el("a",{href:t.u,target:"_blank",rel:"noopener",text:t.n+" ↗"}));
     art.append(foot);
     const label=isRead?"Marquer comme non lu":"Marquer comme lu";
     const mk=el("button",{class:"mark",type:"button","aria-label":label,title:label,text:"✓"});
@@ -465,7 +484,9 @@ h1 .w-news{color:var(--brand)}
       n.append(el("span",{class:"dd",text:[forme,i.domaines.join(", ")].filter(Boolean).join(" · ")}));li.append(n);
       const m=el("span",{class:"dm"});
       m.append(el("span",{text:i.remise&&i.statut==="Remise à disposition"?"remis le "+fmtShort(i.remise):fmtShort(i.maj)}));
-      if(ST_CLASS[i.statut]==="rupture"||ST_CLASS[i.statut]==="tension")m.append(el("a",{href:VIGI,target:"_blank",rel:"noopener",text:"Vigirupture ↗"}));
+      if(ST_CLASS[i.statut]==="rupture"||ST_CLASS[i.statut]==="tension"){
+        m.append(el("a",{href:VIGI,target:"_blank",rel:"noopener",text:"Vigirupture ↗"}));
+        if(ATB.test(norm(i.nom)))m.append(el("a",{href:"https://antibioclic.com/",target:"_blank",rel:"noopener",text:"Antibioclic ↗"}));}
       li.append(m);return li}));
   }
   $("dq").addEventListener("input",e=>{dstate.q=e.target.value.trim();renderDispo()});
@@ -492,7 +513,10 @@ h1 .w-news{color:var(--brand)}
       const dl=el("dl");
       for(const [k,v] of [["Pour qui",c.pourQui],["Produits",c.produits],["À l'officine",c.officine]])if(v)dl.append(el("dt",{text:k}),el("dd",{text:v}));
       card.append(dl);
-      if(c.source)card.append(el("a",{class:"src-link",href:c.source,target:"_blank",rel:"noopener",text:"Source ↗"}));
+      const links=el("div",{class:"vlinks"});
+      for(const l of c.liens||[])links.append(el("a",{class:"src-link",href:l.url,target:"_blank",rel:"noopener",text:l.label+" ↗"}));
+      if(c.source)links.append(el("a",{class:"src-link",href:c.source,target:"_blank",rel:"noopener",text:"Source ↗"}));
+      card.append(links);
       return card});
     const recos=(vax.recos||[]).map(r=>{const d=el("a",{class:"reco",href:r.source,target:"_blank",rel:"noopener"});
       d.append(el("small",{text:"HAS · "+fmtShort(r.date)}),el("b",{text:r.titre}),el("p",{text:r.texte}));return d});

@@ -35,6 +35,7 @@ Ajouter une source ou une catégorie demande de modifier à la fois `index.html`
 - **Ruptures** (`#disponibilites`) : la liste ANSM, filtrable par statut (puces), par domaine et ordre (dans « Filtres »), et par recherche. Chaque rupture ou tension renvoie vers Vigirupture (https://vigirupture.fr/), qui n'a pas d'API publique : on ne fait que lier, sans récupérer ses données.
 - **Vaccins** (`#vaccins`) : campagnes en cours (grippe, Covid-19, VRS) et recommandations récentes, depuis `vaccins.json`.
 - Les articles de la catégorie Ruptures & tensions ont un lien « Vigirupture ↗ ».
+- **Outils de référence** (constante `TOOLS` dans `index.html`) : liens Antibioclic, Meddispar, fiches OMéDIT et ameli ajoutés en bas d'une carte seulement si son texte (sans accents) correspond à l'expression régulière de l'outil, 2 au maximum ; Antibioclic aussi sur les ruptures/tensions d'antibiotiques ; liens propres aux campagnes dans `vaccins.json` (`liens`). Tous les outils sont listés dans le second pied de page.
 - Journal officiel : écarté pour l'instant (pas de page publique simple à lire automatiquement sans alourdir la tâche) ; les textes importants arrivent via l'ANSM et la presse.
 
 ## Règles de contenu
