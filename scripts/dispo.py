@@ -4,6 +4,7 @@
 Source : https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments
 
 Usage :
+  python3 scripts/dispo.py afaire                -> « oui » si la liste n'a pas encore été rafraîchie aujourd'hui, sinon « non »
   python3 scripts/dispo.py derniere              -> date de mise à jour la plus récente déjà enregistrée
   python3 scripts/dispo.py fusion lignes.txt     -> ajoute ou met à jour les produits listés (mise à jour quotidienne)
   python3 scripts/dispo.py complet lignes.txt    -> remplace toute la liste (resynchronisation complète)
@@ -73,6 +74,10 @@ def enregistrer(data):
 
 
 def main():
+    if len(sys.argv) == 2 and sys.argv[1] == "afaire":
+        maj = charger().get("updatedAt") or ""
+        print("non" if maj[:10] == date.today().isoformat() else "oui")
+        return
     if len(sys.argv) == 2 and sys.argv[1] == "derniere":
         items = charger()["items"]
         print(max((i["maj"] for i in items), default="aucune"))

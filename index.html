@@ -416,7 +416,8 @@ h1 .w-news{color:var(--brand)}
       mk(week,"cette semaine","",state.days===7&&!state.cat,()=>{state.days=7;state.cat=null},()=>{state.days=null}),
       mk(alerts,"ruptures (30 j)","w",state.days===30&&state.cat===ALERT,()=>{state.days=30;state.cat=ALERT},()=>{state.days=null;state.cat=null}),
       mk(unread,"non lus","",state.onlyUnread,()=>{state.onlyUnread=true},()=>{state.onlyUnread=false}));
-    $("updated").textContent=state.updatedAt?"màj "+new Date(state.updatedAt).toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"}):"";
+    if(state.updatedAt){const d=new Date(state.updatedAt),j=iso(d),h=d.toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"});
+      $("updated").textContent="màj "+(j===TODAY_ISO?h:j===daysAgo(1)?"hier "+h:fmtShort(j)+" "+h);}else $("updated").textContent="";
   }
   function renderFeed(){
     renderStats();const feed=$("feed");if(!state.ready)return;

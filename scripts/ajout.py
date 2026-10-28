@@ -2,7 +2,9 @@
 """Mise à jour d'articles.json pour Officinews.
 
 Usage :
-  python3 scripts/ajout.py recents [jours]      -> liste id | date | titre | url des articles récents (7 jours par défaut)
+  python3 scripts/ajout.py age                  -> nombre d'heures depuis la dernière mise à jour (pour les passages de rattrapage)
+  python3 scripts/ajout.py recents [jours]      -> liste id | date | titre | url des articles récents (7 jours par défaut,
+                                                   élargi automatiquement si des passages ont été manqués)
   python3 scripts/ajout.py fusion nouveaux.json -> ajoute les nouveaux articles, complète les "related",
                                                    supprime les articles de plus d'un an, met à jour updatedAt
 
@@ -35,9 +37,16 @@ def enregistrer(data):
 
 
 def recents(jours=7):
-    limite = (date.today() - timedelta(days=jours)).isoformat()
     data = charger()
-    print("updatedAt:", data.get("updatedAt"))
+    maj = data.get("updatedAt")
+    # si des passages ont été manqués, élargir la fenêtre pour couvrir toute la période depuis la dernière mise à jour
+    if maj:
+        retard = (date.today() - date.fromisoformat(maj[:10])).days
+        jours = max(jours, retard + 2)
+        print(f"updatedAt: {maj} (il y a {retard} jour(s)) -> chercher les articles publiés depuis le {maj[:10]}")
+    else:
+        print("updatedAt: aucune")
+    limite = (date.today() - timedelta(days=jours)).isoformat()
     for a in data["articles"]:
         if a["date"] >= limite:
             print(f'{a["id"]} | {a["date"]} | {a["title"]} | {a["url"]}')
@@ -84,7 +93,13 @@ def fusion(chemin):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) >= 2 and sys.argv[1] == "recents":
+    if len(sys.argv) == 2 and sys.argv[1] == "age":
+        maj = charger().get("updatedAt")
+        if not maj:
+            print(999)
+        else:
+            print(int((datetime.now(timezone.utc) - datetime.fromisoformat(maj)).total_seconds() // 3600))
+    elif len(sys.argv) >= 2 and sys.argv[1] == "recents":
         recents(int(sys.argv[2]) if len(sys.argv) > 2 else 7)
     elif len(sys.argv) == 3 and sys.argv[1] == "fusion":
         fusion(sys.argv[2])
