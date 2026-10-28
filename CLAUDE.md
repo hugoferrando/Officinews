@@ -10,6 +10,8 @@ Site public : https://hugoferrando.github.io/Officinews/ (GitHub Pages, branche 
 |---|---|
 | `index.html` | Toute la page : HTML, CSS et JS dans un seul fichier, sans dépendance ni build. Charge `articles.json` au chargement. |
 | `articles.json` | `{ "updatedAt": "<ISO Europe/Paris>", "articles": [...] }`. Seul fichier modifié par les mises à jour automatiques. |
+| `dispo.json` | `{ "updatedAt", "source", "items": [{statut, maj, nom, remise, domaines}] }` : liste ANSM « Disponibilité des produits de santé – médicaments », affichée dans l'onglet Disponibilités. |
+| `scripts/dispo.py` | `derniere` donne la date de mise à jour la plus récente ; `fusion lignes.txt` ajoute ou met à jour les produits ; `complet lignes.txt` remplace toute la liste. Les remises à disposition et arrêts de plus de 90 jours sont retirés. |
 | `scripts/ajout.py` | `recents [jours]` liste les articles récents ; `fusion fichier.json` ajoute sans doublon, purge > 120 jours, met à jour `updatedAt`. |
 | `manifest.webmanifest`, `favicon.png`, `icon-*.png`, `logo-mark.png`, `logo.png` | Installation sur l'écran d'accueil (PWA légère, sans service worker). |
 | `.nojekyll` | GitHub Pages sert les fichiers tels quels. |
@@ -24,6 +26,12 @@ Optionnels : `rank` (ordre dans la journée, 1 = plus important), `comptoir` (co
 
 Ajouter une source ou une catégorie demande de modifier à la fois `index.html` (listes `SOURCES`/`CATS`, couleurs `--s-*`) et `scripts/ajout.py` (`SOURCES`/`CATEGORIES`).
 
+## Onglets
+
+- **Actualités** (`#actualites`, par défaut) : le fil d'articles.
+- **Disponibilités** (`#disponibilites`) : la liste ANSM, filtrable par statut (en cours, ruptures, tensions, remises à disposition, arrêts) et par recherche. Chaque rupture ou tension renvoie vers Vigirupture (https://vigirupture.fr/), qui n'a pas d'API publique : on ne fait que lier, sans récupérer ses données.
+- Les articles de la catégorie Ruptures & tensions ont aussi un lien « Vérifier sur Vigirupture ».
+
 ## Règles de contenu
 
 - Résumés rédigés avec nos propres mots, jamais de phrases copiées des articles (les sources sont sous droit d'auteur, le site est public).
@@ -31,7 +39,7 @@ Ajouter une source ou une catégorie demande de modifier à la fois `index.html`
 
 ## Mises à jour automatiques
 
-Une tâche programmée Claude (« Mise à jour Officinews », modèle Sonnet) tourne à 6 h 37, 13 h 37 et 18 h 37 (heure de Paris). Elle clone ce dépôt, lit les pages d'actus des quatre sources, écrit les nouveautés dans un fichier temporaire, lance `scripts/ajout.py fusion`, puis commit et push `articles.json`. Hugo veut une consommation de tokens minimale : ne pas alourdir ce flux.
+Une tâche programmée Claude (« Mise à jour Officinews », modèle Sonnet) tourne à 6 h 37, 13 h 37 et 18 h 37 (heure de Paris). Elle clone ce dépôt, lit les pages d'actus des quatre sources, écrit les nouveautés dans un fichier temporaire, lance `scripts/ajout.py fusion`, puis commit et push `articles.json`. Au passage de 6 h 37 seulement, elle met aussi à jour `dispo.json` à partir des lignes ANSM modifiées depuis `scripts/dispo.py derniere` ; une resynchronisation complète (`complet`) a lieu le 1er de chaque mois. Hugo veut une consommation de tokens minimale : ne pas alourdir ce flux.
 
 ## Conventions de la page
 

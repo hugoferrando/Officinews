@@ -19,7 +19,7 @@
 /* Layout: masthead d'une édition du jour, barre de filtres collante, fil d'actus groupé par jour (colonne date à gauche, article à droite). */
 :root{
   --paper:#F5F8F6; --card:#FFFFFF; --ink:#13201C; --muted:#5A6A65; --rule:#D8E1DD;
-  --accent:#0B7A57; --accent-soft:#E2F1EA; --warn:#B4541A; --warn-soft:#FBEBDD;
+  --accent:#0B7A57; --accent-soft:#E2F1EA; --warn:#B4541A; --warn-soft:#FBEBDD; --danger:#B42318;
   --s-ansm:#B8323A; --s-has:#1E68A8; --s-mon:#B5620F; --s-qph:#5348A6; --s-autre:#5A6A65;
   --brand-dark:#0C3B2D; --brand:#0A9A58; --mark-bg:transparent;
   --f-brand:"Outfit", "Public Sans", system-ui, sans-serif;
@@ -29,12 +29,12 @@
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --paper:#0F1614; --card:#151F1C; --ink:#E4ECE8; --muted:#93A39E; --rule:#26332F;
-  --accent:#4CC79A; --accent-soft:#16302A; --warn:#F09A5E; --warn-soft:#33221A;
+  --accent:#4CC79A; --accent-soft:#16302A; --warn:#F09A5E; --warn-soft:#33221A; --danger:#F28B82;
   --s-ansm:#F0858B; --s-has:#79B6EC; --s-mon:#F0A862; --s-qph:#ABA2F2; --s-autre:#93A39E;
   --brand-dark:#E4ECE8; --brand:#3FD08A; --mark-bg:#F2F7F4; color-scheme:dark}}
 :root[data-theme="dark"]{
   --paper:#0F1614; --card:#151F1C; --ink:#E4ECE8; --muted:#93A39E; --rule:#26332F;
-  --accent:#4CC79A; --accent-soft:#16302A; --warn:#F09A5E; --warn-soft:#33221A;
+  --accent:#4CC79A; --accent-soft:#16302A; --warn:#F09A5E; --warn-soft:#33221A; --danger:#F28B82;
   --s-ansm:#F0858B; --s-has:#79B6EC; --s-mon:#F0A862; --s-qph:#ABA2F2; --s-autre:#93A39E;
   --brand-dark:#E4ECE8; --brand:#3FD08A; --mark-bg:#F2F7F4; color-scheme:dark}
 *{box-sizing:border-box}
@@ -62,9 +62,27 @@ h1 .w-news{color:var(--brand)}
 .stat:hover,.stat[aria-pressed="true"]{color:var(--ink);text-decoration:underline solid;text-decoration-color:currentColor}
 .chip.clear::after{content:"✕";font-size:11px;margin-left:2px}
 
-/* Filtres */
-.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);
-  padding-block:12px;border-bottom:1px solid var(--rule);display:grid;gap:10px}
+/* Onglets + filtres (bloc collant) */
+.sticky{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);border-bottom:1px solid var(--rule)}
+.tabs{display:flex;gap:22px;border-bottom:1px solid var(--rule)}
+.tab{font:600 14px/1 var(--f-body);color:var(--muted);text-decoration:none;padding:14px 0 12px;border-bottom:2px solid transparent;margin-bottom:-1px;display:inline-flex;gap:7px;align-items:center}
+.tab:hover{color:var(--ink)}
+.tab[aria-current="page"]{color:var(--ink);border-bottom-color:var(--ink)}
+.tab .n{font:500 11px/1 var(--f-mono);color:var(--danger);font-variant-numeric:tabular-nums}
+.bar{padding-block:12px;display:grid;gap:10px}
+/* Disponibilités */
+.dispo-intro{color:var(--muted);font-size:13px;margin:16px 0 4px;max-width:66ch}
+.dispo-intro a{color:var(--ink)}
+.dl{list-style:none;margin:0;padding:0 0 60px}
+.dr{display:grid;grid-template-columns:150px minmax(0,1fr) auto;gap:4px 16px;align-items:baseline;padding:13px 0;border-top:1px solid var(--rule)}
+.st{font:500 11px/1.3 var(--f-mono);letter-spacing:.04em;text-transform:uppercase;display:inline-flex;gap:6px;align-items:center}
+.st::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor;flex:none}
+.st.rupture{color:var(--danger)} .st.tension{color:var(--warn)} .st.remise{color:var(--accent)} .st.arret{color:var(--muted)}
+.dn{font-weight:600;min-width:0}
+.dd{color:var(--muted);font-size:13px;font-weight:400;display:block}
+.dm{font:400 12px var(--f-mono);color:var(--muted);white-space:nowrap;font-variant-numeric:tabular-nums;display:flex;gap:12px;justify-content:flex-end;align-items:baseline}
+.dm a{color:var(--muted);text-underline-offset:3px;font-family:var(--f-body);font-size:13px}
+.dm a:hover{color:var(--ink)}
 .row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
 .chip{font:500 13px/1 var(--f-body);border:1px solid var(--rule);background:var(--card);color:var(--ink);
   padding:7px 11px;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;gap:6px}
@@ -116,6 +134,10 @@ h1 .w-news{color:var(--brand)}
   #srcRow::-webkit-scrollbar,#catRow::-webkit-scrollbar{display:none}
   .chip{flex:none}
   .bar{gap:8px;padding-block:10px}
+  #stRow{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;margin-inline:-16px;padding-inline:16px}
+  #stRow::-webkit-scrollbar{display:none}
+  .dr{grid-template-columns:1fr;gap:4px}
+  .dm{justify-content:flex-start}
   .day{grid-template-columns:1fr}
   .day-h{padding-top:0;padding-bottom:6px;display:flex;gap:8px;align-items:baseline}
   .day-h strong{display:inline;font-size:20px}
@@ -133,18 +155,35 @@ h1 .w-news{color:var(--brand)}
     <div class="stats" id="stats"></div>
   </header>
 
-  <nav class="bar" aria-label="Filtres">
-    <div class="row" id="srcRow" role="group" aria-label="Source"></div>
-    <div class="row" id="catRow" role="group" aria-label="Thème"></div>
-    <div class="row">
-      <input id="q" class="search" type="search" placeholder="Rechercher une molécule, un vaccin, un sujet…" aria-label="Rechercher">
-      <label class="unread-toggle"><input type="checkbox" id="onlyUnread"> Non lus seulement</label>
+  <div class="sticky">
+    <nav class="tabs" aria-label="Rubriques">
+      <a class="tab" id="tabActu" href="#actualites">Actualités</a>
+      <a class="tab" id="tabDispo" href="#disponibilites">Disponibilités <span class="n" id="dispoCount"></span></a>
+    </nav>
+    <div class="bar" id="actuBar" role="search" aria-label="Filtres des actualités">
+      <div class="row" id="srcRow" role="group" aria-label="Source"></div>
+      <div class="row" id="catRow" role="group" aria-label="Thème"></div>
+      <div class="row">
+        <input id="q" class="search" type="search" placeholder="Rechercher une molécule, un vaccin, un sujet…" aria-label="Rechercher dans les actualités">
+        <label class="unread-toggle"><input type="checkbox" id="onlyUnread"> Non lus seulement</label>
+      </div>
     </div>
-  </nav>
+    <div class="bar" id="dispoBar" role="search" aria-label="Filtres des disponibilités" hidden>
+      <div class="row" id="stRow" role="group" aria-label="Statut"></div>
+      <div class="row">
+        <input id="dq" class="search" type="search" placeholder="Médicament, molécule, domaine…" aria-label="Rechercher dans les disponibilités">
+      </div>
+    </div>
+  </div>
 
   <main class="feed" id="feed">
     <div class="empty"><h2>Chargement de l'édition…</h2><p>Les articles s'affichent dans un instant. La veille est mise à jour trois fois par jour.</p></div>
   </main>
+
+  <section id="dispo" hidden aria-label="Disponibilités des médicaments">
+    <p class="dispo-intro" id="dispoIntro">Ruptures, tensions et remises à disposition des médicaments d'intérêt thérapeutique majeur, d'après la liste publique de l'<a href="https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments" target="_blank" rel="noopener">ANSM</a>. Pour savoir quelles officines ont un produit en stock, vérifiez sur <a href="https://vigirupture.fr/" target="_blank" rel="noopener">Vigirupture</a>.</p>
+    <ul class="dl" id="dispoList"></ul>
+  </section>
 
   <footer class="sources">
     <span>Sources suivies :</span>
@@ -152,6 +191,7 @@ h1 .w-news{color:var(--brand)}
     <a href="https://www.has-sante.fr/jcms/p_3281266/fr/avis-et-decisions-sur-les-medicaments" target="_blank" rel="noopener">HAS</a>
     <a href="https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/" target="_blank" rel="noopener">Le Moniteur des pharmacies</a>
     <a href="https://www.lequotidiendupharmacien.fr/tous-les-articles" target="_blank" rel="noopener">Le Quotidien du pharmacien</a>
+    <a href="https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments" target="_blank" rel="noopener">ANSM – Disponibilités</a>
     <span>Résumés rédigés pour la veille ; lisez l'article d'origine pour le détail.</span>
   </footer>
 </div>
@@ -162,6 +202,7 @@ h1 .w-news{color:var(--brand)}
   const SRC_LABEL=Object.fromEntries(SOURCES);
   const CATS=["Ruptures & tensions","Vaccins","Pharmacovigilance","Nouveaux médicaments","Recommandations","Réglementation","Profession"];
   const ALERT="Ruptures & tensions";
+  const VIGI="https://vigirupture.fr/";
   const TODAY=new Date();
   const iso=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
   const TODAY_ISO=iso(TODAY);
@@ -234,6 +275,7 @@ h1 .w-news{color:var(--brand)}
     const foot=el("div",{class:"foot"});
     if(a.related&&a.related.length){foot.append(document.createTextNode("Aussi :"));
       for(const r of a.related)foot.append(el("a",{href:r.url,target:"_blank",rel:"noopener",text:r.label}))}
+    if(a.category===ALERT)foot.append(el("a",{href:VIGI,target:"_blank",rel:"noopener",text:"Vérifier sur Vigirupture"}));
     const mk=el("button",{class:"mark",type:"button",text:isRead?"Marquer non lu":"Marquer lu"});
     mk.onclick=()=>{isRead?read.delete(a.id):read.add(a.id);saveRead();renderFeed()};
     foot.append(mk);art.append(foot);
@@ -271,6 +313,62 @@ h1 .w-news{color:var(--brand)}
   function goFeed(){const top=document.querySelector(".mast").getBoundingClientRect().bottom+window.scrollY;
     window.scrollTo({top,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})}
   function render(){renderChips();renderFeed()}
+
+  // ---- Disponibilités (liste ANSM) ----
+  const ST=[["encours","En cours",i=>i.statut==="Rupture de stock"||i.statut==="Tension d'approvisionnement"],
+    ["rupture","Ruptures",i=>i.statut==="Rupture de stock"],["tension","Tensions",i=>i.statut==="Tension d'approvisionnement"],
+    ["remise","Remises à disposition",i=>i.statut==="Remise à disposition"],["arret","Arrêts",i=>i.statut==="Arrêt de commercialisation"],
+    ["tout","Tout",()=>true]];
+  const ST_CLASS={"Rupture de stock":"rupture","Tension d'approvisionnement":"tension","Remise à disposition":"remise","Arrêt de commercialisation":"arret"};
+  const ST_LABEL={"Rupture de stock":"Rupture","Tension d'approvisionnement":"Tension","Remise à disposition":"Remise à dispo.","Arrêt de commercialisation":"Arrêt de commerc."};
+  const dstate={items:null,filter:"encours",q:"",updatedAt:null,error:false};
+  const fmtShort=s=>new Date(s+"T12:00:00").toLocaleDateString("fr-FR",{day:"numeric",month:"short",year:s.slice(0,4)===TODAY_ISO.slice(0,4)?undefined:"numeric"});
+  const norm=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
+  function renderDispo(){
+    const list=document.getElementById("dispoList"),row=document.getElementById("stRow");
+    if(dstate.error){list.replaceChildren(el("li",{class:"empty",text:"Impossible de charger la liste des disponibilités. Rechargez la page dans un instant."}));return}
+    if(!dstate.items){list.replaceChildren(el("li",{class:"empty",text:"Chargement de la liste ANSM…"}));return}
+    row.replaceChildren(...ST.map(([k,l,f])=>chip(l+" "+dstate.items.filter(f).length,dstate.filter===k,()=>{dstate.filter=k;renderDispo()})));
+    const f=ST.find(s=>s[0]===dstate.filter)[2];
+    const terms=norm(dstate.q).split(/\s+/).filter(Boolean);
+    const shown=dstate.items.filter(i=>f(i)&&terms.every(t=>norm(i.nom+" "+i.domaines.join(" ")).includes(t)));
+    if(!shown.length){list.replaceChildren(el("li",{class:"empty",text:"Aucun médicament ne correspond. Changez de statut ou de recherche."}));return}
+    list.replaceChildren(...shown.map(i=>{
+      const cut=i.nom.search(/, (?=[a-zàâçéèêëîïôûù])/);
+      const nom=cut>0?i.nom.slice(0,cut):i.nom, forme=cut>0?[i.nom.slice(cut+2)]:[];
+      const li=el("li",{class:"dr"});
+      li.append(el("span",{class:"st "+(ST_CLASS[i.statut]||"arret"),text:ST_LABEL[i.statut]||i.statut}));
+      const n=el("span",{class:"dn",text:nom});
+      n.append(el("span",{class:"dd",text:[forme.join(", "),i.domaines.join(", ")].filter(Boolean).join(" · ")}));
+      li.append(n);
+      const m=el("span",{class:"dm"});
+      m.append(el("span",{text:(i.remise&&i.statut==="Remise à disposition"?"remis le "+fmtShort(i.remise):"màj "+fmtShort(i.maj))}));
+      if(ST_CLASS[i.statut]==="rupture"||ST_CLASS[i.statut]==="tension")m.append(el("a",{href:VIGI,target:"_blank",rel:"noopener",text:"Vigirupture"}));
+      li.append(m);return li}));
+  }
+  document.getElementById("dq").addEventListener("input",e=>{dstate.q=e.target.value.trim();renderDispo()});
+  let dispoLoading=false;
+  async function loadDispo(){
+    if(dispoLoading||dstate.items)return;dispoLoading=true;
+    try{const r=await fetch("dispo.json?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw 0;
+      const d=await r.json();dstate.items=d.items||[];dstate.updatedAt=d.updatedAt;
+      const enCours=dstate.items.filter(ST[0][2]).length;
+      document.getElementById("dispoCount").textContent=String(enCours);
+      document.getElementById("dispoCount").setAttribute("aria-label",enCours+" ruptures ou tensions en cours");
+    }catch(e){dstate.error=true}
+    renderDispo();
+  }
+  function route(){
+    const dispo=location.hash==="#disponibilites";
+    document.getElementById("feed").hidden=dispo;document.getElementById("actuBar").hidden=dispo;
+    document.getElementById("dispo").hidden=!dispo;document.getElementById("dispoBar").hidden=!dispo;
+    document.getElementById("tabActu").removeAttribute("aria-current");document.getElementById("tabDispo").removeAttribute("aria-current");
+    document.getElementById(dispo?"tabDispo":"tabActu").setAttribute("aria-current","page");
+    document.querySelector(".stats").hidden=dispo;
+    if(dispo)renderDispo();
+  }
+  window.addEventListener("hashchange",()=>{route();const top=document.querySelector(".mast").getBoundingClientRect().bottom+window.scrollY;if(window.scrollY>top)window.scrollTo({top})});
+  route();loadDispo();
   render();
 
   (async()=>{

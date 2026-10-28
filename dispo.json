@@ -1,0 +1,2266 @@
+{
+ "updatedAt": "2026-10-28T11:30:07+01:00",
+ "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
+ "items": [
+  {
+   "statut": "Arrêt de commercialisation",
+   "maj": "2026-10-27",
+   "nom": "Sectral LP 500 mg, comprimé pelliculé à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-10-27",
+   "nom": "M-M-RvaxPro, poudre et solvant pour suspension injectable",
+   "remise": "2026-10-21",
+   "domaines": [
+    "Infectiologie",
+    "Immunologie"
+   ]
+  },
+  {
+   "statut": "Arrêt de commercialisation",
+   "maj": "2026-10-27",
+   "nom": "Hydrocortisone Substipharm 100 mg, lyophilisat et solution",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-10-26",
+   "nom": "Yellox 0,9 mg/ml, collyre en solution",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-26",
+   "nom": "Nifédipine Viatris L.P. 30 mg, comprimé à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-26",
+   "nom": "Clindamycine 600 mg/4 ml, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-10-26",
+   "nom": "Brevibloc 100 mg/10 ml, solution injectable en flacon",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-26",
+   "nom": "Ambrisentan-Volibris, tous dosages",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-23",
+   "nom": "Winrevair 60 mg, poudre et solvant pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-23",
+   "nom": "Tarka LP 240 mg/2 mg, comprimé pelliculé à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-10-23",
+   "nom": "Plasmion, solution pour perfusion",
+   "remise": "2026-10-23",
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-23",
+   "nom": "Pediaven AP-HP G15, solution pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Anesthésie/Réanimation/Soins intensifs"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-23",
+   "nom": "Parlodel 5 et 10 mg, gélule",
+   "remise": null,
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-22",
+   "nom": "Rifamycine Chibret 1 000 000 UI/100 g, pommade ophtalmique",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie",
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-22",
+   "nom": "Quétiapine LP 50, 300 et 400 mg, comprimés à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-21",
+   "nom": "Verkazia 1 mg/ml, collyre en émulsion",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-21",
+   "nom": "Spécialités à base de fluoxétine 20 mg, gélule et comprimé dispersible",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-21",
+   "nom": "Mydriaticum 0,5 %, collyre",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-21",
+   "nom": "Ikervis 1 mg/ml, collyre en émulsion",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-20",
+   "nom": "Vitamine A Provepharm 100 000 UI/2 ml, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-10-20",
+   "nom": "Victan 2 mg, comprimé pelliculé sécable",
+   "remise": null,
+   "domaines": [
+    "Addictologie",
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-10-20",
+   "nom": "Plerixafor Arrow 20 mg/ml, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Hématologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-10-20",
+   "nom": "Oracilline 250 000 UI/5 ml, suspension buvable",
+   "remise": "2026-10-15",
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-20",
+   "nom": "Miostat 100 µg/ml, solution injectable intra-oculaire",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-10-20",
+   "nom": "Miochole 20 mg, poudre et solvant pour solution intraoculaire",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-20",
+   "nom": "Linézolide 600 mg, comprimé pelliculé",
+   "remise": null,
+   "domaines": [
+    "Pneumologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-20",
+   "nom": "Kétoprofène Pharmy II 100 mg/2 ml, solution injectable IM",
+   "remise": null,
+   "domaines": [
+    "Rhumatologie",
+    "Traitement de la douleur"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-10-20",
+   "nom": "Folinate de calcium, solution injectable/pour perfusion",
+   "remise": "2026-10-15",
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-20",
+   "nom": "Fluoresceine Faure 0,5 %, collyre unidose",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-20",
+   "nom": "Betneval 0,1 %, crème",
+   "remise": null,
+   "domaines": [
+    "Dermatologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-10-19",
+   "nom": "Xarelto 1 mg/ml, granulés pour suspension buvable",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-10-19",
+   "nom": "Oxybate de sodium REIG Jofre 500 mg/ml, solution buvable",
+   "remise": null,
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-19",
+   "nom": "Microval, comprimé enrobé",
+   "remise": null,
+   "domaines": [
+    "Gynécologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-19",
+   "nom": "Kenacort Retard 40 mg/1 ml, suspension injectable",
+   "remise": null,
+   "domaines": [
+    "Dermatologie",
+    "Rhumatologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-19",
+   "nom": "Diamox 250 mg, comprimé sécable",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie",
+    "Pneumologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-16",
+   "nom": "Rifinah 300 mg/150 mg, comprimé enrobé",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-16",
+   "nom": "Hydrocortisone Upjohn 100 mg, préparation injectable",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-16",
+   "nom": "Enantone LP 3,75 mg, microsphères à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Arrêt de commercialisation",
+   "maj": "2026-10-16",
+   "nom": "Cardiorythmine 50 mg/10 ml, solution injectable (importation Gilurytmal)",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-15",
+   "nom": "Sunitinib 37,5 mg, gélule",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Arrêt de commercialisation",
+   "maj": "2026-10-15",
+   "nom": "Imogam Rage 150 UI/ml, solution injectable (importation Berirab)",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-10-15",
+   "nom": "Emblaveo 1,5 g/0,5 g, poudre pour solution à diluer pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-14",
+   "nom": "Zelboraf 240 mg, comprimé pelliculé",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-10-14",
+   "nom": "Tenormine 5 mg/10 ml, solution injectable IV en ampoule",
+   "remise": "2026-10-14",
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-10-14",
+   "nom": "Negaban 1 g, poudre pour solution injectable/pour perfusion",
+   "remise": "2026-10-12",
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-10-14",
+   "nom": "Fluorouracile Pfizer 50 mg/ml, flacon de 100 ml",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-14",
+   "nom": "Adempas 0,5 mg, comprimé pelliculé",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-10-13",
+   "nom": "Rythmol 300 mg, comprimé pelliculé sécable",
+   "remise": "2026-10-01",
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-10-12",
+   "nom": "Dépakote 500 mg, comprimé gastro-résistant",
+   "remise": "2026-10-12",
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-10-12",
+   "nom": "Dectancyl 0,5 mg, comprimé",
+   "remise": "2026-10-12",
+   "domaines": [
+    "Dermatologie",
+    "Endocrinologie",
+    "Hématologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-10-09",
+   "nom": "Tuberculine PPD RT 23 AJV 2 UT/0,1 ml, solution injectable",
+   "remise": "2026-09-30",
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-09",
+   "nom": "Pneumovax, solution injectable en seringue préremplie",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-10-09",
+   "nom": "Ixiaro, suspension injectable",
+   "remise": "2026-10-09",
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-09",
+   "nom": "Duloxétine 30 mg et 60 mg, gélules gastro-résistantes",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-08",
+   "nom": "Zentel 400 mg, comprimé et suspension buvable",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-08",
+   "nom": "Rapamune 1 mg/ml, solution buvable",
+   "remise": null,
+   "domaines": [
+    "Immunologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-10-08",
+   "nom": "Lariam 250 mg, comprimé sécable",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-08",
+   "nom": "Atgam 50 mg/ml, solution à diluer pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Immunologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-06",
+   "nom": "Modamide 5 mg, comprimé",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-10-05",
+   "nom": "Bicafres 1000 mg, comprimé gastro-résistant",
+   "remise": null,
+   "domaines": [
+    "Néphrologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-02",
+   "nom": "Xeplion, suspension injectable à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-10-02",
+   "nom": "Concerta LP, comprimé à libération prolongée",
+   "remise": "2026-10-02",
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-01",
+   "nom": "Lepticur 10 mg, comprimé",
+   "remise": null,
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-10-01",
+   "nom": "Indocollyre 0,1 %, collyre en solution",
+   "remise": "2026-10-01",
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-30",
+   "nom": "Mytélase 10 mg, comprimé",
+   "remise": null,
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-29",
+   "nom": "Métoprolol Sandoz 50 mg, comprimé",
+   "remise": "2026-09-29",
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-28",
+   "nom": "Spécialités à base de furosémide 20 mg et 40 mg, comprimés",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-09-25",
+   "nom": "Vinorelbine Arrow 10 mg/ml, flacon de 1 ml",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-09-25",
+   "nom": "Malocide 50 mg, comprimé pelliculé",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-25",
+   "nom": "Glimezit 1000 mg, comprimé effervescent",
+   "remise": "2026-09-25",
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-25",
+   "nom": "Célestène 4 mg/1 ml, solution injectable",
+   "remise": "2026-09-25",
+   "domaines": [
+    "Dermatologie",
+    "ORL",
+    "Rhumatologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-09-23",
+   "nom": "Voltarenophtabak 1 mg/ml, collyre en solution",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-22",
+   "nom": "Tarka LP 240 mg/4 mg, comprimé à libération prolongée",
+   "remise": "2026-09-17",
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-09-22",
+   "nom": "Tarka LP 180 mg/2 mg, comprimé pelliculé à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-22",
+   "nom": "Natulan 50 mg, gélule",
+   "remise": "2026-09-22",
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Arrêt de commercialisation",
+   "maj": "2026-09-22",
+   "nom": "Ancotil 1 %, solution pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Dermatologie",
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-21",
+   "nom": "Téralithe LP 400 mg, comprimé sécable à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-18",
+   "nom": "Palipéridone Teva, suspension injectable à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Arrêt de commercialisation",
+   "maj": "2026-09-18",
+   "nom": "Palipéridone Biogaran, suspension injectable à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-18",
+   "nom": "Palipéridone BGR, suspension injectable à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-18",
+   "nom": "Levmentin 1 g/200 mg, poudre pour solution injectable/pour perfusion",
+   "remise": "2026-09-18",
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-18",
+   "nom": "Furosémide Zentiva 500 mg, comprimé sécable",
+   "remise": "2026-05-21",
+   "domaines": [
+    "Néphrologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-18",
+   "nom": "Diprostene, suspension injectable en seringue préremplie",
+   "remise": null,
+   "domaines": [
+    "Dermatologie",
+    "ORL",
+    "Rhumatologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-18",
+   "nom": "Bendamustine Hikma 2,5 mg/ml, poudre pour solution à diluer",
+   "remise": "2026-08-31",
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-17",
+   "nom": "Solumedrol 120 mg/2 ml, lyophilisat et solution",
+   "remise": null,
+   "domaines": [
+    "Allergologie",
+    "ORL",
+    "Infectiologie",
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-16",
+   "nom": "Trisenox 2 mg/ml, solution à diluer pour perfusion",
+   "remise": "2026-09-16",
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-16",
+   "nom": "Fluorouracile Accord 50 mg/ml, flacon de 100 ml",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-16",
+   "nom": "Depo Prodasone 500 mg, suspension injectable",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-16",
+   "nom": "Cufence 200 mg, gélule",
+   "remise": "2026-06-10",
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-15",
+   "nom": "Mydriaticum 2 mg/0,4 ml, collyre unidose",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-15",
+   "nom": "Kytril 3 mg/3 ml, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-15",
+   "nom": "Gardénal 50 mg, comprimé",
+   "remise": "2026-09-15",
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-15",
+   "nom": "Alepsal, comprimé",
+   "remise": "2026-09-15",
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-14",
+   "nom": "Emylif 50 mg, film orodispersible",
+   "remise": null,
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-11",
+   "nom": "Tofranil 10 mg, comprimé enrobé",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-11",
+   "nom": "Néosynéphrine 10 % Faure, collyre unidose",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-09-11",
+   "nom": "Kaleorid LP 600 mg et 1000 mg, comprimés à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-09",
+   "nom": "Tadalafil Quiver 20 mg, comprimé pelliculé",
+   "remise": "2026-09-08",
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-09",
+   "nom": "Prevymis 120 mg, granulés en sachet",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-08",
+   "nom": "Dépakote 250 mg, comprimé gastro-résistant",
+   "remise": "2026-09-08",
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-07",
+   "nom": "Nilemdo 180 mg, comprimé pelliculé",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-07",
+   "nom": "Chlorhydrate d'oxybuprocaïne Thea 1,6 mg/0,4 ml, collyre unidose",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-07",
+   "nom": "Atropine 1 % Faure, collyre unidose",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-09-02",
+   "nom": "Velbe 10 mg, poudre pour solution injectable IV",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-02",
+   "nom": "Varilrix, poudre et solvant pour solution injectable",
+   "remise": "2026-09-02",
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-02",
+   "nom": "Téralithe 250 mg, comprimé sécable",
+   "remise": "2026-09-02",
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-02",
+   "nom": "Divalcote 500 mg, comprimé gastro-résistant",
+   "remise": "2026-09-01",
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-02",
+   "nom": "Divalcote 250 mg, comprimé gastro-résistant",
+   "remise": "2026-08-31",
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-09-01",
+   "nom": "Zeffix 5 mg/ml, solution buvable",
+   "remise": "2026-09-01",
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-09-01",
+   "nom": "Nexviadyme 100 mg, poudre pour solution à diluer pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-31",
+   "nom": "Prostine E2 1 mg/3 g, gel vaginal",
+   "remise": "2026-08-19",
+   "domaines": [
+    "Gynécologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-08-28",
+   "nom": "Zypadhera 210 mg, poudre et solvant pour suspension injectable",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-28",
+   "nom": "Tildiem 25 mg, poudre et solution pour préparation injectable IV",
+   "remise": "2026-08-28",
+   "domaines": [
+    "Anesthésie/Réanimation/Soins intensifs",
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-28",
+   "nom": "Méthylprednisolone Viatris 500 mg, poudre pour solution injectable",
+   "remise": "2026-08-28",
+   "domaines": [
+    "Allergologie",
+    "Rhumatologie",
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-28",
+   "nom": "Amikacine Viatris 50 mg/1 ml, solution injectable",
+   "remise": "2026-08-28",
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-08-27",
+   "nom": "Visudyne 15 mg, poudre pour solution pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-08-27",
+   "nom": "Eskazole 400 mg, comprimé",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-08-26",
+   "nom": "Vitamine B12 Delagrange 1000 µg/2 ml, solution injectable et buvable",
+   "remise": null,
+   "domaines": [
+    "Hématologie",
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-08-25",
+   "nom": "Vitamine E Provepharm 100 mg/2 ml, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-08-25",
+   "nom": "Oncovin 1 mg, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-25",
+   "nom": "Lactate de sodium AP-HP 11,2 % (m/V), solution pour perfusion",
+   "remise": "2025-07-25",
+   "domaines": [
+    "Anesthésie/Réanimation/Soins intensifs"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-08-25",
+   "nom": "Clomid 50 mg, comprimé",
+   "remise": null,
+   "domaines": [
+    "Gynécologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-08-25",
+   "nom": "Calciparine sous-cutanée 20 000 UI/0,8 ml, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Hématologie",
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-24",
+   "nom": "Tobi Podhaler 28 mg, poudre pour inhalation en gélule",
+   "remise": "2026-08-24",
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-24",
+   "nom": "Méthylphénidate EG LP 18 mg, comprimé à libération prolongée",
+   "remise": "2026-08-24",
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-21",
+   "nom": "Primaquine Sanofi 15 mg, comprimé pelliculé",
+   "remise": "2026-08-21",
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-21",
+   "nom": "Dilantin 250 mg/5 ml, solution injectable",
+   "remise": "2026-08-21",
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-08-20",
+   "nom": "Lamictal 2 mg, comprimé dispersible ou à croquer",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie",
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-20",
+   "nom": "Héparine calcique Panpharma 25 000 UI/ml, seringue pré-remplie",
+   "remise": "2026-08-19",
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-17",
+   "nom": "Repevax, suspension injectable en seringue préremplie",
+   "remise": "2026-08-03",
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-17",
+   "nom": "Mynocine 100 mg, gélule",
+   "remise": "2026-08-17",
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-08-13",
+   "nom": "Nitrendipine Viatris 10 mg et 20 mg, comprimés",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-13",
+   "nom": "Méthylprednisolone Hikma 500 mg, poudre pour solution injectable",
+   "remise": "2026-08-13",
+   "domaines": [
+    "Allergologie",
+    "Infectiologie",
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-08-13",
+   "nom": "Lévofolinate de calcium Zentiva 10 mg/ml et 25 mg/2,5 ml, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-11",
+   "nom": "Rifadine 300 mg, gélule",
+   "remise": "2026-07-20",
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-08-10",
+   "nom": "Dobutamine Panpharma 250 mg/20 ml, solution à diluer pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-08-10",
+   "nom": "Dexocol 1 mg/ml, collyre en solution",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-08-07",
+   "nom": "Repatha 140 mg, solution injectable en stylo prérempli",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie",
+    "Neurologie",
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Arrêt de commercialisation",
+   "maj": "2026-08-07",
+   "nom": "Névirapine Teva LP 400 mg, comprimé à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-06",
+   "nom": "Rapibloc 20 mg/2 ml, solution à diluer injectable",
+   "remise": "2026-08-05",
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-08-06",
+   "nom": "Ansatipine 150 mg, gélule",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-08-05",
+   "nom": "Néosynéphrine 2,5 % Faure, collyre unidose",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-08-05",
+   "nom": "Burinex 1 mg et 5 mg, comprimé",
+   "remise": "2026-08-05",
+   "domaines": [
+    "Néphrologie",
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Arrêt de commercialisation",
+   "maj": "2026-08-05",
+   "nom": "Alyostal venin de guêpe polistes, poudre et solvant pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Allergologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-07-31",
+   "nom": "Tibéral 1 g, solution injectable pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-07-31",
+   "nom": "Befizal LP 400 mg, comprimé enrobé à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-07-30",
+   "nom": "Azactam 1 g, poudre et solution pour usage parentéral",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-07-29",
+   "nom": "Lantus 100 unités/ml, solution injectable en cartouche",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-07-28",
+   "nom": "Ropinirole Teva 0,25 à 2 mg, comprimés pelliculés",
+   "remise": null,
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-07-24",
+   "nom": "Moviprep, poudre pour solution buvable",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-07-24",
+   "nom": "Moviprep orange, poudre pour solution buvable",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-07-24",
+   "nom": "Holoxan 1000 mg et 2000 mg, poudre pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Hématologie",
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-07-24",
+   "nom": "Bosentan 125 mg, comprimé pelliculé",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-07-22",
+   "nom": "Colchimax, comprimé pelliculé sécable",
+   "remise": null,
+   "domaines": [
+    "Néphrologie",
+    "Rhumatologie",
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-07-20",
+   "nom": "Toujeo 300 unités/ml SoloStar, solution injectable en stylo prérempli",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-07-20",
+   "nom": "Clomipramine Viatris 25 mg, comprimé pelliculé",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-07-17",
+   "nom": "Tranxène 20 mg, gélule",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-07-16",
+   "nom": "Wilfactin 100 UI/ml, poudre et solvant pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Hématologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-07-07",
+   "nom": "Micropakine LP 500 mg, granulés à libération prolongée en sachet-dose",
+   "remise": null,
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-07-02",
+   "nom": "Coli-genta AP-HP 135 mg/100 mg, gélule adulte",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-06-30",
+   "nom": "Colchicine Opocalcium 1 mg, comprimé sécable",
+   "remise": null,
+   "domaines": [
+    "Néphrologie",
+    "Rhumatologie",
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-06-26",
+   "nom": "Zophren 2 mg/ml, solution injectable en ampoule",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-06-25",
+   "nom": "Emend 125 mg, poudre pour suspension buvable",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-06-24",
+   "nom": "Quasym LP, gélule à libération modifiée",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-06-18",
+   "nom": "Trandolapril 2 mg et 4 mg",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-06-17",
+   "nom": "Spécialités à base de propranolol 40 mg, comprimé",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-06-17",
+   "nom": "Alkonatrem 150 mg, gélule",
+   "remise": null,
+   "domaines": [
+    "Hématologie",
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-06-16",
+   "nom": "Rispéridone 0,5, 1, 2 et 4 mg, comprimé orodispersible",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-06-15",
+   "nom": "Chibroxine 0,3 %, collyre en solution",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-06-09",
+   "nom": "Rispéridone 3 mg, comprimé orodispersible",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-06-09",
+   "nom": "Largactil 100 mg, comprimé pelliculé sécable",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-06-08",
+   "nom": "Ropinirole EG 2 mg, comprimé pelliculé",
+   "remise": null,
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-06-04",
+   "nom": "Tarka LP 240 mg/4 mg, boîte de 90 comprimés",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-05-27",
+   "nom": "Cimzia 200 mg, solution injectable en stylo prérempli",
+   "remise": null,
+   "domaines": [
+    "Immunologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-05-22",
+   "nom": "Novorapid Pumpcart 100 unités/ml, solution injectable en cartouche",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-05-22",
+   "nom": "Izalgi 500 mg/25 mg, gélule",
+   "remise": null,
+   "domaines": [
+    "Traitement de la douleur"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-05-21",
+   "nom": "Tranxène 20 mg/2 ml, lyophilisat et solution pour usage parentéral",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-05-21",
+   "nom": "Acide acétylsalicylique 75 mg, comprimé gastro-résistant",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-05-20",
+   "nom": "Tétracaïne 1 % Théa, collyre unidose",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-05-19",
+   "nom": "Endoxan 50 mg, comprimé enrobé",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie",
+    "Rhumatologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-05-13",
+   "nom": "Mitomycine Accord 20 mg, poudre pour solution injectable/perfusion",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-05-07",
+   "nom": "Ritonavir Arrow 100 mg, comprimé pelliculé",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-05-07",
+   "nom": "Lonquex 6 mg/0,6 ml, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-05-06",
+   "nom": "Biltricide 600 mg, comprimé pelliculé quadrisécable",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-04-24",
+   "nom": "Mitomycine Accord 10 mg, poudre pour solution injectable/perfusion",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-04-14",
+   "nom": "Claventin 3 g/200 mg et 5 g/200 mg, poudre pour solution injectable IV",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-04-13",
+   "nom": "Spécialités à base de venlafaxine LP 37,5 mg et 75 mg, gélule à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-04-09",
+   "nom": "Paclitaxel AHCL 6 mg/ml, flacons de 50 et 100 ml",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-04-07",
+   "nom": "Endoxan 500 et 1000 mg, poudre pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-04-02",
+   "nom": "Lantus Solostar 100 unités/ml, stylo prérempli",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-04-01",
+   "nom": "Gemcitabine Sun 10 mg/ml, poche de 120 ml",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-04-01",
+   "nom": "Fivasa 400 mg, comprimé enrobé gastro-résistant",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-03-17",
+   "nom": "Xenpozyme 20 mg, poudre pour solution à diluer pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-03-12",
+   "nom": "Ritonavir Viatris 100 mg, comprimé pelliculé",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-03-05",
+   "nom": "Méthylprednisolone Viatris 40 mg, poudre pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Allergologie",
+    "ORL",
+    "Rhumatologie",
+    "Infectiologie",
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-03-05",
+   "nom": "Methylprednisolone Viatris 120 mg, poudre pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Allergologie",
+    "ORL",
+    "Rhumatologie",
+    "Infectiologie",
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-03-04",
+   "nom": "Pipéracilline Panpharma 4 g, poudre pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-02-18",
+   "nom": "Gastrografine 370 mg d'iode/ml, solution buvable ou rectale",
+   "remise": null,
+   "domaines": [
+    "Imagerie/Radiologie",
+    "Médecine nucléaire"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-02-17",
+   "nom": "Fer AP-HP 2,5 mg nourrisson, gélule",
+   "remise": null,
+   "domaines": [
+    "Hématologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-02-17",
+   "nom": "Coli-genta AP-HP 27 mg/50 mg, gélule enfant",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-02-11",
+   "nom": "Farmorubicine 10 mg, poudre pour solution pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-01-15",
+   "nom": "Ioméron 250, 350 et 400 mg Iode/ml, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Imagerie/Radiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-01-07",
+   "nom": "Rispéridone LP 25, 37,5 et 50 mg/2 ml, poudre et solvant pour suspension injectable",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2025-12-22",
+   "nom": "Colofoam, mousse rectale",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2025-12-08",
+   "nom": "Immunoglobuline humaine normale IV et SC",
+   "remise": null,
+   "domaines": [
+    "Immunologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2025-11-19",
+   "nom": "Néosynéphrine 5 % Faure, collyre en solution",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2025-11-19",
+   "nom": "Néosynéphrine 10 % Faure, collyre en solution",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2025-10-31",
+   "nom": "Pentasa 1 g et 2 g, granulés en sachet, et Pentasa 1 g, suppositoire",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2025-10-28",
+   "nom": "Gamme NeoRecormon, solution injectable en seringue préremplie",
+   "remise": null,
+   "domaines": [
+    "Hématologie",
+    "Néphrologie",
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2025-10-08",
+   "nom": "Eurobiol 40 000 U, gélule gastro-résistante",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2025-09-12",
+   "nom": "Vitamine B12 Gerda 1000 µg/4 ml, solution injectable et buvable",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2025-09-09",
+   "nom": "Myozyme 50 mg, poudre pour solution à diluer pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2025-08-22",
+   "nom": "Granupas 4 g, granulés gastro-résistants",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2025-08-13",
+   "nom": "Méthylprednisolone Viatris 20 mg, poudre pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Allergologie",
+    "ORL",
+    "Infectiologie",
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2025-07-31",
+   "nom": "Ludiomil 25 et 75 mg, comprimé pelliculé",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2025-07-15",
+   "nom": "Calciparine sous-cutanée 12 500 UI/0,5 ml, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2025-06-17",
+   "nom": "Kanokad 25 UI/ml de facteur IX, poudre et solvant pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Hématologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2025-05-09",
+   "nom": "Baqsimi 3 mg, poudre nasale en récipient unidose",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2025-03-27",
+   "nom": "Clopidogrel 75 mg, comprimé pelliculé",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2025-03-17",
+   "nom": "Virophta, préparation pour collyre",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2025-03-13",
+   "nom": "Celsior, solution pour conservation d'organes",
+   "remise": null,
+   "domaines": [
+    "Néphrologie",
+    "Pneumologie",
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2025-02-12",
+   "nom": "Héparine calcique 25 000 UI/ml, seringues pré-remplies et Calciparine 5 000 UI/0,2 ml et 7 500 UI/0,3 ml",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2025-01-15",
+   "nom": "Amikacine Viatris 250 mg, 500 mg et 1 g, poudre pour solution injectable en flacon",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2025-01-14",
+   "nom": "Pomalidomide Viatris 1, 2, 3 et 4 mg, gélule",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2024-12-18",
+   "nom": "Lutrelef 3,2 mg, poudre et solvant pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Gynécologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2024-12-06",
+   "nom": "Cinacalcet 30, 60 et 90 mg, comprimé pelliculé",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2024-12-04",
+   "nom": "Spécialités à base d'aprépitant 125 mg, 80 mg et 125 mg/80 mg, gélules",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2024-12-03",
+   "nom": "Praluent 75, 150 et 300 mg, solution injectable en stylo prérempli",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie",
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2024-11-28",
+   "nom": "Méthotrexate Accord 100 mg/ml, flacon de 10 ml",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2024-11-07",
+   "nom": "Marsilid 50 mg, comprimé sécable",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2024-10-16",
+   "nom": "Atropine 1 %, collyre",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2024-10-01",
+   "nom": "Ropinirole LP 2, 4 et 8 mg, comprimé pelliculé",
+   "remise": null,
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2024-07-18",
+   "nom": "Atropine 0,5 %, collyre",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2024-06-19",
+   "nom": "Eldisine 5 mg, poudre pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Hématologie",
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2024-05-24",
+   "nom": "Cidermex, pommade ophtalmique",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2024-03-20",
+   "nom": "Creon 35 000 U, gélule gastro-résistante",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2024-03-12",
+   "nom": "Creon 5 000 U, granulés gastro-résistants",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2024-01-11",
+   "nom": "Creon 25 000 U, gélule gastro-résistante",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2024-01-11",
+   "nom": "Creon 10 000 U, gélule gastro-résistante",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2023-11-07",
+   "nom": "Skiacol 0,5 %, collyre",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2023-07-17",
+   "nom": "Spécialités à base de roxithromycine 150 mg, comprimé pelliculé",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2023-05-17",
+   "nom": "Kayexalate, poudre pour suspension orale et rectale",
+   "remise": null,
+   "domaines": [
+    "Néphrologie",
+    "Urologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2023-02-01",
+   "nom": "Montélukast 5 mg et 10 mg, comprimé",
+   "remise": null,
+   "domaines": [
+    "Dermatologie",
+    "Endocrinologie",
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2022-08-09",
+   "nom": "Actosolv 100 000 UI et 600 000 UI, poudre pour solution injectable/pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2021-05-19",
+   "nom": "SEMAP 20 mg, comprimé",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  }
+ ]
+}
