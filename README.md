@@ -45,6 +45,8 @@ Format d'un article dans `articles.json` :
 
 `updatedAt` en haut du fichier indique l'heure de la dernière mise à jour, affichée dans l'en-tête du journal.
 
+Le script `scripts/ajout.py` fait la fusion : `python3 scripts/ajout.py recents` liste les articles des 7 derniers jours, `python3 scripts/ajout.py fusion nouveaux.json` ajoute les nouveaux articles sans doublon, supprime ceux de plus de 120 jours et met à jour `updatedAt`.
+
 ## Nom de domaine (optionnel)
 
 Pour utiliser `officinews.fr` : achète le domaine, crée dans le dépôt un fichier `CNAME` contenant `officinews.fr`, puis suis la page d'aide GitHub « Managing a custom domain for your GitHub Pages site » pour les réglages DNS chez ton registrar.
