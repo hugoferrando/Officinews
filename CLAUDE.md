@@ -41,6 +41,8 @@ Ajouter une source ou une catégorie demande de modifier à la fois `index.html`
 
 Une tâche programmée Claude (« Mise à jour Officinews », modèle Sonnet) tourne à 6 h 37, 13 h 37 et 18 h 37 (heure de Paris). Elle clone ce dépôt, lit les pages d'actus des quatre sources, écrit les nouveautés dans un fichier temporaire, lance `scripts/ajout.py fusion`, puis commit et push `articles.json`. Au passage de 6 h 37 seulement, elle met aussi à jour `dispo.json` à partir des lignes ANSM modifiées depuis `scripts/dispo.py derniere` ; une resynchronisation complète (`complet`) a lieu le 1er de chaque mois. Hugo veut une consommation de tokens minimale : ne pas alourdir ce flux.
 
+**Règle permanente (demandée par Hugo)** : toute modification du site qui touche ce flux (nouveau fichier de données, nouveau script, changement de format, de source ou d'horaire) doit s'accompagner, dans la même session et sans attendre qu'Hugo le demande, de la mise à jour du prompt de la tâche programmée « Mise à jour Officinews » (identifiant `trig_01Fd6gdYnwGHwx84cpa3Te8Q`, outil `update_trigger`), puis de cette section. Le signaler en une ligne dans la réponse.
+
 ## Conventions de la page
 
 - Thèmes clair et sombre via des tokens CSS sur `:root` ; toute nouvelle couleur passe par un token défini dans les deux thèmes.
