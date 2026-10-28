@@ -47,7 +47,8 @@ Une tâche programmée Claude (« Mise à jour Officinews », modèle Sonnet) to
 
 - Thèmes clair et sombre via des tokens CSS sur `:root` ; toute nouvelle couleur passe par un token défini dans les deux thèmes.
 - Doit rester lisible à 390 px de large sans défilement horizontal (les filtres défilent à l'horizontale sur mobile).
-- Polices Google Fonts : Outfit 800 (nom Officinews, bicolore comme le logo), Newsreader (titres), Public Sans (texte), IBM Plex Mono (dates, étiquettes).
+- Direction artistique : appli douce alignée sur le logo (fond vert très pâle, cartes blanches arrondies `--r: 16px` avec ombre légère, pastilles colorées pour sources et statuts, onglets en contrôle segmenté, tuiles de synthèse cliquables en en-tête).
+- Polices Google Fonts : Outfit (nom Officinews en 800 bicolore comme le logo, titres en 600-700) et Public Sans (texte).
 - Logo : `logo.png` (original), `logo-mark.png` (symbole détouré pour l'en-tête), icônes générées depuis le symbole.
 - Le statut « lu » est stocké dans le `localStorage` du navigateur (clé `veille-read`).
 - Après une modification de `index.html`, vérifier que le script se parse et que la page charge les articles sans erreur avant de pousser.
