@@ -92,6 +92,8 @@ h1 .w-news{color:var(--brand)}
   border:1px solid var(--rule);border-radius:12px;padding:10px 14px}
 .search::placeholder{color:var(--muted)}
 .search:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.sort{font:500 13px var(--f-body);color:var(--ink);background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:10px 12px;cursor:pointer}
+.sort:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
 .unread-toggle{font-size:13px;color:var(--muted);display:inline-flex;gap:6px;align-items:center;cursor:pointer;white-space:nowrap}
 .unread-toggle input{accent-color:var(--accent)}
 
@@ -194,6 +196,10 @@ h1 .w-news{color:var(--brand)}
       <div class="row" id="stRow" role="group" aria-label="Statut"></div>
       <div class="row">
         <input id="dq" class="search" type="search" placeholder="Médicament, molécule, domaine…" aria-label="Rechercher dans les disponibilités">
+        <select id="dsort" class="sort" aria-label="Trier la liste">
+          <option value="az">De A à Z</option>
+          <option value="recent">Plus récents</option>
+        </select>
       </div>
     </div>
   </div>
@@ -343,7 +349,10 @@ h1 .w-news{color:var(--brand)}
     ["tout","Tout",()=>true]];
   const ST_CLASS={"Rupture de stock":"rupture","Tension d'approvisionnement":"tension","Remise à disposition":"remise","Arrêt de commercialisation":"arret"};
   const ST_LABEL={"Rupture de stock":"Rupture","Tension d'approvisionnement":"Tension","Remise à disposition":"Remise à dispo.","Arrêt de commercialisation":"Arrêt de commerc."};
-  const dstate={items:null,filter:"encours",q:"",updatedAt:null,error:false};
+  const dstate={items:null,filter:"encours",q:"",sort:"az",updatedAt:null,error:false};
+  // clé de tri alphabétique : ignore « Spécialités à base de » pour classer par molécule
+  const sortKey=s=>s.replace(/^spécialités à base (de |d'|d’)/i,"");
+  const coll=new Intl.Collator("fr",{sensitivity:"base",numeric:true});
   const fmtShort=s=>new Date(s+"T12:00:00").toLocaleDateString("fr-FR",{day:"numeric",month:"short",year:s.slice(0,4)===TODAY_ISO.slice(0,4)?undefined:"numeric"});
   const norm=s=>s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
   function renderDispo(){
@@ -354,6 +363,8 @@ h1 .w-news{color:var(--brand)}
     const f=ST.find(s=>s[0]===dstate.filter)[2];
     const terms=norm(dstate.q).split(/\s+/).filter(Boolean);
     const shown=dstate.items.filter(i=>f(i)&&terms.every(t=>norm(i.nom+" "+i.domaines.join(" ")).includes(t)));
+    if(dstate.sort==="az")shown.sort((a,b)=>coll.compare(sortKey(a.nom),sortKey(b.nom)));
+    else shown.sort((a,b)=>a.maj<b.maj?1:a.maj>b.maj?-1:coll.compare(a.nom,b.nom));
     if(!shown.length){list.replaceChildren(el("li",{class:"empty",text:"Aucun médicament ne correspond. Changez de statut ou de recherche."}));return}
     list.replaceChildren(...shown.map(i=>{
       const cut=i.nom.search(/, (?=[a-zàâçéèêëîïôûù])/);
@@ -369,6 +380,7 @@ h1 .w-news{color:var(--brand)}
       li.append(m);return li}));
   }
   document.getElementById("dq").addEventListener("input",e=>{dstate.q=e.target.value.trim();renderDispo()});
+  document.getElementById("dsort").addEventListener("change",e=>{dstate.sort=e.target.value;renderDispo()});
   let dispoLoading=false;
   async function loadDispo(){
     if(dispoLoading||dstate.items)return;dispoLoading=true;
