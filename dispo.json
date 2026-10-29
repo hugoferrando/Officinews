@@ -1,7 +1,26 @@
 {
- "updatedAt": "2026-10-28T11:30:07+01:00",
+ "updatedAt": "2026-10-29T08:13:30+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-28",
+   "nom": "Mydriaticum 2 mg/0,4 ml, collyre en récipient unidose",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-28",
+   "nom": "Diamox 250 mg, comprimé sécable",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie",
+    "Pneumologie"
+   ]
+  },
   {
    "statut": "Arrêt de commercialisation",
    "maj": "2026-10-27",
@@ -14,11 +33,30 @@
   {
    "statut": "Remise à disposition",
    "maj": "2026-10-27",
+   "nom": "M-M-RvaxPro, poudre et solvant pour suspension injectable en seringue préremplie",
+   "remise": "2026-10-21",
+   "domaines": [
+    "Infectiologie",
+    "Immunologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-10-27",
    "nom": "M-M-RvaxPro, poudre et solvant pour suspension injectable",
    "remise": "2026-10-21",
    "domaines": [
     "Infectiologie",
     "Immunologie"
+   ]
+  },
+  {
+   "statut": "Arrêt de commercialisation",
+   "maj": "2026-10-27",
+   "nom": "Hydrocortisone Substipharm 100 mg, lyophilisat et solution pour usage parentéral",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie"
    ]
   },
   {
@@ -311,16 +349,6 @@
    "domaines": [
     "Dermatologie",
     "Rhumatologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-10-19",
-   "nom": "Diamox 250 mg, comprimé sécable",
-   "remise": null,
-   "domaines": [
-    "Ophtalmologie",
-    "Pneumologie"
    ]
   },
   {

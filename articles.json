@@ -1,6 +1,56 @@
 {
- "updatedAt": "2026-10-28T09:58:00+01:00",
+ "updatedAt": "2026-10-29T08:13:30+01:00",
  "articles": [
+  {
+   "id": "osys-generalisation",
+   "date": "2026-10-28",
+   "rank": 1,
+   "source": "Quotidien",
+   "category": "Réglementation",
+   "title": "OSyS : la généralisation est actée",
+   "summary": "Un décret publié au Journal officiel officialise le déploiement national du dispositif OSyS d'orientation des patients dans le système de soins.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/osys-la-generalisation-est-actee",
+   "tags": [
+    "OSyS",
+    "décret",
+    "orientation",
+    "officine"
+   ]
+  },
+  {
+   "id": "repertoire-generiques-neuf-groupes",
+   "date": "2026-10-28",
+   "rank": 2,
+   "source": "Moniteur",
+   "category": "Réglementation",
+   "title": "Répertoire des génériques : neuf nouveaux groupes",
+   "summary": "Une décision de l'ANSM crée neuf groupes au Répertoire des génériques, dont des groupes concernant Mucomyst, Solupred et Xeljanz.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/repertoires-des-generiques-neuf-nouveaux-groupes",
+   "tags": [
+    "génériques",
+    "répertoire",
+    "substitution",
+    "ANSM"
+   ],
+   "approx": true
+  },
+  {
+   "id": "delistage-33-molecules",
+   "date": "2026-10-28",
+   "rank": 3,
+   "source": "Moniteur",
+   "category": "Réglementation",
+   "title": "Délistage de 33 molécules : une offre élargie sans bénéfice évident",
+   "summary": "La commission juge limitée la valeur thérapeutique ajoutée du passage en vente sans ordonnance de 33 molécules, et peu documentées les économies attendues.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/delistage-de-33-molecules-une-offre-elargie-sans-benefice-evident",
+   "tags": [
+    "délistage",
+    "conseil",
+    "CVAO",
+    "OTC"
+   ],
+   "approx": true
+  },
   {
    "id": "omalizumab-substituable",
    "category": "Réglementation",
@@ -12,6 +62,11 @@
      "label": "Pharmactu",
      "source": "Autre",
      "url": "https://pharmactu.fr/articles/biosimilaires-omalizumab-xolair-omlyclo-substituable-officine-14-groupes"
+    },
+    {
+     "label": "Omalizumab : les pharmaciens autorisés à substituer le Xolair par l'Omlyclo",
+     "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/omalizumab-les-pharmaciens-autorises-substituer-le-xolair-par-lomlyclo",
+     "source": "Quotidien"
     }
    ],
    "source": "Moniteur",
