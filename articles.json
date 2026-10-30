@@ -14,7 +14,8 @@
     "aflibercept",
     "rappel de lots",
     "ophtalmologie"
-   ]
+   ],
+   "comptoir": "Vérifier les lots en stock ; un patient qui garde une seringue pas encore injectée peut la rapporter pour contrôle."
   },
   {
    "id": "wegovy-comprime",
@@ -37,7 +38,8 @@
     "sémaglutide",
     "obésité",
     "comprimé"
-   ]
+   ],
+   "comptoir": "Non remboursé : annoncer le prix avant de délivrer, et rappeler la prise à jeun avec un fond d'eau, au moins 30 min avant de manger, boire ou prendre un autre médicament."
   },
   {
    "id": "soins-support-decrets",
@@ -52,7 +54,8 @@
     "soins de support",
     "décrets",
     "cancer du sein"
-   ]
+   ],
+   "comptoir": "Rien ne change pour l'instant : surveiller la parution des décrets pour savoir quels soins de support seront pris en charge."
   },
   {
    "id": "diamox-contingentement",
@@ -69,7 +72,8 @@
     "acétazolamide",
     "contingentement",
     "tension"
-   ]
+   ],
+   "comptoir": "Commander au plus juste ; en cas de manque, contacter le prescripteur pour une alternative et consulter Vigirupture."
   },
   {
    "id": "osys-generalisation",
@@ -85,7 +89,8 @@
     "décret",
     "orientation",
     "officine"
-   ]
+   ],
+   "comptoir": "OSyS permet de prendre en charge certains petits maux selon des arbres décisionnels et d'orienter si besoin : se renseigner sur la formation et l'adhésion."
   },
   {
    "id": "repertoire-generiques-neuf-groupes",
@@ -102,7 +107,8 @@
     "substitution",
     "ANSM"
    ],
-   "approx": true
+   "approx": true,
+   "comptoir": "Nouvelles possibilités de substitution, notamment pour Mucomyst, Solupred et Xeljanz, dès l'inscription effective au Répertoire."
   },
   {
    "id": "delistage-33-molecules",
@@ -119,7 +125,8 @@
     "CVAO",
     "OTC"
    ],
-   "approx": true
+   "approx": true,
+   "comptoir": "Rien ne change tant que chaque molécule n'a pas été délistée officiellement : l'ordonnance reste exigée."
   },
   {
    "id": "omalizumab-substituable",
@@ -187,7 +194,8 @@
     "grande distribution"
    ],
    "title": "Leclerc attaque de nouveau le monopole pharmaceutique",
-   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/leclerc-attaque-de-nouveau-le-monopole-pharmaceutique"
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/leclerc-attaque-de-nouveau-le-monopole-pharmaceutique",
+   "comptoir": "Argument pour les patients : chaque vente sans ordonnance s'accompagne d'un conseil et d'une vérification des interactions et contre-indications."
   },
   {
    "id": "ordre-presidentielle",
@@ -209,7 +217,8 @@
     "prescription"
    ],
    "title": "Présidentielle 2027 : les propositions de l'Ordre pour renforcer le rôle du pharmacien",
-   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/politique-de-sante/presidentielle-les-propositions-de-lordre-pour-renforcer-le-role-du-pharmacien"
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/politique-de-sante/presidentielle-les-propositions-de-lordre-pour-renforcer-le-role-du-pharmacien",
+   "comptoir": "Pas d'impact immédiat ; pistes à suivre, dont la visite pharmaceutique à domicile."
   },
   {
    "id": "grippe-campagne-2026",
@@ -236,7 +245,8 @@
     "campagne"
    ],
    "title": "Vaccination antigrippale 2026-2027 : les pharmaciens au cœur de la campagne",
-   "url": "https://www.lequotidiendupharmacien.fr/vaccination-antigrippale-2026-2027-les-pharmaciens-au-coeur-de-la-campagne"
+   "url": "https://www.lequotidiendupharmacien.fr/vaccination-antigrippale-2026-2027-les-pharmaciens-au-coeur-de-la-campagne",
+   "comptoir": "Proposer la vaccination à tous les publics éligibles, et la co-administration avec le Covid-19 quand elle est indiquée."
   },
   {
    "id": "quetiapine-50-preparations",
@@ -286,7 +296,8 @@
     "Sécurité sociale"
    ],
    "title": "PLFSS 2027 : rejeté par l'Assemblée, le budget de la Sécu passe au Sénat",
-   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/politique-de-sante/rejete-par-lassemblee-le-budget-de-la-securite-sociale-passe-au-senat"
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/politique-de-sante/rejete-par-lassemblee-le-budget-de-la-securite-sociale-passe-au-senat",
+   "comptoir": "Rien ne change pour l'instant : le texte peut encore évoluer au Sénat."
   },
   {
    "id": "welireg",
@@ -302,7 +313,8 @@
     "oncologie"
    ],
    "title": "Maladie de von Hippel-Lindau : 5 points clés sur Welireg",
-   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/fiches-medicaments/maladie-de-von-hippel-lindau-5-points-cles-sur-welireg"
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/fiches-medicaments/maladie-de-von-hippel-lindau-5-points-cles-sur-welireg",
+   "comptoir": "Rappeler la surveillance de l'anémie et la nécessité d'une contraception efficace (la contraception hormonale peut perdre en efficacité)."
   },
   {
    "id": "licence-portail-sante",
@@ -317,7 +329,8 @@
     "LAS"
    ],
    "title": "Fin du PASS/LAS : place à la « licence portail santé » en 2027",
-   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/etudes-formation-continue/adieu-au-passlas-remplace-par-la-licence-portail-sante-en-2027"
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/etudes-formation-continue/adieu-au-passlas-remplace-par-la-licence-portail-sante-en-2027",
+   "comptoir": "Pas d'impact au comptoir ; utile pour renseigner les lycéens et étudiants qui visent la pharmacie."
   },
   {
    "id": "pub-calendrier-2027",
@@ -331,7 +344,8 @@
     "visa"
    ],
    "title": "Publicité des médicaments : calendrier des dépôts de visa pour 2027",
-   "url": "https://ansm.sante.fr/actualites/decision-du-22-10-2026-fixant-le-calendrier-et-les-periodes-de-depot-pour-lannee-2027-la-forme-et-le-contenu-des-demandes-de-visa-des-publicites-pour-les-medicaments-a-usage-humain"
+   "url": "https://ansm.sante.fr/actualites/decision-du-22-10-2026-fixant-le-calendrier-et-les-periodes-de-depot-pour-lannee-2027-la-forme-et-le-contenu-des-demandes-de-visa-des-publicites-pour-les-medicaments-a-usage-humain",
+   "comptoir": "Pas d'impact au comptoir : concerne les laboratoires."
   },
   {
    "id": "vaccin-anticancer",
@@ -347,7 +361,8 @@
     "ESMO"
    ],
    "title": "Un vaccin personnalisé anticancer fait ses preuves",
-   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/un-vaccin-personnalise-anticancer-fait-ses-preuves"
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/un-vaccin-personnalise-anticancer-fait-ses-preuves",
+   "comptoir": "Pas encore disponible : ce sont des résultats d'essai, à présenter avec prudence aux patients qui posent la question."
   },
   {
    "id": "jaki-prescription-ville",
@@ -460,7 +475,8 @@
     "GLP-1"
    ],
    "title": "Du rétatrutide de contrefaçon vendu au marché noir",
-   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/du-retatrutide-de-contrefacon-vendu-au-marche-noir"
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/du-retatrutide-de-contrefacon-vendu-au-marche-noir",
+   "comptoir": "Rappeler que le rétatrutide n'est pas autorisé et que les produits achetés hors circuit légal sont dangereux ; déclarer tout effet indésirable."
   },
   {
    "id": "etudiants-2030",
@@ -474,7 +490,8 @@
     "numerus apertus"
    ],
    "title": "Près de 20 000 étudiants en pharmacie attendus d'ici 2030",
-   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/etudes-formation-continue/pres-de-20-000-etudiants-en-pharmacie-attendus-dici-2030"
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/etudes-formation-continue/pres-de-20-000-etudiants-en-pharmacie-attendus-dici-2030",
+   "comptoir": "Pas d'impact immédiat au comptoir."
   },
   {
    "id": "osys-avenant3",
@@ -490,7 +507,8 @@
     "rémunération"
    ],
    "title": "OSyS au cœur de l'avenant 3",
-   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/osys-au-coeur-de-lavenant-3"
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/osys-au-coeur-de-lavenant-3",
+   "comptoir": "Suivre les négociations : de nouvelles missions rémunérées pourraient arriver à l'officine."
   },
   {
    "id": "zelboraf",
@@ -530,7 +548,8 @@
     "médication officinale"
    ],
    "title": "Délistage : un premier feu vert pour le conseil officinal",
-   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/delistage-de-medicaments-le-travail-de-lansm-a-commence"
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/delistage-de-medicaments-le-travail-de-lansm-a-commence",
+   "comptoir": "Attendre la décision officielle avant de délivrer sans ordonnance la molécule concernée."
   },
   {
    "id": "bepirovirsen",
@@ -546,7 +565,8 @@
     "antisens"
    ],
    "title": "Bépirovirsen : vers une guérison de l'hépatite B ?",
-   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/recherche-et-innovation/bepirovirsen-vers-une-guerison-de-lhepatite-b"
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/recherche-et-innovation/bepirovirsen-vers-une-guerison-de-lhepatite-b",
+   "comptoir": "Pas encore disponible en France : orienter les patients intéressés vers leur hépatologue."
   },
   {
    "id": "adempas",
@@ -562,7 +582,8 @@
     "HTP-TEC"
    ],
    "title": "Adempas 0,5 mg : délivrance restreinte",
-   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/adempas-une-delivrance-restreinte-pour-preserver-la-continuite-des-traitements"
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/adempas-une-delivrance-restreinte-pour-preserver-la-continuite-des-traitements",
+   "comptoir": "Délivrer le 0,5 mg seulement si c'est la dose d'entretien du patient, après validation du laboratoire ; sinon, contacter le prescripteur."
   },
   {
    "id": "beyonttra",
@@ -579,7 +600,8 @@
     "cardiologie"
    ],
    "title": "Beyonttra : un nouveau stabilisateur dans l'amylose cardiaque",
-   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/fiches-medicaments/beyonttra-un-nouveau-stabilisateur-dans-lamylose-cardiaque"
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/fiches-medicaments/beyonttra-un-nouveau-stabilisateur-dans-lamylose-cardiaque",
+   "comptoir": "Vérifier les conditions de prescription et commander à l'avance ; nouveau traitement, bien expliquer la prise au patient."
   },
   {
    "id": "plan-hivernal-2026",
@@ -637,7 +659,8 @@
     "SMR"
    ],
    "title": "Les dossiers qui attendent la HAS : réévaluation des médicaments anciens, anti-migraineux, IA",
-   "url": "https://francais.medscape.com/viewarticle/avis-recos-nouvelles-missions-dossiers-chauds-qui-attendent-2026a10011yh"
+   "url": "https://francais.medscape.com/viewarticle/avis-recos-nouvelles-missions-dossiers-chauds-qui-attendent-2026a10011yh",
+   "comptoir": "Pas d'impact immédiat ; l'avis sur les antimigraineux pourrait modifier les prises en charge."
   },
   {
    "id": "duloxetine-appro",
@@ -659,7 +682,8 @@
     "IRSNa"
    ],
    "title": "Duloxétine : l'ANSM demande aux laboratoires de renforcer leurs approvisionnements",
-   "url": "https://ansm.sante.fr/actualites/duloxetine-lansm-demande-aux-laboratoires-de-renforcer-leurs-approvisionnements"
+   "url": "https://ansm.sante.fr/actualites/duloxetine-lansm-demande-aux-laboratoires-de-renforcer-leurs-approvisionnements",
+   "comptoir": "Délivrer au plus juste ; en cas de manque, contacter le prescripteur et éviter tout arrêt brutal (risque de syndrome de sevrage)."
   },
   {
    "id": "respiratoires-hiver",
@@ -675,7 +699,8 @@
     "bronchiolite"
    ],
    "title": "Grippe, Covid-19, bronchiolite : se protéger des infections respiratoires de l'hiver",
-   "url": "https://ansm.sante.fr/actualites/grippe-covid-19-bronchiolite-se-proteger-contre-les-infections-respiratoires-de-lhiver"
+   "url": "https://ansm.sante.fr/actualites/grippe-covid-19-bronchiolite-se-proteger-contre-les-infections-respiratoires-de-lhiver",
+   "comptoir": "Proposer grippe et Covid-19 aux publics cibles, et rappeler aux parents de nourrissons la protection contre le VRS."
   },
   {
    "id": "aglp1-rapport-pv",
@@ -709,7 +734,8 @@
     "stocks de sécurité"
    ],
    "title": "345 présentations ajoutées à la liste des médicaments d'intérêt thérapeutique majeur",
-   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/"
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/",
+   "comptoir": "Pour les MITM, les laboratoires doivent garder des stocks de sécurité ; signaler les manques via DP-Ruptures."
   },
   {
    "id": "furosemide-tensions",
@@ -724,7 +750,8 @@
     "insuffisance cardiaque"
    ],
    "title": "Furosémide 20 mg et 40 mg comprimés : point sur les tensions",
-   "url": "https://ansm.sante.fr/actualites/point-de-situation-sur-les-tensions-en-furosemide-20-mg-et-40-mg-comprimes"
+   "url": "https://ansm.sante.fr/actualites/point-de-situation-sur-les-tensions-en-furosemide-20-mg-et-40-mg-comprimes",
+   "comptoir": "En cas de manque, contacter le prescripteur pour une alternative ; ne pas laisser un patient interrompre son traitement."
   },
   {
    "id": "has-cediag",
@@ -739,7 +766,8 @@
     "diagnostic"
    ],
    "title": "La HAS crée la CEDiag, commission d'évaluation des technologies diagnostiques",
-   "url": "https://www.has-sante.fr/jcms/p_3426329/fr/commission-d-evaluation-des-technologies-de-sante-diagnostiques-pronostiques-et-predictives-cediag"
+   "url": "https://www.has-sante.fr/jcms/p_3426329/fr/commission-d-evaluation-des-technologies-de-sante-diagnostiques-pronostiques-et-predictives-cediag",
+   "comptoir": "Pas d'impact immédiat ; les autotests vendus en officine relèveront de cette commission."
   },
   {
    "id": "has-bronchiolite-decision",
@@ -773,7 +801,8 @@
     "Leem"
    ],
    "title": "Accord-cadre du médicament : le CEPS rebat les cartes des prix",
-   "url": "https://www.lemoniteurdespharmacies.fr/business/laboratoires/"
+   "url": "https://www.lemoniteurdespharmacies.fr/business/laboratoires/",
+   "comptoir": "Pas d'impact direct au comptoir ; effets possibles à terme sur les prix et la disponibilité de certains médicaments."
   },
   {
    "id": "fluoxetine-tensions",
@@ -788,7 +817,8 @@
     "antidépresseur"
    ],
    "title": "Fluoxétine 20 mg : point sur les tensions",
-   "url": "https://ansm.sante.fr/actualites/point-de-situation-sur-les-tensions-en-fluoxetine-20-mg"
+   "url": "https://ansm.sante.fr/actualites/point-de-situation-sur-les-tensions-en-fluoxetine-20-mg",
+   "comptoir": "En cas de manque, contacter le prescripteur pour une alternative ; éviter tout arrêt non encadré."
   },
   {
    "id": "has-koselugo",
@@ -804,7 +834,8 @@
     "maladie rare"
    ],
    "title": "Accès précoce : décision pour Koselugo (sélumétinib) dans la neurofibromatose de type 1",
-   "url": "https://www.has-sante.fr/jcms/p_3281266/fr/avis-et-decisions-sur-les-medicaments"
+   "url": "https://www.has-sante.fr/jcms/p_3281266/fr/avis-et-decisions-sur-les-medicaments",
+   "comptoir": "Traitement en accès précoce, dispensé par la pharmacie hospitalière : y orienter le patient."
   },
   {
    "id": "alepsal-retour",
@@ -819,7 +850,8 @@
     "épilepsie"
    ],
    "title": "Alepsal : tous les dosages sont à nouveau disponibles",
-   "url": "https://ansm.sante.fr/actualites/indisponibilite-dalepsal-tous-dosages-des-alternatives-existent"
+   "url": "https://ansm.sante.fr/actualites/indisponibilite-dalepsal-tous-dosages-des-alternatives-existent",
+   "comptoir": "L'approvisionnement habituel reprend ; tout changement de traitement antiépileptique reste décidé par le prescripteur."
   },
   {
    "id": "vrs-securite",
@@ -836,7 +868,8 @@
     "erreur médicamenteuse"
    ],
    "title": "Prévention des bronchiolites à VRS : sécurité rassurante, erreurs médicamenteuses persistantes",
-   "url": "https://ansm.sante.fr/actualites/prevention-des-bronchiolites-a-vrs-un-profil-de-securite-rassurant-des-erreurs-medicamenteuses-qui-persistent"
+   "url": "https://ansm.sante.fr/actualites/prevention-des-bronchiolites-a-vrs-un-profil-de-securite-rassurant-des-erreurs-medicamenteuses-qui-persistent",
+   "comptoir": "Bien vérifier le produit et la dose avant de délivrer (Beyfortus selon le poids, Abrysvo pour la femme enceinte) pour éviter les erreurs."
   },
   {
    "id": "has-dentaire-atb",

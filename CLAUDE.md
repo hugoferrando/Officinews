@@ -22,7 +22,7 @@ Site public : https://hugoferrando.github.io/Officinews/ (GitHub Pages, branche 
 ## Format d'un article
 
 Champs obligatoires : `id` (slug sans accents), `date` (`YYYY-MM-DD`), `source`, `category`, `title`, `summary`, `url`.
-Optionnels : `rank` (ordre dans la journée, 1 = plus important), `comptoir` (conduite à tenir pratique), `related` (`[{label, url, source}]`), `tags`, `approx` (date estimée).
+Obligatoire aussi depuis le 30/10/2026 (demande d'Hugo) : `comptoir` (une phrase pratique, encadré « Au comptoir », présent sur tous les articles). Optionnels : `rank` (ordre dans la journée, 1 = plus important), `related` (`[{label, url, source}]`), `tags`, `approx` (date estimée).
 
 - `source` : `ANSM`, `HAS`, `Moniteur`, `Quotidien`, `Autre`
 - `category` : `Ruptures & tensions`, `Vaccins`, `Pharmacovigilance`, `Nouveaux médicaments`, `Recommandations`, `Réglementation`, `Profession`

@@ -23,7 +23,7 @@ Si l'heure de Paris est vers 9 h 37, 16 h 37 ou 21 h 37 (passages de rattrapage 
    - `source` : "ANSM" | "HAS" | "Moniteur" | "Quotidien" | "Autre" (la plus officielle si plusieurs)
    - `category` : une de "Ruptures & tensions", "Vaccins", "Pharmacovigilance", "Nouveaux médicaments", "Recommandations", "Réglementation", "Profession"
    - `title` (titre d'origine) ; `summary` : 1 à 2 phrases avec TES PROPRES MOTS (jamais de phrase copiée)
-   - `comptoir` (optionnel) : une phrase pratique, seulement si une conduite à tenir concrète existe
+   - `comptoir` (OBLIGATOIRE pour chaque article, affiché dans l'encadré « Au comptoir ») : une phrase courte et pratique pour l'équipe officinale (quoi vérifier, dire au patient, commander, à qui orienter). Sans conduite à tenir concrète, dire ce que ça change ou non pour l'officine (ex. « Rien ne change pour l'instant : … »). N'invente aucune posologie ni date absente de la source.
    - `url` ; `related` (optionnel) [{label, url, source}] ; `tags` (3 à 5 mots-clés) ; `approx`: true si la date est estimée
    Pour une autre source sur un sujet déjà listé : {"id": "<id existant>", "related_add": [{label, url, source}]}.
 4. `python3 scripts/ajout.py fusion /tmp/nouveaux.json` (liste vide [] s'il n'y a rien de nouveau, pour mettre quand même à jour la date).

@@ -56,7 +56,7 @@ def fusion(chemin):
     data = charger()
     par_id = {a["id"]: a for a in data["articles"]}
     urls = {a["url"] for a in data["articles"]} | {r["url"] for a in data["articles"] for r in a.get("related", [])}
-    ajoutes, completes, ignores = 0, 0, []
+    ajoutes, completes, ignores, sans_comptoir = 0, 0, [], []
     for n in json.loads(Path(chemin).read_text(encoding="utf-8")):
         if "related_add" in n:
             cible = par_id.get(n.get("id"))
@@ -76,6 +76,8 @@ def fusion(chemin):
         if n["id"] in par_id or n["url"] in urls:
             ignores.append(f'{n["id"]} (déjà présent)')
             continue
+        if not n.get("comptoir"):
+            sans_comptoir.append(n["id"])
         n.setdefault("rank", 1)
         data["articles"].append(n)
         par_id[n["id"]] = n
@@ -90,6 +92,8 @@ def fusion(chemin):
     print(f"{ajoutes} ajouté(s), {completes} source(s) rattachée(s), {avant - len(data['articles'])} ancien(s) supprimé(s)")
     for i in ignores:
         print("ignoré :", i)
+    for i in sans_comptoir:
+        print("attention, sans encadré « Au comptoir » :", i)
 
 
 if __name__ == "__main__":
