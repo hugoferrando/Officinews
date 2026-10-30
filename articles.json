@@ -1,6 +1,76 @@
 {
- "updatedAt": "2026-10-29T08:13:30+01:00",
+ "updatedAt": "2026-10-30T06:38:32+01:00",
  "articles": [
+  {
+   "id": "aflibercept-rappel-lots",
+   "date": "2026-10-29",
+   "rank": 1,
+   "source": "ANSM",
+   "category": "Pharmacovigilance",
+   "title": "Rappel de deux lots de médicaments à base d'aflibercept destinés à l'injection dans l'œil en ophtalmologie",
+   "summary": "L'ANSM annonce le retrait de deux lots d'aflibercept en injection intravitréenne. Concerne surtout les établissements et ophtalmologues, peu l'officine.",
+   "url": "https://ansm.sante.fr/actualites/rappel-de-deux-lots-de-medicaments-a-base-daflibercept-destines-a-linjection-dans-loeil-en-ophtalmologie",
+   "tags": [
+    "aflibercept",
+    "rappel de lots",
+    "ophtalmologie"
+   ]
+  },
+  {
+   "id": "wegovy-comprime",
+   "date": "2026-10-29",
+   "rank": 2,
+   "source": "Quotidien",
+   "category": "Nouveaux médicaments",
+   "title": "Le premier comprimé contre l'obésité disponible début novembre",
+   "summary": "Le sémaglutide oral contre l'obésité arrive en officine début novembre, une première en France. Il n'est pas remboursé.",
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/le-premier-comprime-contre-lobesite-disponible-debut-novembre",
+   "related": [
+    {
+     "label": "Wegovy en comprimé : une option de plus, sans remboursement",
+     "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/fiches-medicaments/wegovy-en-comprime-une-option-de-plus-dans-lobesite-mais-sans-remboursement",
+     "source": "Moniteur"
+    }
+   ],
+   "tags": [
+    "Wegovy",
+    "sémaglutide",
+    "obésité",
+    "comprimé"
+   ]
+  },
+  {
+   "id": "soins-support-decrets",
+   "date": "2026-10-29",
+   "rank": 3,
+   "source": "Quotidien",
+   "category": "Réglementation",
+   "title": "Soins de support : publication imminente de trois décrets d'application",
+   "summary": "Trois décrets d'application sur les soins de support en cancérologie du sein devraient paraître prochainement.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/soins-de-support-publication-imminente-de-trois-decrets-dapplication",
+   "tags": [
+    "soins de support",
+    "décrets",
+    "cancer du sein"
+   ]
+  },
+  {
+   "id": "diamox-contingentement",
+   "date": "2026-10-29",
+   "rank": 4,
+   "source": "Moniteur",
+   "category": "Ruptures & tensions",
+   "title": "Diamox 250 mg : les commandes encadrées jusqu'en décembre",
+   "summary": "Des difficultés de production entraînent un contingentement des commandes de Diamox en ville jusqu'en décembre.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/diamox-250-mg-les-commandes-encadrees-jusquen-decembre",
+   "approx": true,
+   "tags": [
+    "Diamox",
+    "acétazolamide",
+    "contingentement",
+    "tension"
+   ]
+  },
   {
    "id": "osys-generalisation",
    "date": "2026-10-28",
