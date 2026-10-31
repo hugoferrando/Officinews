@@ -1,6 +1,77 @@
 {
- "updatedAt": "2026-10-30T06:38:32+01:00",
+ "updatedAt": "2026-10-31T06:38:46+01:00",
  "articles": [
+  {
+   "id": "mayotte-faux-stylos",
+   "date": "2026-10-30",
+   "rank": 1,
+   "source": "Quotidien",
+   "category": "Pharmacovigilance",
+   "title": "L'ARS de Mayotte alerte sur de faux stylos injectables",
+   "summary": "Des stylos injectables contrefaits, expédiés par colis, ont été interceptés par les douanes à Mayotte mi-octobre ; l'ARS lance une alerte.",
+   "comptoir": "Ne dispenser que des stylos issus du circuit officiel et orienter vers un médecin tout patient qui dit en avoir acheté en ligne.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/lars-de-mayotte-alerte-sur-de-faux-stylos-injectables",
+   "tags": [
+    "contrefaçon",
+    "stylos injectables",
+    "Mayotte",
+    "ARS"
+   ]
+  },
+  {
+   "id": "novorapid-pumpcart-tensions-2027",
+   "date": "2026-10-30",
+   "approx": true,
+   "rank": 2,
+   "source": "Moniteur",
+   "category": "Ruptures & tensions",
+   "title": "NovoRapid PumpCart : des tensions d'approvisionnement jusqu'en 2027",
+   "summary": "Les tensions sur les cartouches NovoRapid PumpCart devraient durer jusqu'au troisième trimestre 2027, avec des mesures transitoires pour les patients sous pompe.",
+   "comptoir": "Anticiper le renouvellement des patients sous pompe et les orienter vers leur diabétologue pour une alternative si la cartouche manque.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/novorapid-pumpcart-des-tensions-dapprovisionnement-jusquen-2027",
+   "tags": [
+    "insuline",
+    "pompe",
+    "tension",
+    "NovoRapid"
+   ]
+  },
+  {
+   "id": "tentin-remboursement-tdah",
+   "date": "2026-10-30",
+   "approx": true,
+   "rank": 3,
+   "source": "Moniteur",
+   "category": "Nouveaux médicaments",
+   "title": "TDAH : Tentin, un remboursement sous condition",
+   "summary": "La dexamfétamine Tentin devient remboursable chez les 6-17 ans en cas d'échec du méthylphénidate, avec des conditions de prescription strictes.",
+   "comptoir": "Vérifier sur l'ordonnance que les conditions de prescription sont respectées avant de dispenser et expliquer au patient le cadre du remboursement.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/tdah-tentin-un-remboursement-sous-condition",
+   "tags": [
+    "TDAH",
+    "dexamfétamine",
+    "remboursement",
+    "stupéfiant"
+   ]
+  },
+  {
+   "id": "tamoxifene-paroxetine-interaction",
+   "date": "2026-10-30",
+   "approx": true,
+   "rank": 4,
+   "source": "Moniteur",
+   "category": "Profession",
+   "title": "Intervention pharmaceutique : une interaction pourtant bien connue avec le tamoxifène",
+   "summary": "L'association tamoxifène-paroxétine apparaît encore sur des ordonnances et réduit l'efficacité du traitement du cancer du sein ; l'article montre comment la signaler.",
+   "comptoir": "Repérer l'association tamoxifène + paroxétine, contacter le prescripteur et proposer un antidépresseur alternatif.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/intervention-pharmaceutique-une-interaction-pourtant-bien-connue-avec-le-tamoxifene",
+   "tags": [
+    "tamoxifène",
+    "paroxétine",
+    "interaction",
+    "intervention pharmaceutique"
+   ]
+  },
   {
    "id": "aflibercept-rappel-lots",
    "date": "2026-10-29",
@@ -15,7 +86,14 @@
     "rappel de lots",
     "ophtalmologie"
    ],
-   "comptoir": "Vérifier les lots en stock ; un patient qui garde une seringue pas encore injectée peut la rapporter pour contrôle."
+   "comptoir": "Vérifier les lots en stock ; un patient qui garde une seringue pas encore injectée peut la rapporter pour contrôle.",
+   "related": [
+    {
+     "label": "Le Quotidien du pharmacien",
+     "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/lansm-rappelle-deux-lots-base-daflibercept",
+     "source": "Quotidien"
+    }
+   ]
   },
   {
    "id": "wegovy-comprime",

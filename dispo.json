@@ -1,7 +1,61 @@
 {
- "updatedAt": "2026-10-30T06:38:32+01:00",
+ "updatedAt": "2026-10-31T06:38:46+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-30",
+   "nom": "Vitamine A Provepharm 100 000 U.I./2 ml, solution injectable (I.M.)",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-30",
+   "nom": "Novorapid Pumpcart 100 unités/ml, solution injectable en cartouche",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-30",
+   "nom": "Icatibant Zentiva 30 mg, solution injectable en seringue préremplie",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-30",
+   "nom": "Fluorouracile Accord 50 mg/ml, solution à diluer pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-30",
+   "nom": "Atgam 50 mg/mL, solution à diluer pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Immunologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-30",
+   "nom": "Amikacine Viatris 250 mg, 500 mg et 1 g, poudre pour solution injectable en flacon",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
   {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-10-28",
@@ -549,15 +603,6 @@
    "remise": null,
    "domaines": [
     "Infectiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-10-08",
-   "nom": "Atgam 50 mg/ml, solution à diluer pour perfusion",
-   "remise": null,
-   "domaines": [
-    "Immunologie"
    ]
   },
   {
@@ -1632,15 +1677,6 @@
   {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-05-22",
-   "nom": "Novorapid Pumpcart 100 unités/ml, solution injectable en cartouche",
-   "remise": null,
-   "domaines": [
-    "Endocrinologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-05-22",
    "nom": "Izalgi 500 mg/25 mg, gélule",
    "remise": null,
    "domaines": [
@@ -2076,15 +2112,6 @@
    "remise": null,
    "domaines": [
     "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2025-01-15",
-   "nom": "Amikacine Viatris 250 mg, 500 mg et 1 g, poudre pour solution injectable en flacon",
-   "remise": null,
-   "domaines": [
-    "Infectiologie"
    ]
   },
   {
