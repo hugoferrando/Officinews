@@ -1,11 +1,20 @@
 {
- "updatedAt": "2026-10-31T06:38:46+01:00",
+ "updatedAt": "2026-11-01T06:38:14+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
   {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-10-30",
    "nom": "Vitamine A Provepharm 100 000 U.I./2 ml, solution injectable (I.M.)",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-30",
+   "nom": "Vitamine A Provepharm 100 000 U.I./2 ml, solution injectable",
    "remise": null,
    "domaines": [
     "Hépato-gastroentérologie"
@@ -23,7 +32,25 @@
   {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-10-30",
+   "nom": "Novorapid Pumpcart 100 unités/ml, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-30",
    "nom": "Icatibant Zentiva 30 mg, solution injectable en seringue préremplie",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-30",
+   "nom": "Icatibant Zentiva 30 mg, solution injectable",
    "remise": null,
    "domaines": [
     "Cardiologie"
@@ -51,6 +78,15 @@
    "statut": "Tension d'approvisionnement",
    "maj": "2026-10-30",
    "nom": "Amikacine Viatris 250 mg, 500 mg et 1 g, poudre pour solution injectable en flacon",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-30",
+   "nom": "Amikacine Viatris 250 mg, 500 mg et 1 g, poudre pour solution injectable",
    "remise": null,
    "domaines": [
     "Infectiologie"
