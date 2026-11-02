@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-01T06:38:14+01:00",
+ "updatedAt": "2026-11-02T06:38:19+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
   {
@@ -54,6 +54,15 @@
    "remise": null,
    "domaines": [
     "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-10-30",
+   "nom": "Fluorouracile Accord 50 mg/ml, solution à diluer pour perfusion, flacon de 100 ml",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
    ]
   },
   {
