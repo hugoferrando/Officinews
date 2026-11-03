@@ -1,6 +1,73 @@
 {
- "updatedAt": "2026-11-02T06:38:19+01:00",
+ "updatedAt": "2026-11-03T06:38:33+01:00",
  "articles": [
+  {
+   "id": "decret-osys-dispensation",
+   "date": "2026-11-02",
+   "rank": 1,
+   "source": "Quotidien",
+   "category": "Réglementation",
+   "title": "Décret OSyS : les pharmaciens bridés dans la dispensation de médicaments",
+   "summary": "Un décret du 26 octobre accompagne la généralisation d'OSyS et élargit les missions des pharmaciens, mais le cadre de la dispensation reste restreint.",
+   "comptoir": "Rien ne change dans vos pratiques de dispensation dès maintenant : lire le décret avant d'élargir quoi que ce soit au comptoir.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/decret-osys-les-pharmaciens-brides-dans-la-dispensation-de-medicaments",
+   "tags": [
+    "OSyS",
+    "décret",
+    "dispensation",
+    "pharmacien"
+   ]
+  },
+  {
+   "id": "wegovy-72mg",
+   "date": "2026-11-02",
+   "rank": 2,
+   "source": "Moniteur",
+   "category": "Nouveaux médicaments",
+   "title": "Wegovy injectable : un nouveau dosage à 7,2 mg",
+   "summary": "Un dosage hebdomadaire plus élevé arrive pour intensifier la prise en charge de certains adultes obèses, sans remboursement.",
+   "comptoir": "Prévenir le patient que ce dosage n'est pas remboursé et vérifier l'ordonnance avant de délivrer.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/fiches-medicaments/wegovy-injectable-un-nouveau-dosage-a-72-mg",
+   "tags": [
+    "Wegovy",
+    "semaglutide",
+    "obésité"
+   ]
+  },
+  {
+   "id": "mois-sans-tabac-2026",
+   "date": "2026-11-02",
+   "rank": 3,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "« Mois sans tabac » : quel accompagnement par les pharmaciens ?",
+   "summary": "Pour la dixième édition de l'opération de novembre, le rôle de l'officine auprès des fumeurs qui veulent arrêter est détaillé.",
+   "comptoir": "Proposer un accompagnement au sevrage aux fumeurs qui passent au comptoir et rappeler les substituts nicotiniques disponibles.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/mois-sans-tabac-quel-accompagnement-par-les-pharmaciens",
+   "tags": [
+    "tabac",
+    "sevrage",
+    "prévention",
+    "officine"
+   ]
+  },
+  {
+   "id": "iatrogenie-hcsp",
+   "date": "2026-11-02",
+   "rank": 4,
+   "source": "Moniteur",
+   "category": "Pharmacovigilance",
+   "title": "L'iatrogénie coûte plus de 10 milliards d'euros par an",
+   "summary": "Le HCSP propose des pistes pour limiter les effets indésirables médicamenteux : pertinence des prescriptions, coordination et implication des patients.",
+   "comptoir": "Rien ne change pour l'instant : l'analyse d'ordonnance et la conciliation restent vos meilleurs leviers.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/liatrogenie-coute-plus-de-10-milliards-deuros-par-an",
+   "tags": [
+    "iatrogénie",
+    "HCSP",
+    "prévention"
+   ],
+   "approx": true
+  },
   {
    "id": "mayotte-faux-stylos",
    "date": "2026-10-30",

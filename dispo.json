@@ -1,7 +1,44 @@
 {
- "updatedAt": "2026-11-02T06:38:19+01:00",
+ "updatedAt": "2026-11-03T06:38:48+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-02",
+   "nom": "Spécialités à base de furosémide 20 mg et 40 mg, comprimé",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-02",
+   "nom": "Lamictal 2 mg, comprimé dispersible ou à croquer",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie",
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-02",
+   "nom": "Clindamycine 600 mg/4 ml, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Arrêt de commercialisation",
+   "maj": "2026-11-02",
+   "nom": "Cardiorythmine 50 mg/10 ml, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
   {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-10-30",
@@ -183,15 +220,6 @@
    "remise": null,
    "domaines": [
     "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-10-26",
-   "nom": "Clindamycine 600 mg/4 ml, solution injectable",
-   "remise": null,
-   "domaines": [
-    "Infectiologie"
    ]
   },
   {
@@ -1281,16 +1309,6 @@
    "nom": "Dilantin 250 mg/5 ml, solution injectable",
    "remise": "2026-08-21",
    "domaines": [
-    "Neurologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-08-20",
-   "nom": "Lamictal 2 mg, comprimé dispersible ou à croquer",
-   "remise": null,
-   "domaines": [
-    "Psychiatrie",
     "Neurologie"
    ]
   },
