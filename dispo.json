@@ -1,7 +1,34 @@
 {
- "updatedAt": "2026-11-03T06:38:48+01:00",
+ "updatedAt": "2026-11-04T06:38:29+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-03",
+   "nom": "Mydriaticum 0,5 pour cent, collyre",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-03",
+   "nom": "Lonquex 6 mg/0,6 mL, solution injectable",
+   "remise": "2026-11-03",
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-03",
+   "nom": "Diazépam Teva 5 mg, comprimé",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
   {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-11-02",
@@ -1443,25 +1470,6 @@
    ]
   },
   {
-   "statut": "Remise à disposition",
-   "maj": "2026-08-05",
-   "nom": "Burinex 1 mg et 5 mg, comprimé",
-   "remise": "2026-08-05",
-   "domaines": [
-    "Néphrologie",
-    "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Arrêt de commercialisation",
-   "maj": "2026-08-05",
-   "nom": "Alyostal venin de guêpe polistes, poudre et solvant pour solution injectable",
-   "remise": null,
-   "domaines": [
-    "Allergologie"
-   ]
-  },
-  {
    "statut": "Rupture de stock",
    "maj": "2026-07-31",
    "nom": "Tibéral 1 g, solution injectable pour perfusion",
@@ -1799,15 +1807,6 @@
    "remise": null,
    "domaines": [
     "Infectiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-05-07",
-   "nom": "Lonquex 6 mg/0,6 ml, solution injectable",
-   "remise": null,
-   "domaines": [
-    "Oncologie/Radiothérapie"
    ]
   },
   {

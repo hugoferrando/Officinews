@@ -1,6 +1,91 @@
 {
- "updatedAt": "2026-11-03T06:38:33+01:00",
+ "updatedAt": "2026-11-04T06:38:25+01:00",
  "articles": [
+  {
+   "id": "xurta-remboursement-tdah",
+   "date": "2026-11-03",
+   "rank": 1,
+   "source": "Moniteur",
+   "category": "Nouveaux médicaments",
+   "title": "TDAH : Xurta remboursé sur présentation d'un justificatif",
+   "summary": "Six présentations de Xurta (lisdexamfétamine) deviennent remboursables dans le TDAH, à condition qu'un justificatif de la prescription soit fourni.",
+   "comptoir": "Vérifier la présence du justificatif exigé avant la délivrance pour que le remboursement s'applique, et rappeler les règles de prescription des stupéfiants.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/tdah-xurta-rembourse-sur-presentation-dun-justificatif",
+   "tags": [
+    "TDAH",
+    "Xurta",
+    "remboursement",
+    "lisdexamfétamine"
+   ]
+  },
+  {
+   "id": "baisse-prix-stelara-semglee-kisplyx",
+   "date": "2026-11-03",
+   "rank": 2,
+   "source": "Moniteur",
+   "category": "Réglementation",
+   "title": "Dès janvier 2027, Stelara, Semglee et Kisplyx verront leur prix reculer",
+   "summary": "Les prix de trois spécialités vont baisser à partir de janvier 2027.",
+   "comptoir": "Rien ne change aujourd'hui : prévoir l'impact sur les stocks et la tarification au moment de l'entrée en vigueur en janvier.",
+   "url": "https://www.lemoniteurdespharmacies.fr/business/economie/achat/des-janvier-2027-stelara-semglee-et-kisplyx-verront-leur-prix-reculer",
+   "tags": [
+    "prix",
+    "Stelara",
+    "Semglee",
+    "Kisplyx"
+   ]
+  },
+  {
+   "id": "cesp-1200-euros",
+   "date": "2026-11-03",
+   "rank": 3,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "Nouveau CESP : 1 200 € mensuels pour les étudiants et internes en pharmacie",
+   "summary": "Un arrêté publié au Journal officiel précise la sélection, l'exercice et la rupture du contrat d'engagement de service public, avec une allocation mensuelle de 1 200 €.",
+   "comptoir": "Information utile pour les étudiants et internes de l'équipe : le dispositif est détaillé dans l'arrêté, à consulter avant de s'engager.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/etudes-formation-continue/nouveau-cesp-1-200-eu-mensuels-pour-les-etudiants-et-internes-en-pharmacie",
+   "tags": [
+    "CESP",
+    "étudiants",
+    "internes",
+    "arrêté"
+   ]
+  },
+  {
+   "id": "segur-numerique-vague-2-officine",
+   "date": "2026-11-03",
+   "rank": 4,
+   "source": "Quotidien",
+   "category": "Réglementation",
+   "title": "Vague 2 du Ségur numérique pour l'officine : création d'un programme de financement dédié",
+   "summary": "Un arrêté crée un programme de financement propre à la deuxième vague du Ségur numérique destiné aux officines.",
+   "comptoir": "Se rapprocher de son éditeur de logiciel pour savoir quelles mises à jour sont finançables dans ce programme.",
+   "url": "https://www.lequotidiendupharmacien.fr/gestion-de-lofficine/e-sante/vague-2-du-segur-numerique-pour-lofficine-creation-dun-programme-de-financement-dedie",
+   "tags": [
+    "Ségur numérique",
+    "financement",
+    "logiciel",
+    "officine"
+   ]
+  },
+  {
+   "id": "licence-portail-sante-academie",
+   "date": "2026-11-03",
+   "rank": 5,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "« Licence portail santé » : l'Académie de pharmacie craint une perte d'attractivité de la filière",
+   "summary": "L'Académie de pharmacie appelle à la vigilance sur la réforme remplaçant PASS/LAS, qu'elle juge risquée pour l'attrait des études pharmaceutiques.",
+   "comptoir": "Rien ne change pour l'officine à court terme : sujet de fond sur le recrutement futur des étudiants en pharmacie.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/etudes-formation-continue/licence-portail-sante-lacademie-de-pharmacie-craint-une-perte-dattractivite-de-la-filiere",
+   "tags": [
+    "études",
+    "réforme",
+    "PASS",
+    "Académie de pharmacie"
+   ]
+  },
   {
    "id": "decret-osys-dispensation",
    "date": "2026-11-02",
