@@ -1,7 +1,25 @@
 {
- "updatedAt": "2026-11-04T06:38:29+01:00",
+ "updatedAt": "2026-11-05T06:39:04+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-04",
+   "nom": "Kytril 3 mg/3 ml, solution injectable",
+   "remise": "2026-11-04",
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-04",
+   "nom": "Cotrimoxazole Teva 800 mg/160 mg, comprimé",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
   {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-11-03",
@@ -1002,15 +1020,6 @@
    ]
   },
   {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-09-15",
-   "nom": "Kytril 3 mg/3 ml, solution injectable",
-   "remise": null,
-   "domaines": [
-    "Oncologie/Radiothérapie"
-   ]
-  },
-  {
    "statut": "Remise à disposition",
    "maj": "2026-09-15",
    "nom": "Gardénal 50 mg, comprimé",
@@ -1440,15 +1449,6 @@
    "remise": null,
    "domaines": [
     "Infectiologie"
-   ]
-  },
-  {
-   "statut": "Remise à disposition",
-   "maj": "2026-08-06",
-   "nom": "Rapibloc 20 mg/2 ml, solution à diluer injectable",
-   "remise": "2026-08-05",
-   "domaines": [
-    "Cardiologie"
    ]
   },
   {

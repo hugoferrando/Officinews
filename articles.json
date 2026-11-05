@@ -1,6 +1,79 @@
 {
- "updatedAt": "2026-11-04T06:38:25+01:00",
+ "updatedAt": "2026-11-05T06:39:04+01:00",
  "articles": [
+  {
+   "id": "piratage-donnees-pharmacies",
+   "date": "2026-11-04",
+   "rank": 1,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "Piratage de données : bientôt un tsunami en pharmacie ?",
+   "summary": "Trois officines ont vu leur système informatique piraté ; la profession analyse l'incident et cherche à renforcer la prévention.",
+   "comptoir": "Vérifier ses sauvegardes, ses mots de passe et les accès au LGO, et savoir qui contacter en cas d'incident.",
+   "url": "https://www.lequotidiendupharmacien.fr/gestion-de-lofficine/piratage-de-donnees-bientot-un-tsunami-en-pharmacie",
+   "tags": [
+    "cybersécurité",
+    "LGO",
+    "données",
+    "officine"
+   ]
+  },
+  {
+   "id": "antibiotiques-senat-boites-unite",
+   "date": "2026-11-04",
+   "rank": 2,
+   "source": "Moniteur",
+   "category": "Réglementation",
+   "title": "Antibiotiques : le Sénat préfère l'adaptation des boîtes à la dispensation à l'unité",
+   "summary": "Les sénateurs privilégient des conditionnements mieux ajustés aux durées de traitement plutôt que la délivrance à l'unité des antibiotiques.",
+   "comptoir": "Rien ne change pour l'instant : la délivrance reste par boîte entière, le débat parlementaire est en cours.",
+   "url": "https://www.lemoniteurdespharmacies.fr/profession/socio-professionnel/antibiotiques-le-senat-prefere-ladaptation-des-boites-a-la-dispensation-a-lunite",
+   "tags": [
+    "antibiotiques",
+    "Sénat",
+    "conditionnement",
+    "dispensation"
+   ]
+  },
+  {
+   "id": "aide-a-mourir-substance-academie",
+   "date": "2026-11-04",
+   "rank": 3,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "Les pharmaciens doivent être impliqués dans la définition de la substance, plaide l'Académie",
+   "summary": "L'Académie de pharmacie souhaite que la profession participe au choix de la substance pour l'aide à mourir ; la ministre affirme que les textes ne seront pas retardés.",
+   "comptoir": "Rien à faire pour l'instant : sujet à suivre, les textes d'application restent à paraître.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/les-pharmaciens-doivent-etre-impliques-dans-la-definition-de-la-substance-plaide-lacademie",
+   "tags": [
+    "aide à mourir",
+    "Académie de pharmacie",
+    "réglementation"
+   ]
+  },
+  {
+   "id": "senat-taxe-groupements",
+   "date": "2026-11-04",
+   "rank": 4,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "Le Sénat prêt à supprimer la taxe sur les groupements",
+   "summary": "Lors de l'examen du budget de la Sécurité sociale 2027, la commission sénatoriale semble favorable à l'abandon d'une taxe visant les groupements.",
+   "comptoir": "Aucune action immédiate : à suivre auprès de son groupement pour d'éventuels effets sur les conditions commerciales.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/le-senat-pret-supprimer-la-taxe-sur-les-groupements",
+   "related": [
+    {
+     "label": "Groupements : le Sénat veut supprimer la taxe de 120 M€",
+     "url": "https://www.lemoniteurdespharmacies.fr/profession/socio-professionnel/groupements-le-senat-veut-supprimer-la-taxe-de-120-millions-deuros-les-pharmaciens-seront-ils-penalises",
+     "source": "Moniteur"
+    }
+   ],
+   "tags": [
+    "PLFSS 2027",
+    "groupements",
+    "Sénat"
+   ]
+  },
   {
    "id": "xurta-remboursement-tdah",
    "date": "2026-11-03",
