@@ -1,6 +1,106 @@
 {
- "updatedAt": "2026-11-05T06:39:04+01:00",
+ "updatedAt": "2026-11-06T06:38:00+01:00",
  "articles": [
+  {
+   "id": "vaccination-voyageur-pharmaciens",
+   "date": "2026-11-05",
+   "rank": 1,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "La vaccination du voyageur pourrait être bientôt étendue aux pharmaciens",
+   "summary": "Plusieurs professions de santé, dont les pharmaciens d'officine, pourraient obtenir le droit de vacciner les voyageurs, par exemple contre la fièvre jaune ou la dengue.",
+   "comptoir": "Pas encore applicable : pour l'instant, orienter les voyageurs vers un centre de vaccination internationale ou leur médecin.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/politique-de-sante/la-vaccination-du-voyageur-pourrait-etre-bientot-etendue-aux-pharmaciens",
+   "tags": [
+    "vaccination",
+    "voyageur",
+    "compétences",
+    "officine"
+   ]
+  },
+  {
+   "id": "soins-palliatifs-pediatriques-has",
+   "date": "2026-11-05",
+   "rank": 2,
+   "source": "HAS",
+   "category": "Recommandations",
+   "title": "Soins palliatifs pédiatriques : prendre soin de chaque enfant et accompagner ses proches",
+   "summary": "La HAS publie un guide de parcours et des fiches pratiques pour une démarche palliative plus précoce chez l'enfant, l'adolescent et le jeune adulte, jusqu'au soutien au deuil.",
+   "comptoir": "Rien ne change pour l'instant à l'officine : utile pour orienter les familles et connaître les ressources lors de dispensations pédiatriques en soins palliatifs.",
+   "url": "https://www.has-sante.fr/jcms/p_4591393/fr/soins-palliatifs-pediatriques-prendre-soin-de-chaque-enfant-et-accompagner-ses-proches",
+   "tags": [
+    "HAS",
+    "palliatif",
+    "pédiatrie",
+    "parcours"
+   ]
+  },
+  {
+   "id": "dasri-pro-vaccination",
+   "date": "2026-11-05",
+   "rank": 3,
+   "source": "Quotidien",
+   "category": "Vaccins",
+   "title": "Déchets de vaccination à l'officine : derniers jours pour souscrire à Dasri Pro",
+   "summary": "Environ 2 000 officines n'ont pas renouvelé leur adhésion au dispositif de collecte des déchets perforants issus de la vaccination, dont l'échéance approche.",
+   "comptoir": "Vérifier que l'adhésion Dasri Pro de la pharmacie est bien renouvelée avant la date limite.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/dechets-de-vaccination-lofficine-derniers-jours-pour-souscrire-dasri-pro",
+   "tags": [
+    "DASRI",
+    "vaccination",
+    "déchets",
+    "officine"
+   ]
+  },
+  {
+   "id": "west-nile-200-cas",
+   "date": "2026-11-05",
+   "rank": 4,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "Virus West Nile : le nombre de cas autochtones dépasse désormais les 200",
+   "summary": "Santé publique France compte plus de 200 cas autochtones de West Nile, avec un ralentissement de la progression observé.",
+   "comptoir": "Rappeler les gestes de protection contre les moustiques aux patients des zones concernées ; rien ne change dans la dispensation.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/virus-west-nile-le-nombre-de-cas-autochtones-depasse-desormais-les-200",
+   "tags": [
+    "West Nile",
+    "moustiques",
+    "SpF"
+   ]
+  },
+  {
+   "id": "culottes-remboursables-ruptures",
+   "date": "2026-11-05",
+   "rank": 5,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "Culottes remboursables : un bon démarrage, limité par les ruptures de stock",
+   "summary": "En octobre, la moitié des pharmacies ont vendu des protections menstruelles réutilisables désormais remboursées, mais des ruptures de stock ont freiné les ventes.",
+   "comptoir": "Anticiper les commandes de protections menstruelles remboursables et prévenir les patientes des délais possibles.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/culottes-remboursables-un-bon-demarrage-limite-par-les-ruptures-de-stock",
+   "tags": [
+    "culottes",
+    "remboursement",
+    "ruptures"
+   ]
+  },
+  {
+   "id": "tentin-xurta-justificatif",
+   "date": "2026-11-05",
+   "rank": 6,
+   "source": "Moniteur",
+   "category": "Nouveaux médicaments",
+   "approx": true,
+   "title": "Tentin, Xurta : quel est donc ce justificatif nécessaire au remboursement ?",
+   "summary": "Ces deux traitements du TDAH sont remboursés sous conditions : un justificatif d'accompagnement doit être contrôlé à chaque délivrance.",
+   "comptoir": "Demander et vérifier le justificatif à chaque dispensation de Tentin ou Xurta avant la facturation.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/tentin-xurta-quel-est-donc-ce-justificatif-necessaire-au-remboursement",
+   "tags": [
+    "TDAH",
+    "remboursement",
+    "justificatif"
+   ]
+  },
   {
    "id": "piratage-donnees-pharmacies",
    "date": "2026-11-04",
@@ -89,6 +189,23 @@
     "Xurta",
     "remboursement",
     "lisdexamfétamine"
+   ]
+  },
+  {
+   "id": "prac-octobre-2026",
+   "date": "2026-11-03",
+   "rank": 1,
+   "source": "ANSM",
+   "category": "Pharmacovigilance",
+   "title": "Avis du PRAC : retour d'information sur la réunion d'octobre 2026",
+   "summary": "L'ANSM met à jour son compte rendu de la réunion d'octobre du comité européen de pharmacovigilance (PRAC), avec les signaux et réévaluations de sécurité examinés.",
+   "comptoir": "Rien ne change immédiatement au comptoir : consulter le compte rendu pour repérer d'éventuels nouveaux effets indésirables à signaler aux patients concernés.",
+   "url": "https://ansm.sante.fr/actualites/retour-dinformation-sur-le-prac",
+   "tags": [
+    "PRAC",
+    "pharmacovigilance",
+    "sécurité",
+    "Europe"
    ]
   },
   {

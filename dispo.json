@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-05T06:39:04+01:00",
+ "updatedAt": "2026-11-06T06:38:00+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
   {
@@ -1440,15 +1440,6 @@
     "Endocrinologie",
     "Neurologie",
     "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Arrêt de commercialisation",
-   "maj": "2026-08-07",
-   "nom": "Névirapine Teva LP 400 mg, comprimé à libération prolongée",
-   "remise": null,
-   "domaines": [
-    "Infectiologie"
    ]
   },
   {
