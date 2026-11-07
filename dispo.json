@@ -1,7 +1,35 @@
 {
- "updatedAt": "2026-11-06T06:38:00+01:00",
+ "updatedAt": "2026-11-07T06:38:47+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-06",
+   "nom": "Zophren 2 mg/ml, solution injectable en ampoule",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-06",
+   "nom": "Mitoxantrone Accord 2 mg/mL, solution à diluer pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie",
+    "Immunologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-11-05",
+   "nom": "Lariam 250 mg, comprimé sécable",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
   {
    "statut": "Remise à disposition",
    "maj": "2026-11-04",
@@ -712,15 +740,6 @@
    "remise": null,
    "domaines": [
     "Immunologie"
-   ]
-  },
-  {
-   "statut": "Rupture de stock",
-   "maj": "2026-10-08",
-   "nom": "Lariam 250 mg, comprimé sécable",
-   "remise": null,
-   "domaines": [
-    "Infectiologie"
    ]
   },
   {
@@ -1616,15 +1635,6 @@
     "Néphrologie",
     "Rhumatologie",
     "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-06-26",
-   "nom": "Zophren 2 mg/ml, solution injectable en ampoule",
-   "remise": null,
-   "domaines": [
-    "Hépato-gastroentérologie"
    ]
   },
   {

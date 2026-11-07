@@ -1,6 +1,65 @@
 {
- "updatedAt": "2026-11-06T06:38:00+01:00",
+ "updatedAt": "2026-11-07T06:38:26+01:00",
  "articles": [
+  {
+   "id": "lariam-250-rupture",
+   "date": "2026-11-06",
+   "rank": 1,
+   "source": "Quotidien",
+   "category": "Ruptures & tensions",
+   "title": "Paludisme : Lariam 250 mg en rupture de stock",
+   "summary": "Le comprimé sécable de Lariam 250 mg est indisponible, avec un retour annoncé en juin 2027 d'après l'ANSM. Le laboratoire signale une rupture en ville comme à l'hôpital.",
+   "comptoir": "Pour une prophylaxie du paludisme demandée, orienter vers le médecin ou un centre de conseil aux voyageurs afin de choisir une autre option adaptée à la destination.",
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/paludisme-lariam-250-mg-en-rupture-de-stock",
+   "related": [
+    {
+     "label": "Lariam 250 mg : une rupture en ville comme à l'hôpital",
+     "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/lariam-250-mg-une-rupture-dapprovisionnement-en-ville-comme-a-lhopital",
+     "source": "Moniteur"
+    }
+   ],
+   "tags": [
+    "Lariam",
+    "méfloquine",
+    "paludisme",
+    "rupture",
+    "voyageur"
+   ]
+  },
+  {
+   "id": "antibiotiques-campagne-assurance-maladie",
+   "date": "2026-11-06",
+   "rank": 2,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "« Les antibiotiques, ce n'est vraiment pas automatique », insiste l'Assurance-maladie",
+   "summary": "L'Assurance maladie lance une campagne de trois semaines contre l'antibiorésistance, à partir de ce week-end.",
+   "comptoir": "Profiter de la campagne pour rappeler aux patients que les antibiotiques sont inutiles dans les infections virales et qu'il faut respecter la durée de traitement prescrite.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/politique-de-sante/les-antibiotiques-ce-nest-vraiment-pas-automatique-insiste-lassurance-maladie",
+   "tags": [
+    "antibiotiques",
+    "antibiorésistance",
+    "campagne",
+    "Assurance maladie"
+   ]
+  },
+  {
+   "id": "cyberattaques-pharmacies-rancons",
+   "date": "2026-11-06",
+   "rank": 3,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "Cyberattaques en pharmacies : des rançons demandées",
+   "summary": "Les attaques informatiques du week-end ont touché plus d'officines que les trois premières identifiées, et des rançons sont réclamées.",
+   "comptoir": "Vérifier ses sauvegardes et ses accès, ne pas ouvrir de pièce jointe suspecte et prévenir son éditeur de logiciel en cas d'anomalie.",
+   "url": "https://www.lequotidiendupharmacien.fr/gestion-de-lofficine/cyberattaques-en-pharmacies-des-rancons-demandees",
+   "tags": [
+    "cyberattaque",
+    "rançongiciel",
+    "sécurité",
+    "officine"
+   ]
+  },
   {
    "id": "vaccination-voyageur-pharmaciens",
    "date": "2026-11-05",
