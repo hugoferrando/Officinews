@@ -1,7 +1,16 @@
 {
- "updatedAt": "2026-11-08T06:38:46+01:00",
+ "updatedAt": "2026-11-09T06:38:48+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-11-06",
+   "nom": "Zophren 2 mg/ml, solution injectable en ampoule (IV)",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
   {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-11-06",
@@ -12,7 +21,7 @@
    ]
   },
   {
-   "statut": "Rupture de stock",
+   "statut": "Tension d'approvisionnement",
    "maj": "2026-11-06",
    "nom": "Mitoxantrone Accord 2 mg/mL, solution à diluer pour perfusion",
    "remise": null,
