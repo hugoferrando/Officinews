@@ -1,9 +1,45 @@
 {
- "updatedAt": "2026-11-09T06:38:48+01:00",
+ "updatedAt": "2026-11-10T06:38:23+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
   {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-09",
+   "nom": "Xeplion, suspension injectable à libération prolongée",
+   "remise": "2026-10-15",
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-09",
+   "nom": "Spécialités à base de propranolol 40 mg, comprimé",
+   "remise": "2026-11-09",
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-09",
+   "nom": "Pipéracilline Panpharma 4 g, poudre pour solution injectable (I.M., I.V.)",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
    "statut": "Rupture de stock",
+   "maj": "2026-11-09",
+   "nom": "Farmorubicine 10 mg, poudre pour solution pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
    "maj": "2026-11-06",
    "nom": "Zophren 2 mg/ml, solution injectable en ampoule (IV)",
    "remise": null,
@@ -21,7 +57,7 @@
    ]
   },
   {
-   "statut": "Tension d'approvisionnement",
+   "statut": "Rupture de stock",
    "maj": "2026-11-06",
    "nom": "Mitoxantrone Accord 2 mg/mL, solution à diluer pour perfusion",
    "remise": null,
@@ -770,15 +806,6 @@
    ]
   },
   {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-10-02",
-   "nom": "Xeplion, suspension injectable à libération prolongée",
-   "remise": null,
-   "domaines": [
-    "Psychiatrie"
-   ]
-  },
-  {
    "statut": "Remise à disposition",
    "maj": "2026-10-02",
    "nom": "Concerta LP, comprimé à libération prolongée",
@@ -1433,15 +1460,6 @@
    ]
   },
   {
-   "statut": "Remise à disposition",
-   "maj": "2026-08-11",
-   "nom": "Rifadine 300 mg, gélule",
-   "remise": "2026-07-20",
-   "domaines": [
-    "Infectiologie"
-   ]
-  },
-  {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-08-10",
    "nom": "Dobutamine Panpharma 250 mg/20 ml, solution à diluer pour perfusion",
@@ -1668,15 +1686,6 @@
    "statut": "Tension d'approvisionnement",
    "maj": "2026-06-18",
    "nom": "Trandolapril 2 mg et 4 mg",
-   "remise": null,
-   "domaines": [
-    "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-06-17",
-   "nom": "Spécialités à base de propranolol 40 mg, comprimé",
    "remise": null,
    "domaines": [
     "Cardiologie"
@@ -1979,15 +1988,6 @@
    "remise": null,
    "domaines": [
     "Infectiologie"
-   ]
-  },
-  {
-   "statut": "Rupture de stock",
-   "maj": "2026-02-11",
-   "nom": "Farmorubicine 10 mg, poudre pour solution pour perfusion",
-   "remise": null,
-   "domaines": [
-    "Oncologie/Radiothérapie"
    ]
   },
   {
