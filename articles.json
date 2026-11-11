@@ -1,6 +1,104 @@
 {
- "updatedAt": "2026-11-10T06:37:58+01:00",
+ "updatedAt": "2026-11-11T06:38:30+01:00",
  "articles": [
+  {
+   "id": "rifinah-tension-remplacement",
+   "date": "2026-11-10",
+   "rank": 1,
+   "source": "ANSM",
+   "category": "Ruptures & tensions",
+   "title": "Tensions sur l'antituberculeux Rifinah : une recommandation de remplacement temporaire pour préserver la continuité des traitements",
+   "summary": "L'ANSM indique une solution de remplacement provisoire à Rifinah, en tension d'approvisionnement, afin que les patients tuberculeux ne voient pas leur traitement interrompu.",
+   "comptoir": "Si un patient présente une ordonnance de Rifinah indisponible, consulter la recommandation ANSM pour la substitution proposée et joindre le prescripteur ou le service de pneumologie en cas de doute.",
+   "url": "https://ansm.sante.fr/actualites/tensions-sur-lantituberculeux-rifinah-une-recommandation-de-remplacement-temporaire-pour-preserver-la-continuite-des-traitements",
+   "related": [
+    {
+     "label": "Recommandation de remplacement de l'antituberculeux Rifinah",
+     "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/recommandation-de-remplacement-de-lantituberculeux-rifinah",
+     "source": "Quotidien"
+    }
+   ],
+   "tags": [
+    "Rifinah",
+    "tuberculose",
+    "tension",
+    "substitution"
+   ]
+  },
+  {
+   "id": "overdoses-hausse-france",
+   "date": "2026-11-10",
+   "rank": 3,
+   "source": "Quotidien",
+   "category": "Pharmacovigilance",
+   "title": "Le nombre d'overdoses en France a plus que doublé en 10 ans",
+   "summary": "Les décès par overdose ont augmenté de 171 % en dix ans, et les médicaments de substitution aux opioïdes sont impliqués dans plus de la moitié des cas selon la presse professionnelle.",
+   "comptoir": "Rappeler les règles de conservation hors de portée des enfants des traitements de substitution et proposer la naloxone aux patients concernés.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/le-nombre-doverdoses-en-france-plus-que-double-en-10-ans",
+   "related": [
+    {
+     "label": "Décès par overdose : les médicaments de substitution en cause",
+     "url": "https://www.lemoniteurdespharmacies.fr/conseils/premiers-soins/deces-par-overdose-les-medicaments-de-substitution-en-cause-dans-plus-de-la-moitie-des-cas",
+     "source": "Moniteur"
+    }
+   ],
+   "tags": [
+    "overdose",
+    "opioïdes",
+    "substitution",
+    "naloxone"
+   ]
+  },
+  {
+   "id": "ixchiq-efficacite-5-ans",
+   "date": "2026-11-10",
+   "rank": 6,
+   "source": "Quotidien",
+   "category": "Vaccins",
+   "title": "Le vaccin Ixchiq toujours efficace 5 ans après une première injection",
+   "summary": "Le laboratoire Valneva annonce que son vaccin contre le chikungunya reste protecteur cinq ans après la première injection.",
+   "comptoir": "Rien ne change pour l'officine : il s'agit de données du fabricant, à ne pas présenter comme une recommandation officielle.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/le-vaccin-ixchiq-toujours-efficace-5-ans-apres-une-premiere-injection",
+   "tags": [
+    "Ixchiq",
+    "chikungunya",
+    "vaccin"
+   ]
+  },
+  {
+   "id": "senat-surtaxe-grossistes-export",
+   "date": "2026-11-10",
+   "rank": 7,
+   "source": "Moniteur",
+   "category": "Profession",
+   "title": "Le Sénat veut surtaxer les grossistes-répartiteurs qui privilégient l'export",
+   "summary": "Les sénateurs proposent de taxer davantage les grossistes-répartiteurs qui favorisent l'exportation au détriment de l'approvisionnement national.",
+   "comptoir": "Rien ne change pour l'instant : mesure au stade d'amendement du budget de la Sécu, qui vise à limiter les ruptures d'approvisionnement.",
+   "url": "https://www.lemoniteurdespharmacies.fr/profession/socio-professionnel/le-senat-veut-surtaxer-les-grossistes-repartiteurs-qui-privilegient-lexport",
+   "tags": [
+    "PLFSS",
+    "grossistes",
+    "export",
+    "ruptures"
+   ]
+  },
+  {
+   "id": "senat-biosimilaires-substitution",
+   "date": "2026-11-10",
+   "rank": 8,
+   "source": "Moniteur",
+   "category": "Réglementation",
+   "title": "Biosimilaires : le Sénat veut accélérer la substitution et limiter les refus des médecins",
+   "summary": "Les sénateurs souhaitent faciliter la substitution des biosimilaires par le pharmacien et encadrer la possibilité pour les médecins de s'y opposer.",
+   "comptoir": "Rien ne change pour l'instant : continuer à appliquer les règles actuelles de substitution et suivre l'issue du PLFSS.",
+   "url": "https://www.lemoniteurdespharmacies.fr/profession/socio-professionnel/biosimilaires-le-senat-veut-accelerer-la-substitution-et-limiter-les-refus-des-medecins",
+   "tags": [
+    "biosimilaires",
+    "substitution",
+    "PLFSS",
+    "Sénat"
+   ]
+  },
   {
    "id": "senat-budget-secu-2027",
    "date": "2026-11-09",
