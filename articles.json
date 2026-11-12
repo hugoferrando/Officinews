@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T06:38:30+01:00",
+ "updatedAt": "2026-11-12T06:40:57+01:00",
  "articles": [
   {
    "id": "rifinah-tension-remplacement",
@@ -47,6 +47,47 @@
     "opioïdes",
     "substitution",
     "naloxone"
+   ]
+  },
+  {
+   "id": "plfss-2027-amendement-labos",
+   "date": "2026-11-10",
+   "rank": 3,
+   "source": "Quotidien",
+   "category": "Réglementation",
+   "title": "Un amendement au PLFSS 2027 provoque la colère des laboratoires",
+   "summary": "Un amendement ajouté au budget de la Sécurité sociale 2027 inquiète les industriels du médicament, qui contestent son contenu.",
+   "comptoir": "Rien ne change pour l'instant au comptoir : texte encore en discussion, à suivre avant toute répercussion sur les prix ou la disponibilité.",
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/industrie/un-amendement-au-plfss-2027-provoque-la-colere-des-laboratoires",
+   "tags": [
+    "PLFSS",
+    "laboratoires",
+    "budget",
+    "médicament"
+   ]
+  },
+  {
+   "id": "hcsp-iatrogenie-medicamenteuse",
+   "date": "2026-11-10",
+   "rank": 4,
+   "source": "Quotidien",
+   "category": "Pharmacovigilance",
+   "title": "Améliorer la sécurité des patients face à l'iatrogénie médicamenteuse",
+   "summary": "Le HCSP dresse un état des lieux des effets indésirables médicamenteux en France et propose des pistes pour les prévenir.",
+   "comptoir": "Profiter de la dispensation pour repérer interactions, doublons et mésusage, et proposer un bilan de médication aux patients polymédiqués.",
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/ameliorer-la-securite-des-patients-face-liatrogenie-medicamenteuse",
+   "related": [
+    {
+     "label": "L'iatrogénie coûte plus de 10 milliards d'euros par an",
+     "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/liatrogenie-coute-plus-de-10-milliards-deuros-par-an",
+     "source": "Moniteur"
+    }
+   ],
+   "tags": [
+    "iatrogénie",
+    "HCSP",
+    "mésusage",
+    "sécurité"
    ]
   },
   {

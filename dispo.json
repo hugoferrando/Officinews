@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-11T06:38:59+01:00",
+ "updatedAt": "2026-11-12T06:40:57+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
   {
@@ -1507,17 +1507,6 @@
    "remise": null,
    "domaines": [
     "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Remise à disposition",
-   "maj": "2026-08-13",
-   "nom": "Méthylprednisolone Hikma 500 mg, poudre pour solution injectable",
-   "remise": "2026-08-13",
-   "domaines": [
-    "Allergologie",
-    "Infectiologie",
-    "Neurologie"
    ]
   },
   {
