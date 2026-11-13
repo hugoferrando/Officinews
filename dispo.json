@@ -1,9 +1,36 @@
 {
- "updatedAt": "2026-11-12T06:40:57+01:00",
+ "updatedAt": "2026-11-13T06:38:45+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
   {
    "statut": "Remise à disposition",
+   "maj": "2026-11-12",
+   "nom": "Zypadhera 210 mg, poudre et solvant pour suspension injectable à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-12",
+   "nom": "Vitamine E Provepharm 100 mg/2 ml, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-12",
+   "nom": "Cimzia 200 mg, solution injectable en stylo prérempli",
+   "remise": "2026-10-26",
+   "domaines": [
+    "Immunologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
    "maj": "2026-11-10",
    "nom": "Tibéral 1 g, solution injectable pour perfusion",
    "remise": null,
@@ -21,6 +48,15 @@
    ]
   },
   {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-10",
+   "nom": "Mitomycine Accord 20 mg, poudre pour solution injectable / perfusion ou voie intravésicale",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
    "statut": "Rupture de stock",
    "maj": "2026-11-10",
    "nom": "Mitomycine Accord 20 mg, poudre pour solution injectable",
@@ -28,6 +64,13 @@
    "domaines": [
     "Oncologie/Radiothérapie"
    ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-11-10",
+   "nom": "Methergin 0,20 mg/1 ml, solution injectable, ampoule (boîte de 3 ampoules)",
+   "remise": null,
+   "domaines": []
   },
   {
    "statut": "Tension d'approvisionnement",
@@ -1394,15 +1437,6 @@
   {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-08-25",
-   "nom": "Vitamine E Provepharm 100 mg/2 ml, solution injectable",
-   "remise": null,
-   "domaines": [
-    "Hépato-gastroentérologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-08-25",
    "nom": "Oncovin 1 mg, solution injectable",
    "remise": null,
    "domaines": [
@@ -1803,15 +1837,6 @@
    "remise": null,
    "domaines": [
     "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-05-27",
-   "nom": "Cimzia 200 mg, solution injectable en stylo prérempli",
-   "remise": null,
-   "domaines": [
-    "Immunologie"
    ]
   },
   {

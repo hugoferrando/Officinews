@@ -1,6 +1,106 @@
 {
- "updatedAt": "2026-11-12T06:40:57+01:00",
+ "updatedAt": "2026-11-13T06:38:26+01:00",
  "articles": [
+  {
+   "id": "creon-tensions-2027",
+   "date": "2026-11-13",
+   "rank": 5,
+   "source": "Moniteur",
+   "category": "Ruptures & tensions",
+   "title": "Creon : des tensions qui s'étirent jusqu'en 2027",
+   "summary": "Les quatre dosages de Creon restent en tension en officine selon l'ANSM, avec des délais de retour variables selon les spécialités.",
+   "comptoir": "Vérifier le stock par dosage, anticiper les commandes et prévenir les patients sous enzymes pancréatiques avant épuisement de leur traitement.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/creon-des-tensions-qui-setirent-jusquen-2027",
+   "tags": [
+    "Creon",
+    "tension",
+    "pancréas"
+   ],
+   "approx": true
+  },
+  {
+   "id": "fucithalmic-rappel-lot",
+   "date": "2026-11-13",
+   "rank": 6,
+   "source": "Moniteur",
+   "category": "Pharmacovigilance",
+   "title": "Fucithalmic : un lot de gel ophtalmique rappelé",
+   "summary": "Un lot de ce gel ophtalmique est rappelé par précaution en raison d'un risque de contamination microbiologique.",
+   "comptoir": "Contrôler le numéro de lot en stock et en retirer les boîtes concernées ; orienter les patients ayant un tube du lot vers la pharmacie.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/fucithalmic-un-lot-de-gel-ophtalmique-rappele",
+   "tags": [
+    "Fucithalmic",
+    "rappel de lot",
+    "ophtalmique"
+   ],
+   "approx": true
+  },
+  {
+   "id": "therapie-genique-tumeurs-novartis",
+   "date": "2026-11-12",
+   "rank": 1,
+   "source": "Quotidien",
+   "category": "Pharmacovigilance",
+   "title": "Plusieurs tumeurs détectées suite à un traitement génique contre une maladie rare",
+   "summary": "Novartis a signalé des tumeurs chez neuf enfants parmi environ 6 000 traités par une thérapie génique pour une maladie rare. Le signal de sécurité est en cours d'évaluation.",
+   "comptoir": "Rien ne change à l'officine pour l'instant : traitement hospitalier, mais rassurer les familles concernées et les orienter vers l'équipe prescriptrice.",
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/plusieurs-tumeurs-detectees-suite-un-traitement-genique-contre-une-maladie-rare",
+   "tags": [
+    "thérapie génique",
+    "Novartis",
+    "tumeurs",
+    "sécurité"
+   ]
+  },
+  {
+   "id": "anms-autosaisine-delistage-plfss",
+   "date": "2026-11-12",
+   "rank": 2,
+   "source": "Quotidien",
+   "category": "Réglementation",
+   "title": "L'ANSM pourra-t-elle se saisir elle-même des molécules à délister ?",
+   "summary": "Le PLFSS 2027 pourrait permettre à l'ANSM d'engager d'elle-même la réévaluation du service médical rendu de certains médicaments, avec un risque de déremboursement.",
+   "comptoir": "Rien ne change pour l'instant : sujet à suivre, des déremboursements pourraient à terme modifier les explications données aux patients.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/lansm-pourra-t-elle-se-saisir-elle-meme-des-molecules-delister",
+   "tags": [
+    "PLFSS",
+    "ANSM",
+    "SMR",
+    "déremboursement"
+   ]
+  },
+  {
+   "id": "camaioni-fspf-priorites",
+   "date": "2026-11-12",
+   "rank": 3,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "Fabrice Camaioni, « Une profession qui ne bouge pas, c'est une profession qui meurt »",
+   "summary": "Le nouveau président de la FSPF, élu fin septembre, expose ses priorités pour la profession en prenant ses fonctions.",
+   "comptoir": "Rien ne change au comptoir : à lire pour suivre les orientations syndicales sur les missions et l'économie de l'officine.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/fabrice-camaioni-une-profession-qui-ne-bouge-pas-cest-une-profession-qui-meurt",
+   "tags": [
+    "FSPF",
+    "syndicat",
+    "profession"
+   ]
+  },
+  {
+   "id": "gers-reseau-50-milliards",
+   "date": "2026-11-12",
+   "rank": 4,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "50 milliards d'euros de chiffre d'affaires pour le réseau, mais des fragilités qui persistent",
+   "summary": "Selon les données GERS, le chiffre d'affaires du réseau officinal dépasse 50 milliards d'euros fin octobre, un record, malgré des fragilités économiques persistantes.",
+   "comptoir": "Rien ne change au comptoir : repère économique utile pour comprendre le contexte de la profession.",
+   "url": "https://www.lequotidiendupharmacien.fr/gestion-de-lofficine/50-milliards-deuros-de-chiffre-daffaires-pour-le-reseau-mais-des-fragilites-qui-persistent",
+   "tags": [
+    "GERS",
+    "économie",
+    "officine"
+   ]
+  },
   {
    "id": "rifinah-tension-remplacement",
    "date": "2026-11-10",
@@ -16,6 +116,11 @@
      "label": "Recommandation de remplacement de l'antituberculeux Rifinah",
      "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/recommandation-de-remplacement-de-lantituberculeux-rifinah",
      "source": "Quotidien"
+    },
+    {
+     "label": "Tensions d'approvisionnement pour Rifinah : quelle solution de remplacement ?",
+     "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/tensions-dapprovisionnement-pour-rifinah-quelle-solution-de-remplacement",
+     "source": "Moniteur"
     }
    ],
    "tags": [
