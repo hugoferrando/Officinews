@@ -1,7 +1,80 @@
 {
- "updatedAt": "2026-11-13T06:38:45+01:00",
+ "updatedAt": "2026-11-14T06:38:37+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-13",
+   "nom": "Virophta, préparation pour collyre",
+   "remise": "2026-11-12",
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-13",
+   "nom": "Toxicarb, suspension buvable",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-13",
+   "nom": "Sectral 40 mg/ml, solution buvable en flacon",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-13",
+   "nom": "Plerixafor Arrow 20 mg/mL, solution injectable",
+   "remise": "2026-11-12",
+   "domaines": [
+    "Hématologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-13",
+   "nom": "Mitoxantrone Accord 2 mg/mL, solution à diluer pour perfusion",
+   "remise": "2026-11-13",
+   "domaines": [
+    "Oncologie/Radiothérapie",
+    "Immunologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-13",
+   "nom": "Jext 300 microgrammes, solution injectable en stylo prérempli",
+   "remise": null,
+   "domaines": [
+    "Allergologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-13",
+   "nom": "Duloxétine 30 mg et 60 mg, gélules gastro-résistantes",
+   "remise": "2026-11-13",
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-13",
+   "nom": "Dipentum 250 mg, gélule",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
   {
    "statut": "Remise à disposition",
    "maj": "2026-11-12",
@@ -185,16 +258,6 @@
    "remise": null,
    "domaines": [
     "Hépato-gastroentérologie"
-   ]
-  },
-  {
-   "statut": "Rupture de stock",
-   "maj": "2026-11-06",
-   "nom": "Mitoxantrone Accord 2 mg/mL, solution à diluer pour perfusion",
-   "remise": null,
-   "domaines": [
-    "Oncologie/Radiothérapie",
-    "Immunologie"
    ]
   },
   {
@@ -591,15 +654,6 @@
    ]
   },
   {
-   "statut": "Rupture de stock",
-   "maj": "2026-10-20",
-   "nom": "Plerixafor Arrow 20 mg/ml, solution injectable",
-   "remise": null,
-   "domaines": [
-    "Hématologie"
-   ]
-  },
-  {
    "statut": "Remise à disposition",
    "maj": "2026-10-20",
    "nom": "Oracilline 250 000 UI/5 ml, suspension buvable",
@@ -871,15 +925,6 @@
    "remise": "2026-10-09",
    "domaines": [
     "Infectiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-10-09",
-   "nom": "Duloxétine 30 mg et 60 mg, gélules gastro-résistantes",
-   "remise": null,
-   "domaines": [
-    "Psychiatrie"
    ]
   },
   {
@@ -2221,15 +2266,6 @@
    "remise": null,
    "domaines": [
     "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2025-03-17",
-   "nom": "Virophta, préparation pour collyre",
-   "remise": null,
-   "domaines": [
-    "Infectiologie"
    ]
   },
   {

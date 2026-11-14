@@ -1,6 +1,40 @@
 {
- "updatedAt": "2026-11-13T06:38:26+01:00",
+ "updatedAt": "2026-11-14T06:38:36+01:00",
  "articles": [
+  {
+   "id": "mounjaro-contraception-ema",
+   "date": "2026-11-13",
+   "rank": 1,
+   "source": "Quotidien",
+   "category": "Pharmacovigilance",
+   "title": "La contraception recommandée avec Mounjaro, mais attention à la fiabilité des contraceptifs oraux",
+   "summary": "L'agence européenne rappelle qu'une contraception est conseillée chez les femmes traitées par Mounjaro, avec un point d'attention sur l'efficacité des contraceptifs oraux.",
+   "comptoir": "À une patiente sous Mounjaro, rappeler qu'une contraception est recommandée et l'inviter à voir son médecin pour vérifier que la pilule reste adaptée.",
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/la-contraception-recommandee-avec-mounjaro-mais-attention-la-fiabilite-des-contraceptifs-oraux",
+   "tags": [
+    "Mounjaro",
+    "tirzépatide",
+    "contraception",
+    "EMA"
+   ]
+  },
+  {
+   "id": "methergin-rupture-import",
+   "date": "2026-11-13",
+   "rank": 3,
+   "source": "Moniteur",
+   "category": "Ruptures & tensions",
+   "title": "Methergin injectable : des unités importées pour pallier la rupture",
+   "summary": "Le Methergin 0,20 mg/1 ml fait défaut en ville ; des unités prévues pour un autre pays sont importées temporairement, sans date de retour annoncée.",
+   "comptoir": "Vérifier auprès du grossiste la disponibilité des unités importées avant d'orienter une demande.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/methergin-injectable-des-unites-importees-pour-pallier-la-rupture",
+   "tags": [
+    "Methergin",
+    "rupture",
+    "importation"
+   ],
+   "approx": true
+  },
   {
    "id": "creon-tensions-2027",
    "date": "2026-11-13",
@@ -36,6 +70,22 @@
    "approx": true
   },
   {
+   "id": "lasante-net-fuite-donnees",
+   "date": "2026-11-13",
+   "rank": 6,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "Les données de lasante.net mises en vente par un hacker",
+   "summary": "Les données d'environ 430 000 clients d'une pharmacie en ligne seraient proposées à la vente sur un forum de cybercriminalité.",
+   "comptoir": "Rappeler à l'équipe la vigilance sur le hameçonnage et la sécurité des données patients, sans conduite spécifique à ce stade.",
+   "url": "https://www.lequotidiendupharmacien.fr/gestion-de-lofficine/les-donnees-de-lasantenet-mises-en-vente-par-un-hacker",
+   "tags": [
+    "cybersécurité",
+    "données",
+    "pharmacie en ligne"
+   ]
+  },
+  {
    "id": "therapie-genique-tumeurs-novartis",
    "date": "2026-11-12",
    "rank": 1,
@@ -67,6 +117,23 @@
     "ANSM",
     "SMR",
     "déremboursement"
+   ]
+  },
+  {
+   "id": "glp1-fda-affection-oculaire",
+   "date": "2026-11-12",
+   "rank": 2,
+   "source": "Quotidien",
+   "category": "Pharmacovigilance",
+   "title": "Analogue du GLP1 : la FDA alerte sur un « risque potentiellement accru » d'affection oculaire",
+   "summary": "L'agence américaine demande aux fabricants d'analogues du GLP-1 d'ajouter dans la notice la mention d'un risque possiblement majoré d'atteinte oculaire.",
+   "comptoir": "Rien ne change officiellement en France pour l'instant : en cas de baisse de vue chez un patient sous analogue du GLP-1, l'orienter vers son médecin.",
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/analogue-du-glp1-la-fda-alerte-sur-un-risque-potentiellement-accru-daffection-oculaire",
+   "tags": [
+    "GLP-1",
+    "FDA",
+    "oculaire",
+    "pharmacovigilance"
    ]
   },
   {
