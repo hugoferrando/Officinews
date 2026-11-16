@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Veille pharmaceutique : actus ANSM, HAS, Moniteur des pharmacies et Quotidien du pharmacien, ruptures et campagnes de vaccination.">
+<meta name="description" content="Veille pharmaceutique : actus ANSM, HAS, Moniteur des pharmacies, Quotidien du pharmacien et FSPF, ruptures et campagnes de vaccination.">
 <meta name="theme-color" content="#F3F7F5" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#0D1512" media="(prefers-color-scheme: dark)">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -23,7 +23,7 @@
   --paper:#F3F7F5; --card:#FFFFFF; --chip:#E7EFEB; --ink:#10231C; --muted:#5B6D66; --rule:#E1E9E5;
   --accent:#0A9A58; --accent-ink:#087A46; --accent-soft:#E0F3E8; --on-accent:#FFFFFF;
   --warn:#B45309; --warn-soft:#FCEEDC; --danger:#B42318; --danger-soft:#FCE9E7;
-  --s-ansm:#B8323A; --s-has:#1E68A8; --s-mon:#B5620F; --s-qph:#5348A6; --s-autre:#5B6D66;
+  --s-ansm:#B8323A; --s-has:#1E68A8; --s-mon:#B5620F; --s-qph:#5348A6; --s-fspf:#0F7A6C; --s-autre:#5B6D66;
   --brand-dark:#0C3B2D; --brand:#0A9A58; --mark-bg:transparent;
   --shadow:0 1px 2px rgba(16,35,28,.05),0 6px 20px rgba(16,35,28,.05);
   --f-brand:"Outfit", "Public Sans", system-ui, sans-serif;
@@ -35,14 +35,14 @@
   --paper:#0D1512; --card:#15201C; --chip:#1C2925; --ink:#E6EFEA; --muted:#97A8A1; --rule:#24322D;
   --accent:#3FD08A; --accent-ink:#5FDB9E; --accent-soft:#16332A; --on-accent:#06281A;
   --warn:#F5A35C; --warn-soft:#382818; --danger:#F28B82; --danger-soft:#3A1F1C;
-  --s-ansm:#F0858B; --s-has:#79B6EC; --s-mon:#F0A862; --s-qph:#ABA2F2; --s-autre:#97A8A1;
+  --s-ansm:#F0858B; --s-has:#79B6EC; --s-mon:#F0A862; --s-qph:#ABA2F2; --s-fspf:#5FD0BF; --s-autre:#97A8A1;
   --brand-dark:#E6EFEA; --brand:#3FD08A; --mark-bg:#F2F7F4;
   --shadow:0 1px 2px rgba(0,0,0,.3); color-scheme:dark}}
 :root[data-theme="dark"]{
   --paper:#0D1512; --card:#15201C; --chip:#1C2925; --ink:#E6EFEA; --muted:#97A8A1; --rule:#24322D;
   --accent:#3FD08A; --accent-ink:#5FDB9E; --accent-soft:#16332A; --on-accent:#06281A;
   --warn:#F5A35C; --warn-soft:#382818; --danger:#F28B82; --danger-soft:#3A1F1C;
-  --s-ansm:#F0858B; --s-has:#79B6EC; --s-mon:#F0A862; --s-qph:#ABA2F2; --s-autre:#97A8A1;
+  --s-ansm:#F0858B; --s-has:#79B6EC; --s-mon:#F0A862; --s-qph:#ABA2F2; --s-fspf:#5FD0BF; --s-autre:#97A8A1;
   --brand-dark:#E6EFEA; --brand:#3FD08A; --mark-bg:#F2F7F4;
   --shadow:0 1px 2px rgba(0,0,0,.3); color-scheme:dark}
 *{box-sizing:border-box}
@@ -205,7 +205,7 @@ h1 .w-news{color:var(--brand)}
 .sources{border-top:1px solid var(--rule);padding-block:16px 36px;font-size:12.5px;color:var(--muted);display:flex;gap:4px 14px;flex-wrap:wrap}
 .sources a{color:var(--muted);text-underline-offset:3px}
 .sources.tools{border-top:0;padding-top:0;margin-top:-24px}
-.s-ANSM{color:var(--s-ansm)} .s-HAS{color:var(--s-has)} .s-Moniteur{color:var(--s-mon)} .s-Quotidien{color:var(--s-qph)} .s-Autre{color:var(--s-autre)}
+.s-ANSM{color:var(--s-ansm)} .s-HAS{color:var(--s-has)} .s-Moniteur{color:var(--s-mon)} .s-Quotidien{color:var(--s-qph)} .s-FSPF{color:var(--s-fspf)} .s-Autre{color:var(--s-autre)}
 .offline{background:var(--warn-soft);color:var(--warn);font-size:13px;font-weight:600;border-radius:12px;padding:9px 14px;margin-top:12px}
 
 @media (max-width:620px){
@@ -290,6 +290,7 @@ h1 .w-news{color:var(--brand)}
     <a href="https://www.has-sante.fr/jcms/p_3281266/fr/avis-et-decisions-sur-les-medicaments" target="_blank" rel="noopener">HAS</a>
     <a href="https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/" target="_blank" rel="noopener">Le Moniteur</a>
     <a href="https://www.lequotidiendupharmacien.fr/tous-les-articles" target="_blank" rel="noopener">Le Quotidien</a>
+    <a href="https://www.fspf.fr/actualites/" target="_blank" rel="noopener">FSPF</a>
   </footer>
   <footer class="sources tools">
     <span>Outils :</span>
@@ -303,7 +304,7 @@ h1 .w-news{color:var(--brand)}
 
 <script>
 (function(){
-  const SOURCES=[["ANSM","ANSM"],["HAS","HAS"],["Moniteur","Le Moniteur"],["Quotidien","Le Quotidien"],["Autre","Autres"]];
+  const SOURCES=[["ANSM","ANSM"],["HAS","HAS"],["Moniteur","Le Moniteur"],["Quotidien","Le Quotidien"],["FSPF","FSPF"],["Autre","Autres"]];
   const SRC_LABEL=Object.fromEntries(SOURCES);
   const CATS=["Ruptures & tensions","Vaccins","Pharmacovigilance","Nouveaux médicaments","Recommandations","Réglementation","Profession"];
   const ALERT="Ruptures & tensions";

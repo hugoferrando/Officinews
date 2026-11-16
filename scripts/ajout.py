@@ -20,7 +20,7 @@ from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 FICHIER = Path(__file__).resolve().parent.parent / "articles.json"
-SOURCES = {"ANSM", "HAS", "Moniteur", "Quotidien", "Autre"}
+SOURCES = {"ANSM", "HAS", "Moniteur", "Quotidien", "FSPF", "Autre"}
 CATEGORIES = {"Ruptures & tensions", "Vaccins", "Pharmacovigilance", "Nouveaux médicaments",
               "Recommandations", "Réglementation", "Profession"}
 OBLIGATOIRES = ("id", "date", "source", "category", "title", "summary", "url")

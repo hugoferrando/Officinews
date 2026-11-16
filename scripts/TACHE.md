@@ -15,12 +15,13 @@ Si l'heure de Paris est vers 9 h 37, 16 h 37 ou 21 h 37 (passages de rattrapage 
    - https://www.has-sante.fr/jcms/c_476564
    - https://www.lequotidiendupharmacien.fr/tous-les-articles
    - https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/
+   - FSPF (syndicat) : PAS de WebFetch, lance `python3 scripts/rss.py https://www.fspf.fr/feed/ <date de dernière mise à jour AAAA-MM-JJ>`. Si la sortie commence par « indisponible », un seul WebFetch de https://www.fspf.fr/actualites/ ; s'il échoue aussi, ignore la FSPF pour ce passage. Garde ses communiqués et infos utiles à l'officine (convention, rémunération, missions, PLFSS, ruptures), pas la vie interne du syndicat ni les contenus réservés aux adhérents.
    N'ouvre pas les articles un par un. WebSearch seulement si une page ne répond pas (une seule recherche).
    Garde uniquement : médicaments, vaccins, ruptures/tensions, pharmacovigilance, recos HAS, substitution/biosimilaires, réglementation officinale, grands sujets de la profession.
 3. Écris `/tmp/nouveaux.json` : une liste JSON, un objet par nouveau sujet :
    - `id` : slug court sans accents (lettres, chiffres, tirets)
    - `date` "YYYY-MM-DD" ; `rank` (entier, 1 = plus important du jour)
-   - `source` : "ANSM" | "HAS" | "Moniteur" | "Quotidien" | "Autre" (la plus officielle si plusieurs)
+   - `source` : "ANSM" | "HAS" | "Moniteur" | "Quotidien" | "FSPF" | "Autre" (la plus officielle si plusieurs ; un sujet FSPF déjà repris par la presse : source FSPF, l'article de presse en `related`)
    - `category` : une de "Ruptures & tensions", "Vaccins", "Pharmacovigilance", "Nouveaux médicaments", "Recommandations", "Réglementation", "Profession"
    - `title` (titre d'origine) ; `summary` : 1 à 2 phrases avec TES PROPRES MOTS (jamais de phrase copiée)
    - `comptoir` (OBLIGATOIRE pour chaque article, affiché dans l'encadré « Au comptoir ») : une phrase courte et pratique pour l'équipe officinale (quoi vérifier, dire au patient, commander, à qui orienter). Sans conduite à tenir concrète, dire ce que ça change ou non pour l'officine (ex. « Rien ne change pour l'instant : … »). N'invente aucune posologie ni date absente de la source.
