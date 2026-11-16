@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-15T06:38:04+01:00",
+ "updatedAt": "2026-11-16T06:38:25+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
   {
@@ -1559,24 +1559,6 @@
    "remise": "2026-08-19",
    "domaines": [
     "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Remise à disposition",
-   "maj": "2026-08-17",
-   "nom": "Repevax, suspension injectable en seringue préremplie",
-   "remise": "2026-08-03",
-   "domaines": [
-    "Infectiologie"
-   ]
-  },
-  {
-   "statut": "Remise à disposition",
-   "maj": "2026-08-17",
-   "nom": "Mynocine 100 mg, gélule",
-   "remise": "2026-08-17",
-   "domaines": [
-    "Infectiologie"
    ]
   },
   {
