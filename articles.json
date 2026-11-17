@@ -1,6 +1,88 @@
 {
- "updatedAt": "2026-11-16T06:38:25+01:00",
+ "updatedAt": "2026-11-17T06:39:03+01:00",
  "articles": [
+  {
+   "id": "has-capvaxive-pneumocoque",
+   "date": "2026-11-16",
+   "rank": 1,
+   "source": "HAS",
+   "category": "Vaccins",
+   "title": "Vaccination contre les infections invasives à pneumocoques : place du vaccin CAPVAXIVE - Recommandation",
+   "summary": "La HAS publie sa recommandation sur le rôle du vaccin Capvaxive dans la prévention des infections invasives à pneumocoques.",
+   "comptoir": "Rien ne change tout de suite au comptoir : consulter la recommandation avant de conseiller Capvaxive aux patients concernés.",
+   "url": "https://www.has-sante.fr/jcms/p_4606429/fr/vaccination-contre-les-infections-invasives-a-pneumocoques-place-du-vaccin-capvaxive-recommandation",
+   "tags": [
+    "pneumocoque",
+    "Capvaxive",
+    "HAS",
+    "vaccin"
+   ]
+  },
+  {
+   "id": "arrete-vente-officine-croquettes",
+   "date": "2026-11-16",
+   "rank": 2,
+   "source": "Quotidien",
+   "category": "Réglementation",
+   "title": "Vente en officine : Adieu bonbons, bonjour croquettes",
+   "summary": "Un arrêté paru au Journal officiel le 15 novembre modifie la liste des produits que les pharmacies peuvent vendre.",
+   "comptoir": "Vérifier la nouvelle liste avant de réorganiser les rayons de parapharmacie.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/vente-en-officine-adieu-bonbons-bonjour-croquettes",
+   "tags": [
+    "arrêté",
+    "Journal officiel",
+    "parapharmacie",
+    "officine"
+   ]
+  },
+  {
+   "id": "grippe-vaccination-65-ans-insuffisante",
+   "date": "2026-11-16",
+   "rank": 3,
+   "source": "Quotidien",
+   "category": "Vaccins",
+   "title": "Vaccination grippale en progression, mais insuffisante chez les plus de 65 ans",
+   "summary": "La couverture antigrippale progresse depuis le lancement de la campagne le 13 octobre, mais reste en retard chez les plus de 65 ans.",
+   "comptoir": "Relancer les patients de plus de 65 ans non vaccinés lors des délivrances.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/vaccination-grippale-en-progression-mais-insuffisante-chez-les-plus-de-65-ans",
+   "tags": [
+    "grippe",
+    "vaccination",
+    "65 ans"
+   ]
+  },
+  {
+   "id": "osiap-569-ordonnances-suspectes",
+   "date": "2026-11-16",
+   "rank": 4,
+   "source": "Quotidien",
+   "category": "Pharmacovigilance",
+   "title": "Enquête : 569 ordonnances suspectes détectées à l'officine",
+   "summary": "L'ANSM a publié le 13 novembre les résultats de l'enquête Osiap, qui a recensé 569 ordonnances suspectes en pharmacie.",
+   "comptoir": "Rester vigilant sur les ordonnances falsifiées et signaler les cas suspects.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/enquete-569-ordonnances-suspectes-detectees-lofficine",
+   "tags": [
+    "Osiap",
+    "ordonnances falsifiées",
+    "ANSM"
+   ]
+  },
+  {
+   "id": "dipentum-arret-production",
+   "date": "2026-11-16",
+   "rank": 5,
+   "source": "Moniteur",
+   "category": "Ruptures & tensions",
+   "title": "Dipentum 250 mg : l'arrêt de production fait craindre une rupture totale",
+   "summary": "La production de Dipentum, utilisé dans la rectocolite, est arrêtée sans date de reprise ; les derniers lots français périmeront en avril 2027.",
+   "comptoir": "Anticiper avec le prescripteur une alternative pour les patients sous Dipentum.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/dipentum-250-mg-larret-de-production-fait-craindre-une-rupture-totale",
+   "tags": [
+    "Dipentum",
+    "rupture",
+    "rectocolite"
+   ]
+  },
   {
    "id": "mounjaro-contraception-ema",
    "date": "2026-11-13",

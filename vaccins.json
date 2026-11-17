@@ -1,6 +1,16 @@
 {
- "updatedAt": "2026-10-28",
+ "updatedAt": "2026-11-17",
  "campagnes": [
+  {
+   "id": "vrs",
+   "nom": "Bronchiolite (VRS)",
+   "debut": "2026-09-14",
+   "fin": "2027-02-28",
+   "pourQui": "Nourrissons nés pendant la campagne, idéalement avant la sortie de maternité. Femmes enceintes entre 32 et 36 SA.",
+   "produits": "Beyfortus (50 mg sous 5 kg, 100 mg dès 5 kg), Enflonsia (105 mg), Abrysvo chez la femme enceinte.",
+   "officine": "Beyfortus et Enflonsia : dispensation seulement, pas d'injection en officine. Abrysvo : prescription et injection possibles par le pharmacien.",
+   "source": "https://pharmactu.fr/articles/bronchiolite-vrs-campagne-2026-2027-beyfortus-enflonsia-pharmacien"
+  },
   {
    "id": "grippe",
    "nom": "Grippe saisonnière",
@@ -36,19 +46,15 @@
      "url": "https://www.ameli.fr/pharmacien/sante-prevention/vaccination/vaccination-par-pharmacien-officine"
     }
    ]
-  },
-  {
-   "id": "vrs",
-   "nom": "Bronchiolite (VRS)",
-   "debut": "2026-09-14",
-   "fin": "2027-02-28",
-   "pourQui": "Nourrissons nés pendant la campagne, idéalement avant la sortie de maternité. Femmes enceintes entre 32 et 36 SA.",
-   "produits": "Beyfortus (50 mg sous 5 kg, 100 mg dès 5 kg), Enflonsia (105 mg), Abrysvo chez la femme enceinte.",
-   "officine": "Beyfortus et Enflonsia : dispensation seulement, pas d'injection en officine. Abrysvo : prescription et injection possibles par le pharmacien.",
-   "source": "https://pharmactu.fr/articles/bronchiolite-vrs-campagne-2026-2027-beyfortus-enflonsia-pharmacien"
   }
  ],
  "recos": [
+  {
+   "date": "2026-11-16",
+   "titre": "Pneumocoque : place du vaccin Capvaxive",
+   "texte": "La HAS précise la place de Capvaxive dans la prévention des infections invasives à pneumocoques.",
+   "source": "https://www.has-sante.fr/jcms/p_4606429/fr/vaccination-contre-les-infections-invasives-a-pneumocoques-place-du-vaccin-capvaxive-recommandation"
+  },
   {
    "date": "2026-07-30",
    "titre": "Pneumocoque : nouvelle stratégie vaccinale",

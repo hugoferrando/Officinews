@@ -1,7 +1,16 @@
 {
- "updatedAt": "2026-11-16T06:38:25+01:00",
+ "updatedAt": "2026-11-17T06:39:03+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-16",
+   "nom": "Cernevit, poudre pour solution injectable ou pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
   {
    "statut": "Remise à disposition",
    "maj": "2026-11-13",
