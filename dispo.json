@@ -1,11 +1,29 @@
 {
- "updatedAt": "2026-11-17T06:39:03+01:00",
+ "updatedAt": "2026-11-18T06:38:39+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
   {
    "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-17",
+   "nom": "Zovirax 200 mg/5 ml, suspension buvable",
+   "remise": null,
+   "domaines": [
+    "Immunologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
    "maj": "2026-11-16",
    "nom": "Cernevit, poudre pour solution injectable ou pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-16",
+   "nom": "Cernevit, poudre pour solution injectable",
    "remise": null,
    "domaines": [
     "Hépato-gastroentérologie"

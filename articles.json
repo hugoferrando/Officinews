@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-17T06:39:03+01:00",
+ "updatedAt": "2026-11-18T06:38:31+01:00",
  "articles": [
   {
    "id": "has-capvaxive-pneumocoque",
@@ -16,6 +16,13 @@
     "Capvaxive",
     "HAS",
     "vaccin"
+   ],
+   "related": [
+    {
+     "label": "Pneumocoques : la HAS recommande Capvaxive pour les enfants à très haut risque",
+     "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/pneumocoques-la-has-recommande-capvaxive-pour-les-enfants-tres-haut-risque",
+     "source": "Quotidien"
+    }
    ]
   },
   {
