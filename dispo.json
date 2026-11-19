@@ -1,7 +1,34 @@
 {
- "updatedAt": "2026-11-18T06:38:39+01:00",
+ "updatedAt": "2026-11-19T06:40:05+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-18",
+   "nom": "Téralithe LP 400 mg, comprimé sécable à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-18",
+   "nom": "Spécialités à base de furosémide 20 mg et 40 mg, comprimé",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-17",
+   "nom": "Zovirax 200 mg/5 ml, suspension buvable en flacon",
+   "remise": null,
+   "domaines": [
+    "Immunologie"
+   ]
+  },
   {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-11-17",
@@ -339,15 +366,6 @@
    "remise": null,
    "domaines": [
     "Psychiatrie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-11-02",
-   "nom": "Spécialités à base de furosémide 20 mg et 40 mg, comprimé",
-   "remise": null,
-   "domaines": [
-    "Cardiologie"
    ]
   },
   {
@@ -1130,15 +1148,6 @@
   },
   {
    "statut": "Tension d'approvisionnement",
-   "maj": "2026-09-21",
-   "nom": "Téralithe LP 400 mg, comprimé sécable à libération prolongée",
-   "remise": null,
-   "domaines": [
-    "Psychiatrie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
    "maj": "2026-09-18",
    "nom": "Palipéridone Teva, suspension injectable à libération prolongée",
    "remise": null,
@@ -1577,15 +1586,6 @@
    "remise": "2026-08-21",
    "domaines": [
     "Neurologie"
-   ]
-  },
-  {
-   "statut": "Remise à disposition",
-   "maj": "2026-08-20",
-   "nom": "Héparine calcique Panpharma 25 000 UI/ml, seringue pré-remplie",
-   "remise": "2026-08-19",
-   "domaines": [
-    "Cardiologie"
    ]
   },
   {

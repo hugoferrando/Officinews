@@ -1,6 +1,87 @@
 {
- "updatedAt": "2026-11-18T06:38:31+01:00",
+ "updatedAt": "2026-11-19T06:39:56+01:00",
  "articles": [
+  {
+   "id": "furosemide-nouvelles-mesures-continuite",
+   "date": "2026-11-18",
+   "rank": 1,
+   "source": "ANSM",
+   "category": "Ruptures & tensions",
+   "title": "Tensions en furosémide 20 et 40 mg : l'ANSM met en place de nouvelles mesures pour permettre la continuité de traitement des patients",
+   "summary": "Face aux difficultés d'approvisionnement en comprimés de furosémide 20 et 40 mg, l'ANSM ajoute des dispositions pour que les patients puissent poursuivre leur traitement.",
+   "comptoir": "Vérifier les disponibilités chez le grossiste et les alternatives proposées par l'ANSM avant de renvoyer le patient vers son prescripteur.",
+   "url": "https://ansm.sante.fr/actualites/tensions-en-furosemide-20-et-40-mg-lansm-met-en-place-de-nouvelles-mesures-pour-permettre-la-continuite-de-traitement-des-patients",
+   "related": [
+    {
+     "label": "Furosémide : préparations magistrales pour pallier les indisponibilités",
+     "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/furosemide-des-preparations-magistrales-pour-pallier-les-indisponibilites",
+     "source": "Moniteur"
+    }
+   ],
+   "tags": [
+    "furosémide",
+    "tension",
+    "préparations magistrales",
+    "diurétique"
+   ]
+  },
+  {
+   "id": "fspf-liste-marchandises-officine",
+   "date": "2026-11-18",
+   "rank": 2,
+   "source": "FSPF",
+   "category": "Réglementation",
+   "title": "Actualisation de la liste des marchandises autorisées à la vente en officine",
+   "summary": "Un arrêté du 4 novembre 2026, paru au Journal officiel du 15 novembre, révise la liste des marchandises que l'officine peut vendre et remplace l'ancienne liste.",
+   "comptoir": "Consulter la nouvelle liste avant de modifier l'offre en rayon ou de référencer de nouveaux produits non médicamenteux.",
+   "url": "https://www.fspf.fr/actualisation-de-la-liste-des-marchandises-autorisees-a-la-vente-en-officine/",
+   "related": [
+    {
+     "label": "Vente en officine : adieu bonbons, bonjour croquettes",
+     "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/vente-en-officine-adieu-bonbons-bonjour-croquettes",
+     "source": "Quotidien"
+    }
+   ],
+   "tags": [
+    "arrêté",
+    "marchandises",
+    "officine",
+    "Journal officiel"
+   ]
+  },
+  {
+   "id": "fspf-portail-mgen-fermeture",
+   "date": "2026-11-18",
+   "rank": 3,
+   "source": "FSPF",
+   "category": "Profession",
+   "title": "Portail MGEN : fermeture définitive le 30 novembre 2026",
+   "summary": "À la demande de la FSPF, la MGEN a maintenu son portail pour professionnels de santé jusqu'au 30 novembre afin de solder les dossiers antérieurs à la bascule.",
+   "comptoir": "Solder avant le 30 novembre les dossiers MGEN anciens encore en attente sur le portail.",
+   "url": "https://www.fspf.fr/portail-mgen-fermeture-definitive-le-30-novembre-2026/",
+   "tags": [
+    "MGEN",
+    "tiers payant",
+    "portail",
+    "facturation"
+   ]
+  },
+  {
+   "id": "has-chaines-legeres-libres",
+   "date": "2026-11-18",
+   "rank": 4,
+   "source": "HAS",
+   "category": "Recommandations",
+   "title": "Dosage sérique des chaînes légères libres dans les gammapathies monoclonales - rapport d'évaluation",
+   "summary": "La HAS publie son rapport d'évaluation sur le dosage des chaînes légères libres dans le sérum pour les gammapathies monoclonales.",
+   "comptoir": "Rien ne change à l'officine : acte de biologie médicale, utile pour comprendre le suivi des patients concernés.",
+   "url": "https://www.has-sante.fr/jcms/p_3530129/fr/dosage-serique-des-chaines-legeres-libres-dans-les-gammapathies-monoclonales-rapport-d-evaluation",
+   "tags": [
+    "HAS",
+    "biologie",
+    "gammapathie"
+   ]
+  },
   {
    "id": "has-capvaxive-pneumocoque",
    "date": "2026-11-16",
