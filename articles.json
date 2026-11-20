@@ -1,6 +1,87 @@
 {
- "updatedAt": "2026-11-19T06:39:56+01:00",
+ "updatedAt": "2026-11-20T06:38:41+01:00",
  "articles": [
+  {
+   "id": "fspf-furosemide-preparations-magistrales",
+   "date": "2026-11-19",
+   "rank": 1,
+   "source": "FSPF",
+   "category": "Ruptures & tensions",
+   "title": "Rupture de furosémide : mise en place et remboursement des préparations magistrales",
+   "summary": "Suite à la communication ANSM du 18 novembre, le syndicat détaille le dispositif permettant de remplacer les comprimés de furosémide en tension par des préparations magistrales, ainsi que leur prise en charge.",
+   "comptoir": "Pour un patient sous furosémide 20 ou 40 mg sans stock, vérifier avec le prescripteur et les modalités de préparation et de remboursement avant de lancer une préparation magistrale.",
+   "url": "https://www.fspf.fr/rupture-de-furosemide-mise-en-place-et-remboursement-des-preparations-magistrales/",
+   "related": [
+    {
+     "label": "Furosémide : des préparations magistrales pour pallier les indisponibilités",
+     "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/furosemide-des-preparations-magistrales-pour-pallier-les-indisponibilites",
+     "source": "Moniteur"
+    }
+   ],
+   "tags": [
+    "furosémide",
+    "tension",
+    "préparations magistrales",
+    "remboursement"
+   ]
+  },
+  {
+   "id": "has-risque-cardiovasculaire-global",
+   "date": "2026-11-19",
+   "rank": 2,
+   "source": "HAS",
+   "category": "Recommandations",
+   "title": "Comment mieux prévenir le risque cardiovasculaire ?",
+   "summary": "La HAS publie une recommandation de bonne pratique sur l'évaluation et la prise en charge du risque cardiovasculaire global en premier recours, en prévention primaire et secondaire, selon les facteurs de risque de chaque patient.",
+   "comptoir": "Rien ne change à la délivrance, mais c'est un bon appui pour les conseils de prévention (tabac, tension, lipides) et l'observance des traitements cardiovasculaires.",
+   "url": "https://www.has-sante.fr/jcms/p_4611933/fr/comment-mieux-prevenir-le-risque-cardiovasculaire",
+   "related": [
+    {
+     "label": "Risque cardiovasculaire global - recommandation",
+     "url": "https://www.has-sante.fr/jcms/p_3260825/fr/risque-cardiovasculaire-global-evaluation-et-prise-en-charge-en-medecine-de-premier-recours-prevention-primaire-et-prevention-secondaire",
+     "source": "HAS"
+    }
+   ],
+   "tags": [
+    "risque cardiovasculaire",
+    "prévention",
+    "HAS",
+    "premier recours"
+   ]
+  },
+  {
+   "id": "plfss-2027-senat-conditionnement-adapte",
+   "date": "2026-11-19",
+   "rank": 3,
+   "source": "Quotidien",
+   "category": "Réglementation",
+   "title": "La loi adoptée au Sénat, les syndicats satisfaits sur le conditionnement adapté",
+   "summary": "Le Sénat a adopté en première lecture le PLFSS 2027 ; les syndicats de pharmaciens saluent les dispositions relatives au conditionnement adapté des médicaments.",
+   "comptoir": "Rien ne change pour l'instant : le texte doit encore poursuivre son parcours parlementaire avant toute application à l'officine.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/la-loi-adoptee-au-senat-les-syndicats-satisfaits-sur-le-conditionnement-adapte",
+   "tags": [
+    "PLFSS",
+    "conditionnement adapté",
+    "Sénat"
+   ]
+  },
+  {
+   "id": "negociation-vaccination-osys-diabete",
+   "date": "2026-11-19",
+   "rank": 4,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "Vaccination, OSyS, entretien diabète : les propositions de l'Assurance-maladie",
+   "summary": "Lors d'une nouvelle séance de négociation, l'Assurance-maladie a présenté aux syndicats d'officinaux ses propositions sur la vaccination, l'OSyS et le suivi du diabète.",
+   "comptoir": "Rien ne change tout de suite : ce sont des propositions en cours de négociation, à suivre pour les futures missions rémunérées.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/vaccination-osys-entretien-diabete-les-propositions-de-lassurance-maladie",
+   "tags": [
+    "négociation",
+    "vaccination",
+    "OSyS",
+    "diabète"
+   ]
+  },
   {
    "id": "furosemide-nouvelles-mesures-continuite",
    "date": "2026-11-18",

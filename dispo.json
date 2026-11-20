@@ -1,7 +1,106 @@
 {
- "updatedAt": "2026-11-19T06:40:05+01:00",
+ "updatedAt": "2026-11-20T06:38:41+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-11-19",
+   "nom": "Yellox 0,9 mg/ml, collyre en solution",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-19",
+   "nom": "Vinorelbine Arrow 10 mg/mL, solution à diluer pour perfusion",
+   "remise": "2026-10-30",
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-19",
+   "nom": "Spécialités à base de furosémide 20 mg et 40 mg, comprimés",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-19",
+   "nom": "Rifinah 300 mg/150 mg, comprimé enrobé",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-19",
+   "nom": "Rapibloc 20 mg/2 ml, solution à diluer injectable",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-19",
+   "nom": "Lantus 100 unités/ml, solution injectable en cartouche",
+   "remise": "2026-11-19",
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-19",
+   "nom": "Jext 300 microgrammes, solution injectable en stylo prérempli",
+   "remise": "2026-11-19",
+   "domaines": [
+    "Allergologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-19",
+   "nom": "Increlex 10 mg/ml, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-19",
+   "nom": "Endoxan 500 et 1000 mg, poudre pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-19",
+   "nom": "Betneval 0,1 %, crème",
+   "remise": null,
+   "domaines": [
+    "Dermatologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-19",
+   "nom": "Adempas 0,5 mg, comprimé pelliculé",
+   "remise": "2026-11-19",
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
   {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-11-18",
@@ -100,15 +199,6 @@
    "domaines": [
     "Oncologie/Radiothérapie",
     "Immunologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-11-13",
-   "nom": "Jext 300 microgrammes, solution injectable en stylo prérempli",
-   "remise": null,
-   "domaines": [
-    "Allergologie"
    ]
   },
   {
@@ -553,15 +643,6 @@
    ]
   },
   {
-   "statut": "Rupture de stock",
-   "maj": "2026-10-26",
-   "nom": "Yellox 0,9 mg/ml, collyre en solution",
-   "remise": null,
-   "domaines": [
-    "Ophtalmologie"
-   ]
-  },
-  {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-10-26",
    "nom": "Nifédipine Viatris L.P. 30 mg, comprimé à libération prolongée",
@@ -763,15 +844,6 @@
    ]
   },
   {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-10-20",
-   "nom": "Betneval 0,1 %, crème",
-   "remise": null,
-   "domaines": [
-    "Dermatologie"
-   ]
-  },
-  {
    "statut": "Rupture de stock",
    "maj": "2026-10-19",
    "nom": "Xarelto 1 mg/ml, granulés pour suspension buvable",
@@ -806,15 +878,6 @@
    "domaines": [
     "Dermatologie",
     "Rhumatologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-10-16",
-   "nom": "Rifinah 300 mg/150 mg, comprimé enrobé",
-   "remise": null,
-   "domaines": [
-    "Infectiologie"
    ]
   },
   {
@@ -905,15 +968,6 @@
    "remise": null,
    "domaines": [
     "Oncologie/Radiothérapie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-10-14",
-   "nom": "Adempas 0,5 mg, comprimé pelliculé",
-   "remise": null,
-   "domaines": [
-    "Cardiologie"
    ]
   },
   {
@@ -1049,15 +1103,6 @@
    "maj": "2026-09-29",
    "nom": "Métoprolol Sandoz 50 mg, comprimé",
    "remise": "2026-09-29",
-   "domaines": [
-    "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-09-28",
-   "nom": "Spécialités à base de furosémide 20 mg et 40 mg, comprimés",
-   "remise": null,
    "domaines": [
     "Cardiologie"
    ]
@@ -1571,24 +1616,6 @@
    ]
   },
   {
-   "statut": "Remise à disposition",
-   "maj": "2026-08-21",
-   "nom": "Primaquine Sanofi 15 mg, comprimé pelliculé",
-   "remise": "2026-08-21",
-   "domaines": [
-    "Infectiologie"
-   ]
-  },
-  {
-   "statut": "Remise à disposition",
-   "maj": "2026-08-21",
-   "nom": "Dilantin 250 mg/5 ml, solution injectable",
-   "remise": "2026-08-21",
-   "domaines": [
-    "Neurologie"
-   ]
-  },
-  {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-08-13",
    "nom": "Nitrendipine Viatris 10 mg et 20 mg, comprimés",
@@ -1669,15 +1696,6 @@
    "remise": null,
    "domaines": [
     "Infectiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-07-29",
-   "nom": "Lantus 100 unités/ml, solution injectable en cartouche",
-   "remise": null,
-   "domaines": [
-    "Endocrinologie"
    ]
   },
   {
@@ -1997,15 +2015,6 @@
    "statut": "Tension d'approvisionnement",
    "maj": "2026-04-09",
    "nom": "Paclitaxel AHCL 6 mg/ml, flacons de 50 et 100 ml",
-   "remise": null,
-   "domaines": [
-    "Oncologie/Radiothérapie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-04-07",
-   "nom": "Endoxan 500 et 1000 mg, poudre pour solution injectable",
    "remise": null,
    "domaines": [
     "Oncologie/Radiothérapie"
