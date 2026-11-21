@@ -1,6 +1,91 @@
 {
- "updatedAt": "2026-11-20T06:38:41+01:00",
+ "updatedAt": "2026-11-21T06:38:56+01:00",
  "articles": [
+  {
+   "id": "fspf-freestyle-libre-2-plus-rappel",
+   "date": "2026-11-20",
+   "rank": 2,
+   "source": "FSPF",
+   "category": "Pharmacovigilance",
+   "title": "Retrait et rappel de lot capteurs FreeStyle Libre 2 plus",
+   "summary": "Le syndicat relaie un retrait et rappel de lot de capteurs FreeStyle Libre 2 plus, faisant suite à une communication de l'ANSM du 16 novembre.",
+   "comptoir": "Vérifier le numéro de lot des capteurs en stock et de ceux délivrés, et orienter les patients concernés selon les consignes de l'ANSM.",
+   "url": "https://www.fspf.fr/retrait-et-rappel-de-lot-capteurs-freestyle-libre-2-plus/",
+   "tags": [
+    "FreeStyle Libre",
+    "rappel de lot",
+    "diabète",
+    "capteurs"
+   ]
+  },
+  {
+   "id": "fspf-produits-autorises-delai-ecoulement",
+   "date": "2026-11-20",
+   "rank": 3,
+   "source": "FSPF",
+   "category": "Réglementation",
+   "title": "Produits autorisés en officine : la FSPF entendue par le ministère de la Santé sur sa demande de délai d'écoulement",
+   "summary": "La FSPF indique avoir été entendue par le ministère sur sa demande d'un délai pour écouler les produits qui ne figureront plus sur la liste autorisée à la vente en officine.",
+   "comptoir": "Ne pas retirer précipitamment les produits concernés : attendre la confirmation d'un éventuel délai d'écoulement.",
+   "url": "https://www.fspf.fr/produits-autorises-en-officine-la-fspf-entendue-par-le-ministere-de-la-sante-sur-sa-demande/",
+   "tags": [
+    "liste marchandises",
+    "vente officine",
+    "délai d'écoulement",
+    "FSPF"
+   ]
+  },
+  {
+   "id": "increlex-tension-2027",
+   "date": "2026-11-20",
+   "rank": 4,
+   "source": "Moniteur",
+   "category": "Ruptures & tensions",
+   "title": "Increlex : 8 mois de tension d'approvisionnement prévus",
+   "summary": "Le laboratoire annonce une disponibilité réduite d'Increlex jusqu'en juillet 2027, avec des mesures pour préserver les stocks.",
+   "comptoir": "Prévenir les prescripteurs et patients concernés que l'approvisionnement sera limité et privilégier un contact avec le laboratoire ou l'hôpital référent.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/increlex-8-mois-de-tension-dapprovisionnement-prevus",
+   "tags": [
+    "Increlex",
+    "tension",
+    "rupture"
+   ],
+   "approx": true
+  },
+  {
+   "id": "trevicta-resolor-substituables",
+   "date": "2026-11-20",
+   "rank": 5,
+   "source": "Moniteur",
+   "category": "Réglementation",
+   "title": "Trevicta et Resolor désormais substituables",
+   "summary": "Le répertoire des génériques s'enrichit d'un groupe pour le palipéridone (forme retard) et d'un autre pour le prucalopride.",
+   "comptoir": "La substitution devient possible pour ces deux spécialités : vérifier l'absence de mention « non substituable » sur l'ordonnance.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/fiches-medicaments/trevicta-et-resolor-desormais-substituables",
+   "tags": [
+    "générique",
+    "répertoire",
+    "substitution"
+   ],
+   "approx": true
+  },
+  {
+   "id": "wegovy-comprimes-points-cles",
+   "date": "2026-11-20",
+   "rank": 6,
+   "source": "Moniteur",
+   "category": "Nouveaux médicaments",
+   "title": "Obésité : 5 points clés sur Wegovy comprimés",
+   "summary": "Le sémaglutide est désormais disponible en comprimés dans l'obésité de l'adulte, avec une montée progressive des doses et des conditions de prise précises.",
+   "comptoir": "Rappeler au patient les conditions de prise strictes décrites dans la notice et la montée de doses prescrite.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/fiches-medicaments/obesite-5-points-cles-sur-wegovy-comprimes",
+   "tags": [
+    "Wegovy",
+    "sémaglutide",
+    "obésité"
+   ],
+   "approx": true
+  },
   {
    "id": "fspf-furosemide-preparations-magistrales",
    "date": "2026-11-19",
@@ -23,6 +108,29 @@
     "tension",
     "préparations magistrales",
     "remboursement"
+   ]
+  },
+  {
+   "id": "has-aide-a-mourir-substances-letales",
+   "date": "2026-11-19",
+   "rank": 1,
+   "source": "HAS",
+   "category": "Recommandations",
+   "title": "Substances létales pour l'aide à mourir et conditions d'administration",
+   "summary": "La HAS publie ses recommandations sur les substances létales utilisables pour l'aide à mourir et sur le déroulement de leur administration. La presse parle d'une soixantaine de recommandations.",
+   "comptoir": "Rien ne change pour l'instant à l'officine : attendre les textes d'application avant toute conduite à tenir sur la préparation ou la dispensation de ces substances.",
+   "url": "https://www.has-sante.fr/jcms/p_4088979/fr/substances-letales-pour-l-aide-a-mourir-et-conditions-d-administration",
+   "related": [
+    {
+     "label": "La HAS publie ses recommandations sur l'aide à mourir",
+     "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/la-haute-autorite-de-sante-publie-ses-recommandations-sur-laide-mourir",
+     "source": "Quotidien"
+    }
+   ],
+   "tags": [
+    "aide à mourir",
+    "HAS",
+    "substances létales"
    ]
   },
   {

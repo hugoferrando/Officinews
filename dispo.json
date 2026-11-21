@@ -1,7 +1,62 @@
 {
- "updatedAt": "2026-11-20T06:38:41+01:00",
+ "updatedAt": "2026-11-21T06:39:13+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-20",
+   "nom": "Likozam 1 mg/ml, suspension buvable",
+   "remise": null,
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Arrêt de commercialisation",
+   "maj": "2026-11-20",
+   "nom": "Kanokad 25 UI/mL, poudre et solvant pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Hématologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-20",
+   "nom": "Ioméron 350 et 400 mg Iode/mL, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Imagerie/Radiologie"
+   ]
+  },
+  {
+   "statut": "Arrêt de commercialisation",
+   "maj": "2026-11-20",
+   "nom": "Imogam Rage 150 UI/mL, solution injectable",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-11-20",
+   "nom": "Fluorouracile Pfizer 50 mg/ml, solution à diluer pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-20",
+   "nom": "Diamox 250 mg, comprimé sécable",
+   "remise": "2026-11-20",
+   "domaines": [
+    "Ophtalmologie",
+    "Pneumologie"
+   ]
+  },
   {
    "statut": "Rupture de stock",
    "maj": "2026-11-19",
@@ -72,6 +127,15 @@
    "remise": null,
    "domaines": [
     "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-19",
+   "nom": "Furosémide 20 mg et 40 mg, comprimés",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
    ]
   },
   {
@@ -583,16 +647,6 @@
    "remise": null,
    "domaines": [
     "Ophtalmologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-10-28",
-   "nom": "Diamox 250 mg, comprimé sécable",
-   "remise": null,
-   "domaines": [
-    "Ophtalmologie",
-    "Pneumologie"
    ]
   },
   {
