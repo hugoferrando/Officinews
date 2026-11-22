@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-21T06:39:13+01:00",
+ "updatedAt": "2026-11-22T06:38:10+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
   {
@@ -18,6 +18,24 @@
    "remise": null,
    "domaines": [
     "Hématologie"
+   ]
+  },
+  {
+   "statut": "Arrêt de commercialisation",
+   "maj": "2026-11-20",
+   "nom": "Kanokad 25 UI/mL de facteur IX, poudre et solvant pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Hématologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-20",
+   "nom": "Ioméron 350 et 400 mg Iode/mL, solution injectable en 500 mL",
+   "remise": null,
+   "domaines": [
+    "Imagerie/Radiologie"
    ]
   },
   {
@@ -2311,15 +2329,6 @@
    "remise": null,
    "domaines": [
     "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Rupture de stock",
-   "maj": "2025-06-17",
-   "nom": "Kanokad 25 UI/ml de facteur IX, poudre et solvant pour solution injectable",
-   "remise": null,
-   "domaines": [
-    "Hématologie"
    ]
   },
   {
