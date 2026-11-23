@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-22T06:38:10+01:00",
+ "updatedAt": "2026-11-23T06:38:25+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
   {
@@ -54,6 +54,15 @@
    "remise": null,
    "domaines": [
     "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-11-20",
+   "nom": "Fluorouracile Pfizer 50 mg/ml, solution à diluer pour perfusion, flacon de 100 ml",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
    ]
   },
   {
@@ -1667,24 +1676,6 @@
    "domaines": [
     "Hématologie",
     "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Remise à disposition",
-   "maj": "2026-08-24",
-   "nom": "Tobi Podhaler 28 mg, poudre pour inhalation en gélule",
-   "remise": "2026-08-24",
-   "domaines": [
-    "Infectiologie"
-   ]
-  },
-  {
-   "statut": "Remise à disposition",
-   "maj": "2026-08-24",
-   "nom": "Méthylphénidate EG LP 18 mg, comprimé à libération prolongée",
-   "remise": "2026-08-24",
-   "domaines": [
-    "Psychiatrie"
    ]
   },
   {

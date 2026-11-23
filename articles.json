@@ -1,6 +1,41 @@
 {
- "updatedAt": "2026-11-22T06:37:57+01:00",
+ "updatedAt": "2026-11-23T06:38:13+01:00",
  "articles": [
+  {
+   "id": "jaypirca-pirtobrutinib",
+   "date": "2026-11-23",
+   "rank": 2,
+   "approx": true,
+   "source": "Moniteur",
+   "category": "Nouveaux médicaments",
+   "title": "Leucémie lymphoïde chronique : Jaypirca élargit l'arsenal thérapeutique",
+   "summary": "Le pirtobrutinib (Jaypirca), anticancéreux oral, rejoint l'offre contre certains lymphomes du manteau et la leucémie lymphoïde chronique.",
+   "comptoir": "Rien ne change à la dispensation courante : pensez à vérifier les interactions de ce nouvel anticancéreux oral à chaque délivrance.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/fiches-medicaments/leucemie-lymphoide-chronique-jaypirca-elargit-larsenal-therapeutique",
+   "tags": [
+    "Jaypirca",
+    "pirtobrutinib",
+    "oncologie",
+    "LLC"
+   ]
+  },
+  {
+   "id": "vaccin-grippe-9000-hospitalisations",
+   "date": "2026-11-20",
+   "rank": 1,
+   "source": "Quotidien",
+   "category": "Vaccins",
+   "title": "9 000 hospitalisations évitées chez les 65 ans et plus grâce à la vaccination",
+   "summary": "Santé publique France estime que la vaccination antigrippale a épargné environ 9 000 hospitalisations chez les seniors lors de l'épidémie 2023-2024.",
+   "comptoir": "Bon argument à donner aux patients de 65 ans et plus encore hésitants : la vaccination grippale reste proposée en cours de campagne.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/politique-de-sante/9-000-hospitalisations-evitees-chez-les-65-ans-et-plus-grace-la-vaccination",
+   "tags": [
+    "grippe",
+    "vaccination",
+    "65 ans",
+    "Santé publique France"
+   ]
+  },
   {
    "id": "fspf-freestyle-libre-2-plus-rappel",
    "date": "2026-11-20",
