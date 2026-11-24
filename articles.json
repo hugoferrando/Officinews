@@ -1,6 +1,23 @@
 {
- "updatedAt": "2026-11-23T06:38:13+01:00",
+ "updatedAt": "2026-11-24T06:38:24+01:00",
  "articles": [
+  {
+   "id": "eliquis-substituable-generiques",
+   "date": "2026-11-23",
+   "rank": 1,
+   "source": "Moniteur",
+   "category": "Réglementation",
+   "title": "Eliquis est désormais substituable",
+   "summary": "Le brevet de l'apixaban 2,5 mg et 5 mg est tombé le 21 novembre 2026 : des génériques existent, la substitution devient possible.",
+   "comptoir": "Vérifier le groupe générique et les stocks avant de substituer, et prévenir les patients sous anticoagulant que le changement de boîte ne change pas le traitement.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/medicaments/mieux-delivrer/eliquis-est-desormais-substituable",
+   "tags": [
+    "apixaban",
+    "Eliquis",
+    "générique",
+    "substitution"
+   ]
+  },
   {
    "id": "jaypirca-pirtobrutinib",
    "date": "2026-11-23",
@@ -17,6 +34,95 @@
     "pirtobrutinib",
     "oncologie",
     "LLC"
+   ]
+  },
+  {
+   "id": "fspf-delai-ecoulement-six-mois",
+   "date": "2026-11-23",
+   "rank": 2,
+   "source": "FSPF",
+   "category": "Profession",
+   "title": "Vente des marchandises en pharmacie : la FSPF obtient un délai d'écoulement de six mois",
+   "summary": "Suite à l'actualisation de la liste des marchandises autorisées, le syndicat annonce une période transitoire de six mois pour écouler les produits désormais exclus.",
+   "comptoir": "Les produits retirés de la liste (confiserie, certaines eaux…) peuvent être écoulés pendant la période transitoire : inutile de les retirer des rayons immédiatement.",
+   "url": "https://www.fspf.fr/vente-des-marchandises-en-pharmacie-la-fspf-obtient-un-delai-decoulement-de-six-mois/",
+   "related": [
+    {
+     "label": "Bonbons en officine : cinq mois de stocks à écouler",
+     "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/bonbons-en-officine-cinq-mois-de-stocks-ecouler",
+     "source": "Quotidien"
+    }
+   ],
+   "tags": [
+    "marchandises",
+    "délai",
+    "liste",
+    "officine"
+   ]
+  },
+  {
+   "id": "epi-phare-hpv-guillain-barre",
+   "date": "2026-11-23",
+   "rank": 3,
+   "source": "Moniteur",
+   "category": "Pharmacovigilance",
+   "title": "Guillain-Barré : Epi-Phare confirme la sécurité du vaccin HPV",
+   "summary": "Une étude d'Epi-Phare ne retrouve pas de sur-risque de syndrome de Guillain-Barré après vaccination contre les HPV.",
+   "comptoir": "Argument rassurant à reprendre face aux patients ou parents hésitants sur la vaccination HPV.",
+   "url": "https://www.lemoniteurdespharmacies.fr/therapeutique/vigilances/guillain-barre-epi-phare-confirme-la-securite-du-vaccin-hpv",
+   "tags": [
+    "HPV",
+    "Epi-Phare",
+    "vaccin",
+    "sécurité"
+   ]
+  },
+  {
+   "id": "has-prevention-caries",
+   "date": "2026-11-23",
+   "rank": 4,
+   "source": "HAS",
+   "category": "Recommandations",
+   "title": "Caries dentaires : une prévention commune, à adapter aux réalités de chacun",
+   "summary": "La HAS actualise ses recommandations de prévention : brossage biquotidien avec dentifrice fluoré adapté à l'âge, limitation des sucres, suivi régulier, accompagnement renforcé des publics éloignés des soins.",
+   "comptoir": "Conseiller le dentifrice fluoré selon l'âge et rappeler le brossage deux fois par jour.",
+   "url": "https://www.has-sante.fr/jcms/p_4615813/fr/caries-dentaires-une-prevention-commune-a-adapter-aux-realites-de-chacun",
+   "related": [
+    {
+     "label": "Évaluation des stratégies de prévention de la carie dentaire",
+     "url": "https://www.has-sante.fr/jcms/p_3737852/fr/evaluation-des-strategies-de-prevention-de-la-carie-dentaire",
+     "source": "HAS"
+    }
+   ],
+   "tags": [
+    "caries",
+    "fluor",
+    "prévention",
+    "dentifrice"
+   ]
+  },
+  {
+   "id": "freestyle-libre-2-plus-remuneration-rappel",
+   "date": "2026-11-23",
+   "rank": 5,
+   "source": "Quotidien",
+   "category": "Pharmacovigilance",
+   "title": "Rappel de FreeStyle Libre 2 Plus : les pharmaciens doivent-ils être rémunérés ?",
+   "summary": "Après le rappel d'un lot de capteurs pouvant fausser les mesures, l'article s'interroge sur une rémunération des pharmacies pour gérer ce rappel.",
+   "comptoir": "Vérifier le lot 260930P en stock et chez les patients, et orienter vers un remplacement.",
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/dispositifs-medicaux/rappel-de-freestyle-libre-2-plus-les-pharmaciens-doivent-ils-etre-remuneres",
+   "related": [
+    {
+     "label": "Retrait et rappel de lot capteurs FreeStyle Libre 2 plus",
+     "url": "https://www.fspf.fr/retrait-et-rappel-de-lot-capteurs-freestyle-libre-2-plus/",
+     "source": "FSPF"
+    }
+   ],
+   "tags": [
+    "FreeStyle Libre",
+    "rappel de lot",
+    "Abbott",
+    "diabète"
    ]
   },
   {

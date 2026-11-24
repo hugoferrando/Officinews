@@ -1,7 +1,43 @@
 {
- "updatedAt": "2026-11-23T06:38:25+01:00",
+ "updatedAt": "2026-11-24T06:38:46+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-23",
+   "nom": "Nozinan 25 mg, comprimé pelliculé sécable",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-23",
+   "nom": "Microval, comprimé enrobé",
+   "remise": null,
+   "domaines": [
+    "Gynécologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-11-23",
+   "nom": "Fluorouracile Pfizer 50 mg/ml, solution à diluer pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-23",
+   "nom": "Ambrisentan-Volibris tous dosages",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
   {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-11-20",
@@ -66,15 +102,6 @@
    ]
   },
   {
-   "statut": "Rupture de stock",
-   "maj": "2026-11-20",
-   "nom": "Fluorouracile Pfizer 50 mg/ml, solution à diluer pour perfusion",
-   "remise": null,
-   "domaines": [
-    "Oncologie/Radiothérapie"
-   ]
-  },
-  {
    "statut": "Remise à disposition",
    "maj": "2026-11-20",
    "nom": "Diamox 250 mg, comprimé sécable",
@@ -114,6 +141,15 @@
   {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-11-19",
+   "nom": "Spécialités à base de furosémide 20 mg et 40 mg, comprimé",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-19",
    "nom": "Rifinah 300 mg/150 mg, comprimé enrobé",
    "remise": null,
    "domaines": [
@@ -133,6 +169,15 @@
    "statut": "Remise à disposition",
    "maj": "2026-11-19",
    "nom": "Lantus 100 unités/ml, solution injectable en cartouche",
+   "remise": "2026-11-19",
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-19",
+   "nom": "Lantus 100 unités/ml, solution injectable",
    "remise": "2026-11-19",
    "domaines": [
     "Endocrinologie"
@@ -199,15 +244,6 @@
    "remise": null,
    "domaines": [
     "Psychiatrie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-11-18",
-   "nom": "Spécialités à base de furosémide 20 mg et 40 mg, comprimé",
-   "remise": null,
-   "domaines": [
-    "Cardiologie"
    ]
   },
   {
@@ -743,15 +779,6 @@
   },
   {
    "statut": "Tension d'approvisionnement",
-   "maj": "2026-10-26",
-   "nom": "Ambrisentan-Volibris, tous dosages",
-   "remise": null,
-   "domaines": [
-    "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
    "maj": "2026-10-23",
    "nom": "Winrevair 60 mg, poudre et solvant pour solution injectable",
    "remise": null,
@@ -940,15 +967,6 @@
    "remise": null,
    "domaines": [
     "Neurologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-10-19",
-   "nom": "Microval, comprimé enrobé",
-   "remise": null,
-   "domaines": [
-    "Gynécologie"
    ]
   },
   {
@@ -1648,15 +1666,6 @@
    "remise": null,
    "domaines": [
     "Oncologie/Radiothérapie"
-   ]
-  },
-  {
-   "statut": "Remise à disposition",
-   "maj": "2026-08-25",
-   "nom": "Lactate de sodium AP-HP 11,2 % (m/V), solution pour perfusion",
-   "remise": "2025-07-25",
-   "domaines": [
-    "Anesthésie/Réanimation/Soins intensifs"
    ]
   },
   {
