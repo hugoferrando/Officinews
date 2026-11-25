@@ -1,6 +1,40 @@
 {
- "updatedAt": "2026-11-24T06:38:24+01:00",
+ "updatedAt": "2026-11-25T06:39:12+01:00",
  "articles": [
+  {
+   "id": "191-specialites-deremboursees-2-decembre",
+   "date": "2026-11-24",
+   "rank": 1,
+   "source": "Quotidien",
+   "category": "Réglementation",
+   "title": "191 spécialités ne seront plus remboursables à compter du 2 décembre",
+   "summary": "Un arrêté du 17 novembre sort 191 spécialités de la liste des médicaments remboursables. Le retrait prend effet début décembre.",
+   "comptoir": "Repérer dans le stock les spécialités concernées et prévenir les patients qu'elles ne seront plus prises en charge à partir du 2 décembre, en proposant une alternative remboursée si elle existe.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/191-specialites-ne-seront-plus-remboursables-compter-du-2-decembre",
+   "tags": [
+    "déremboursement",
+    "arrêté",
+    "remboursement",
+    "liste"
+   ]
+  },
+  {
+   "id": "negociations-salariales-officine-augmentations",
+   "date": "2026-11-24",
+   "rank": 2,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "Négociations salariales : les augmentations proposées jugées \"ridicules\"",
+   "summary": "Les hausses de 0,8 % et 0,5 % mises sur la table côté employeurs dans la négociation salariale de l'officine sont vivement critiquées.",
+   "comptoir": "Rien ne change pour l'instant à l'officine : les barèmes actuels s'appliquent tant qu'aucun accord n'est conclu.",
+   "url": "https://www.lequotidiendupharmacien.fr/gestion-de-lofficine/gestion-du-personnel/negociations-salariales-les-augmentations-proposees-jugees-ridicules",
+   "tags": [
+    "salaires",
+    "négociation",
+    "équipe officinale",
+    "FSPF"
+   ]
+  },
   {
    "id": "eliquis-substituable-generiques",
    "date": "2026-11-23",
@@ -16,6 +50,13 @@
     "Eliquis",
     "générique",
     "substitution"
+   ],
+   "related": [
+    {
+     "label": "Eliquis tombe dans le domaine des génériques",
+     "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/eliquis-tombe-dans-le-domaine-des-generiques",
+     "source": "Quotidien"
+    }
    ]
   },
   {
