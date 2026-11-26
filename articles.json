@@ -1,6 +1,78 @@
 {
- "updatedAt": "2026-11-25T06:39:12+01:00",
+ "updatedAt": "2026-11-26T06:38:26+01:00",
  "articles": [
+  {
+   "id": "ansm-conseils-ia-medicaments",
+   "date": "2026-11-25",
+   "rank": 1,
+   "source": "ANSM",
+   "category": "Pharmacovigilance",
+   "title": "Médicaments et traitements : attention, les conseils d'une IA peuvent être dangereux",
+   "summary": "L'ANSM alerte sur les risques à suivre des conseils médicamenteux fournis par une intelligence artificielle, qui ne remplacent pas l'avis d'un professionnel de santé.",
+   "comptoir": "Si un patient cite un conseil obtenu auprès d'une IA, vérifiez l'ordonnance et les interactions, et rappelez que le pharmacien reste l'interlocuteur de référence.",
+   "url": "https://ansm.sante.fr/actualites/medicaments-et-traitements-attention-les-conseils-dune-ia-peuvent-etre-dangereux",
+   "tags": [
+    "IA",
+    "bon usage",
+    "patients",
+    "sécurité"
+   ]
+  },
+  {
+   "id": "paracetamol-francais-sept-centimes-2027",
+   "date": "2026-11-25",
+   "rank": 2,
+   "source": "Quotidien",
+   "category": "Réglementation",
+   "title": "Paracétamol français : sept centimes de plus par boîte au 1er juillet 2027",
+   "summary": "Les boîtes de paracétamol fabriquées en France devraient voir leur prix augmenter de sept centimes à partir de juillet 2027, à la demande des industriels nationaux.",
+   "comptoir": "Rien ne change pour l'instant au comptoir : la hausse n'est prévue qu'en juillet 2027.",
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/paracetamol-francais-sept-centimes-de-plus-par-boite-au-1er-juillet-2027",
+   "tags": [
+    "paracétamol",
+    "prix",
+    "production française"
+   ]
+  },
+  {
+   "id": "petition-pastilles-rayons-officine",
+   "date": "2026-11-25",
+   "rank": 3,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "Une pétition contre le retrait des pastilles des rayons",
+   "summary": "Une pétition en ligne réclame l'abandon du décret qui sort pastilles et confiseries de la liste des produits autorisés en officine.",
+   "comptoir": "Le délai d'écoulement de six mois obtenu par la FSPF laisse du temps pour écouler ces produits.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/une-petition-contre-le-retrait-des-pastilles-des-rayons",
+   "related": [
+    {
+     "label": "FSPF : délai d'écoulement de six mois",
+     "url": "https://www.fspf.fr/vente-des-marchandises-en-pharmacie-la-fspf-obtient-un-delai-decoulement-de-six-mois/",
+     "source": "FSPF"
+    }
+   ],
+   "tags": [
+    "produits autorisés",
+    "décret",
+    "pétition"
+   ]
+  },
+  {
+   "id": "polymedication-academie-medecine",
+   "date": "2026-11-25",
+   "rank": 4,
+   "source": "Quotidien",
+   "category": "Recommandations",
+   "title": "Polymédication : l'Académie de médecine plaide pour une démarche pluridisciplinaire",
+   "summary": "Un rapport de l'Académie de médecine défend une approche pluridisciplinaire pour réduire la polymédication des personnes âgées.",
+   "comptoir": "Pensez à proposer un bilan de médication aux patients âgés polymédiqués.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/polymedication-lacademie-de-medecine-plaide-pour-une-demarche-pluridisciplinaire",
+   "tags": [
+    "polymédication",
+    "sujet âgé",
+    "bilan de médication"
+   ]
+  },
   {
    "id": "191-specialites-deremboursees-2-decembre",
    "date": "2026-11-24",

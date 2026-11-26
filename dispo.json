@@ -1,7 +1,61 @@
 {
- "updatedAt": "2026-11-25T06:39:12+01:00",
+ "updatedAt": "2026-11-26T06:38:40+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-25",
+   "nom": "Xenpozyme 20 mg, poudre pour solution à diluer pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Endocrinologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-25",
+   "nom": "Rapamune 1 mg/ml, solution buvable",
+   "remise": null,
+   "domaines": [
+    "Immunologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-25",
+   "nom": "Micropakine L.P. 500 mg, granulés à libération prolongée en sachet-dose",
+   "remise": "2026-11-09",
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-11-25",
+   "nom": "Mapakna LP 20 mg, comprimé à libération prolongée",
+   "remise": null,
+   "domaines": [
+    "Gynécologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-11-25",
+   "nom": "Fluorouracile Pfizer 50 mg/ml, solution à diluer pour perfusion",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-25",
+   "nom": "Clomid 50 mg, comprimé",
+   "remise": null,
+   "domaines": [
+    "Gynécologie"
+   ]
+  },
   {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-11-24",
@@ -27,15 +81,6 @@
    "remise": null,
    "domaines": [
     "Gynécologie"
-   ]
-  },
-  {
-   "statut": "Rupture de stock",
-   "maj": "2026-11-23",
-   "nom": "Fluorouracile Pfizer 50 mg/ml, solution à diluer pour perfusion",
-   "remise": null,
-   "domaines": [
-    "Oncologie/Radiothérapie"
    ]
   },
   {
@@ -1145,15 +1190,6 @@
   },
   {
    "statut": "Tension d'approvisionnement",
-   "maj": "2026-10-08",
-   "nom": "Rapamune 1 mg/ml, solution buvable",
-   "remise": null,
-   "domaines": [
-    "Immunologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
    "maj": "2026-10-06",
    "nom": "Modamide 5 mg, comprimé",
    "remise": null,
@@ -1669,15 +1705,6 @@
    ]
   },
   {
-   "statut": "Rupture de stock",
-   "maj": "2026-08-25",
-   "nom": "Clomid 50 mg, comprimé",
-   "remise": null,
-   "domaines": [
-    "Gynécologie"
-   ]
-  },
-  {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-08-25",
    "nom": "Calciparine sous-cutanée 20 000 UI/0,8 ml, solution injectable",
@@ -2117,15 +2144,6 @@
    "remise": null,
    "domaines": [
     "Hépato-gastroentérologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-03-17",
-   "nom": "Xenpozyme 20 mg, poudre pour solution à diluer pour perfusion",
-   "remise": null,
-   "domaines": [
-    "Endocrinologie"
    ]
   },
   {
