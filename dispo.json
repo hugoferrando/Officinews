@@ -1,7 +1,34 @@
 {
- "updatedAt": "2026-11-26T06:38:40+01:00",
+ "updatedAt": "2026-11-27T06:39:01+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-11-26",
+   "nom": "Tétracaïne 1% Théa, collyre en solution en récipient unidose",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-26",
+   "nom": "Fluorouracile Accord 50 mg/ml, solution à diluer pour perfusion, flacon de 100 ml",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Arrêt de commercialisation",
+   "maj": "2026-11-26",
+   "nom": "Emend 125 mg, poudre pour suspension buvable",
+   "remise": null,
+   "domaines": [
+    "Hépato-gastroentérologie"
+   ]
+  },
   {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-11-25",
@@ -36,6 +63,15 @@
    "remise": null,
    "domaines": [
     "Gynécologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-11-25",
+   "nom": "Fluorouracile Pfizer 50 mg/ml, solution à diluer pour perfusion, flacon de 100 ml",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
    ]
   },
   {
@@ -144,15 +180,6 @@
    "remise": null,
    "domaines": [
     "Infectiologie"
-   ]
-  },
-  {
-   "statut": "Rupture de stock",
-   "maj": "2026-11-20",
-   "nom": "Fluorouracile Pfizer 50 mg/ml, solution à diluer pour perfusion, flacon de 100 ml",
-   "remise": null,
-   "domaines": [
-    "Oncologie/Radiothérapie"
    ]
   },
   {
@@ -719,15 +746,6 @@
    "remise": null,
    "domaines": [
     "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-10-30",
-   "nom": "Fluorouracile Accord 50 mg/ml, solution à diluer pour perfusion, flacon de 100 ml",
-   "remise": null,
-   "domaines": [
-    "Oncologie/Radiothérapie"
    ]
   },
   {
@@ -1638,36 +1656,6 @@
    ]
   },
   {
-   "statut": "Remise à disposition",
-   "maj": "2026-08-28",
-   "nom": "Tildiem 25 mg, poudre et solution pour préparation injectable IV",
-   "remise": "2026-08-28",
-   "domaines": [
-    "Anesthésie/Réanimation/Soins intensifs",
-    "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Remise à disposition",
-   "maj": "2026-08-28",
-   "nom": "Méthylprednisolone Viatris 500 mg, poudre pour solution injectable",
-   "remise": "2026-08-28",
-   "domaines": [
-    "Allergologie",
-    "Rhumatologie",
-    "Infectiologie"
-   ]
-  },
-  {
-   "statut": "Remise à disposition",
-   "maj": "2026-08-28",
-   "nom": "Amikacine Viatris 50 mg/1 ml, solution injectable",
-   "remise": "2026-08-28",
-   "domaines": [
-    "Infectiologie"
-   ]
-  },
-  {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-08-27",
    "nom": "Visudyne 15 mg, poudre pour solution pour perfusion",
@@ -1917,15 +1905,6 @@
     "Néphrologie",
     "Rhumatologie",
     "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-06-25",
-   "nom": "Emend 125 mg, poudre pour suspension buvable",
-   "remise": null,
-   "domaines": [
-    "Hépato-gastroentérologie"
    ]
   },
   {

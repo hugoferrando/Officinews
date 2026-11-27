@@ -1,6 +1,62 @@
 {
- "updatedAt": "2026-11-26T06:38:26+01:00",
+ "updatedAt": "2026-11-27T06:38:47+01:00",
  "articles": [
+  {
+   "id": "fspf-delai-ecoulement-entree-vigueur",
+   "date": "2026-11-26",
+   "rank": 1,
+   "source": "FSPF",
+   "category": "Réglementation",
+   "title": "Marchandises en vente en pharmacie : entrée en vigueur du délai d'écoulement de 6 mois",
+   "summary": "Un arrêté modifié laisse six mois aux officines pour continuer à vendre les produits retirés de la liste des marchandises autorisées. Le syndicat y voit l'aboutissement de sa demande de la semaine précédente.",
+   "comptoir": "Pas de retrait immédiat des rayons concernés : vérifier la liste des produits sortants et planifier leur écoulement avant la fin des six mois.",
+   "url": "https://www.fspf.fr/marchandises-en-vente-en-pharmacie-entree-en-vigueur-du-delai-decoulement-de-6-mois/",
+   "related": [
+    {
+     "label": "Une période transitoire de 6 mois accordée pour écouler les stocks",
+     "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/une-periode-transitoire-de-6-mois-accordee-pour-ecouler-les-stocks",
+     "source": "Quotidien"
+    }
+   ],
+   "tags": [
+    "marchandises",
+    "délai d'écoulement",
+    "arrêté",
+    "officine"
+   ]
+  },
+  {
+   "id": "plfss-2027-cmp-echec",
+   "date": "2026-11-26",
+   "rank": 2,
+   "source": "Quotidien",
+   "category": "Réglementation",
+   "title": "Aucun accord trouvé entre députés et sénateurs lors de la commission mixte paritaire",
+   "summary": "La commission mixte paritaire réunissant sept députés et sept sénateurs n'a pas réussi à s'entendre sur le projet de loi de financement de la Sécurité sociale pour 2027.",
+   "comptoir": "Rien ne change au comptoir pour l'instant : les mesures touchant l'officine restent en suspens le temps de la suite de la procédure parlementaire.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/politique-de-sante/aucun-accord-trouve-entre-deputes-et-senateurs-lors-de-la-commission-mixte-paritaire",
+   "tags": [
+    "PLFSS 2027",
+    "commission mixte paritaire",
+    "Parlement"
+   ]
+  },
+  {
+   "id": "pharmacies-rurales-reouverture",
+   "date": "2026-11-26",
+   "rank": 3,
+   "source": "Quotidien",
+   "category": "Profession",
+   "title": "Les députés veulent faciliter la réouverture des pharmacies rurales",
+   "summary": "Une proposition de loi permettrait à une commune ayant perdu sa dernière pharmacie d'en voir ouvrir une nouvelle sans passer par un transfert ou un regroupement.",
+   "comptoir": "Texte encore à l'état de proposition : aucun effet immédiat, mais à suivre pour les confrères en zone rurale.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/les-deputes-veulent-faciliter-la-reouverture-des-pharmacies-rurales",
+   "tags": [
+    "pharmacie rurale",
+    "création d'officine",
+    "proposition de loi"
+   ]
+  },
   {
    "id": "ansm-conseils-ia-medicaments",
    "date": "2026-11-25",
