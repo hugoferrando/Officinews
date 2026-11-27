@@ -36,7 +36,7 @@ Ajouter une source ou une catégorie demande de modifier à la fois `index.html`
 - **Ruptures** (`#disponibilites`) : la liste ANSM, filtrable par statut (puces), par domaine et ordre (dans « Filtres »), et par recherche. Chaque rupture ou tension renvoie vers Vigirupture (https://vigirupture.fr/), qui n'a pas d'API publique : on ne fait que lier, sans récupérer ses données.
 - **Vaccins** (`#vaccins`) : campagnes en cours (grippe, Covid-19, VRS) et recommandations récentes, depuis `vaccins.json`.
 - Les articles de la catégorie Ruptures & tensions ont un lien « Vigirupture ↗ ».
-- **Outils de référence** (constante `TOOLS` dans `index.html`) : liens Antibioclic, Meddispar, fiches OMéDIT et ameli ajoutés en bas d'une carte seulement si son texte (sans accents) correspond à l'expression régulière de l'outil, 2 au maximum ; Antibioclic aussi sur les ruptures/tensions d'antibiotiques ; liens propres aux campagnes dans `vaccins.json` (`liens`). Tous les outils sont listés dans le second pied de page.
+- **Outils de référence** (constante `TOOLS` dans `index.html`) : liens Antibioclic, Meddispar, fiches OMéDIT et ameli ajoutés en bas d'une carte seulement si son texte (sans accents) correspond à l'expression régulière de l'outil, 2 au maximum ; Antibioclic aussi sur les ruptures/tensions d'antibiotiques ; liens propres aux campagnes dans `vaccins.json` (`liens`). Tous les outils (y compris Oncolien, CRAT et DDI-Predictor, qui n'ont pas de règle d'affichage par carte) sont listés en haut de page dans `nav.quick` : rangée de puces défilante sur mobile, bloc « Outils » dans la colonne latérale sur ordinateur. Le pied de page ne garde que les sources.
 - Journal officiel : écarté pour l'instant (pas de page publique simple à lire automatiquement sans alourdir la tâche) ; les textes importants arrivent via l'ANSM et la presse.
 
 ## Règles de contenu
@@ -56,6 +56,7 @@ La procédure complète de la tâche est dans **`scripts/TACHE.md`** ; le prompt
 
 - Thèmes clair et sombre via des tokens CSS sur `:root` ; toute nouvelle couleur passe par un token défini dans les deux thèmes.
 - Doit rester lisible à 390 px de large sans défilement horizontal (les filtres défilent à l'horizontale sur mobile).
+- **Version ordinateur** (`@media (min-width:1100px)`) : grille à deux colonnes, l'en-tête (logo, date, tuiles empilées, Mes molécules, Outils) devient une colonne latérale collante de 300 px, onglets et fil à droite ; au-delà de 1480 px, les cartes d'une même journée passent sur deux colonnes. Le mobile n'est pas modifié.
 - Direction artistique : **épurée**, demandée par Hugo (peu de texte, peu de boutons). Fond vert très pâle, cartes blanches arrondies (`--r: 16px`), onglets en contrôle segmenté, 3 tuiles cliquables (cette semaine, ruptures 30 j, non lus), filtres secondaires repliés derrière un bouton « Filtres », sources supplémentaires d'un article repliées (« + N sources »), « marquer lu » réduit à une coche ronde en haut à droite des cartes. Ne pas réintroduire de paragraphes d'explication ni de boutons visibles en permanence.
 - Polices Google Fonts : Outfit (nom Officinews en 800 bicolore comme le logo, titres en 600-700) et Public Sans (texte).
 - Logo : `logo.png` (original), `logo-mark.png` (symbole détouré pour l'en-tête), icônes générées depuis le symbole.
