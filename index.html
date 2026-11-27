@@ -88,6 +88,19 @@ h1 .w-news{color:var(--brand)}
 .wchip.tension{border-color:var(--warn-soft);background:var(--warn-soft)} .wchip.tension .dot{background:var(--warn)}
 .watch-hint{margin:0;font-size:13px;color:var(--muted)}
 .watch form{display:flex;gap:8px}
+.wchip .nb{width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 2px var(--card);flex:none;margin-left:-2px}
+.wchip.rupture .nb,.wchip.tension .nb{background:var(--ink)}
+.wchip .cls{font-size:11px;color:var(--muted)}
+.wchip[aria-current="true"]{outline:2px solid var(--accent);outline-offset:1px}
+.wcard{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:12px 14px;display:grid;gap:10px;font-size:13.5px}
+.wcard h3{font:600 15px/1.2 var(--f-head);margin:0}
+.wcard ul{list-style:none;margin:0;padding:0;display:grid;gap:7px}
+.wcard li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px;align-items:baseline}
+.wcard li small{color:var(--muted);display:block;font-size:12px}
+.wcard .lbl{font-size:12px;font-weight:600;color:var(--muted)}
+.wcard p{margin:0;color:var(--muted)}
+.wcard .acts{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center}
+.wcard .acts a,.wcard .acts button{font-size:13px;font-weight:600;color:var(--accent-ink);background:none;border:0;padding:0;cursor:pointer;text-decoration:none}
 .btn{font:600 13px/1 var(--f-body);background:var(--accent);color:var(--on-accent);border:0;border-radius:12px;padding:0 16px;cursor:pointer;white-space:nowrap}
 
 /* Onglets + recherche (bloc collant) */
@@ -225,7 +238,7 @@ h1 .w-news{color:var(--brand)}
   body{font-size:15.5px}
   .wrap{max-width:1240px;display:grid;grid-template-columns:300px minmax(0,1fr);column-gap:40px;align-items:start}
   .wrap>*{grid-column:2}
-  .wrap>.mast{grid-column:1;grid-row:1/span 9;position:sticky;top:0;max-height:100vh;overflow-y:auto;scrollbar-width:none;padding-block:28px 24px;gap:18px}
+  .wrap>.mast{grid-template-columns:minmax(0,1fr);min-width:0;grid-column:1;grid-row:1/span 9;position:sticky;top:0;max-height:100vh;overflow-y:auto;scrollbar-width:none;padding-block:28px 24px;gap:18px}
   .wrap>.mast::-webkit-scrollbar{display:none}
   .brand-row{flex-direction:column;align-items:flex-start;gap:6px}
   .when{justify-items:start;text-align:left}
@@ -262,7 +275,8 @@ h1 .w-news{color:var(--brand)}
       </div>
       <div class="wlist" id="watchList"></div>
       <form id="watchForm" autocomplete="off" hidden>
-        <input id="watchInput" class="search" type="text" placeholder="Ex. quétiapine" aria-label="Molécule à suivre">
+        <input id="watchInput" class="search" type="text" list="watchSug" placeholder="Molécule ou classe" aria-label="Molécule ou classe à suivre">
+        <datalist id="watchSug"></datalist>
         <button class="btn" type="submit">Suivre</button>
       </form>
     </section>
@@ -372,7 +386,13 @@ h1 .w-news{color:var(--brand)}
   let watch=store.get("officinews-watch",[]).filter(t=>typeof t==="string");
   const saveWatch=()=>store.set("officinews-watch",watch);
   const artText=a=>norm([a.title,a.summary,a.comptoir,(a.tags||[]).join(" ")].join(" "));
-  const watchedIn=txt=>watch.filter(t=>txt.includes(norm(t)));
+  // Une entrée « @Domaine » suit une classe (domaine ANSM) ; sinon c'est une molécule (texte libre, comparé sans accents).
+  const isCls=t=>t.startsWith("@"),clsName=t=>t.slice(1);
+  const watchedIn=txt=>watch.filter(t=>!isCls(t)&&txt.includes(norm(t)));
+  const clsWatched=i=>watch.some(t=>isCls(t)&&i.domaines.includes(clsName(t)));
+  let seen=store.get("officinews-watch-seen",{});if(typeof seen!=="object"||!seen)seen={};
+  const saveSeen=()=>store.set("officinews-watch-seen",seen);
+  let openWatch=null;
 
   function chip(label,pressed,onClick){const b=el("button",{class:"chip",type:"button","aria-pressed":String(pressed)});
     b.append(document.createTextNode(label));b.onclick=onClick;return b}
@@ -471,31 +491,116 @@ h1 .w-news{color:var(--brand)}
   }
 
   // ---------- Mes molécules ----------
+  const ENCOURS=i=>i.statut==="Rupture de stock"||i.statut==="Tension d'approvisionnement";
+  function watchItems(t){
+    const all=dstate.items||[];
+    if(isCls(t))return all.filter(i=>i.domaines.includes(clsName(t))&&ENCOURS(i));
+    const k=norm(t);return all.filter(i=>norm(i.nom).includes(k));
+  }
+  const watchArts=t=>isCls(t)?[]:state.articles.filter(a=>artText(a).includes(norm(t)));
   function watchStatus(t){
-    const k=norm(t),items=(dstate.items||[]).filter(i=>norm(i.nom).includes(k));
+    const items=watchItems(t);
     if(items.some(i=>i.statut==="Rupture de stock"))return "rupture";
     if(items.some(i=>i.statut==="Tension d'approvisionnement"))return "tension";
     return "ok";
   }
+  // Empreinte de ce qu'on sait d'une entrée : statuts ANSM + dates, dernier article. Si elle change depuis la dernière consultation → point « nouveau ».
+  function watchSig(t){
+    const it=watchItems(t).map(i=>i.statut+"|"+i.maj).sort().join(";"),a=watchArts(t)[0];
+    return it+"#"+(a?a.id:"");
+  }
+  const dataReady=()=>!!dstate.items&&state.ready;
+  function isNew(t){
+    if(!dataReady())return false;
+    const sig=watchSig(t);
+    if(!(t in seen)){seen[t]=sig;saveSeen();return false}
+    return seen[t]!==sig;
+  }
+  function watchCard(t){
+    const card=el("div",{class:"wcard",id:"watchCard"});
+    card.append(el("h3",{text:isCls(t)?clsName(t)+" (classe)":t}));
+    const items=watchItems(t).slice().sort((a,b)=>(ENCOURS(b)-ENCOURS(a))||(a.maj<b.maj?1:a.maj>b.maj?-1:0));
+    if(!dstate.items)card.append(el("p",{text:"Chargement de la liste ANSM…"}));
+    else if(!items.length)card.append(el("p",{text:isCls(t)?"Aucune rupture ni tension en cours dans cette classe.":"Aucune rupture ni tension signalée par l'ANSM."}));
+    else{
+      card.append(el("span",{class:"lbl",text:"ANSM"}));
+      const ul=el("ul");
+      for(const i of items.slice(0,6)){
+        const li=el("li");li.append(el("span",{class:"st "+(ST_CLASS[i.statut]||"arret"),text:ST_LABEL[i.statut]||i.statut}));
+        const d=el("span",{text:i.nom});
+        d.append(el("small",{text:i.remise&&i.statut==="Remise à disposition"?"remis le "+fmtShort(i.remise):"mis à jour le "+fmtShort(i.maj)}));
+        li.append(d);ul.append(li)}
+      card.append(ul);
+      if(items.length>6)card.append(el("p",{text:"+ "+(items.length-6)+" autres"}));
+    }
+    const arts=watchArts(t).slice(0,3);
+    if(arts.length){
+      card.append(el("span",{class:"lbl",text:"Dernières actus"}));
+      const ul=el("ul");
+      for(const a of arts){const li=el("li");li.append(el("small",{text:fmtShort(a.date)}));
+        const l=el("a",{href:a.url,target:"_blank",rel:"noopener",text:a.title});
+        l.addEventListener("click",()=>{read.add(a.id);saveRead()});li.append(l);ul.append(li)}
+      card.append(ul);
+    }
+    const acts=el("div",{class:"acts"});
+    const all=el("button",{type:"button",text:isCls(t)?"Voir la liste →":"Tout voir →"});
+    all.onclick=()=>{
+      if(isCls(t)){location.hash="disponibilites";dstate.filter="encours";dstate.q="";$("dq").value="";dstate.dom=clsName(t);$("ddom").value=dstate.dom;renderDispo()}
+      else if(location.hash==="#disponibilites"){dstate.filter="tout";dstate.q=t;$("dq").value=t;renderDispo()}
+      else{if(location.hash==="#vaccins")location.hash="actualites";state.q=t;$("q").value=t;renderFeed()}
+      goContent()};
+    acts.append(all);
+    if(items.some(ENCOURS))acts.append(el("a",{href:VIGI,target:"_blank",rel:"noopener",text:"Vigirupture ↗"}));
+    if(!isCls(t))acts.append(el("a",{href:"https://www.meddispar.fr/",target:"_blank",rel:"noopener",text:"Meddispar ↗"}));
+    card.append(acts);
+    return card;
+  }
   function renderWatch(){
     const list=$("watchList");
-    if(!watch.length){list.replaceChildren(el("p",{class:"watch-hint",text:"Suivez les molécules de votre officine pour repérer leurs ruptures et actus."}));return}
+    $("watchCard")?.remove();
+    if(!watch.length){openWatch=null;list.replaceChildren(el("p",{class:"watch-hint",text:"Suivez les molécules ou classes de votre officine pour repérer leurs ruptures et actus."}));return}
+    if(openWatch&&!watch.includes(openWatch))openWatch=null;
     list.replaceChildren(...watch.map(t=>{
       const s=watchStatus(t),c=el("span",{class:"wchip "+s});
-      const go=el("button",{type:"button",title:s==="rupture"?"En rupture":s==="tension"?"En tension":"Pas de rupture signalée"});
-      go.append(el("span",{class:"dot","aria-hidden":"true"}),document.createTextNode(t));
-      go.onclick=()=>{
-        if(location.hash==="#disponibilites"){dstate.filter="tout";dstate.q=t;$("dq").value=t;renderDispo()}
-        else{if(location.hash==="#vaccins")location.hash="actualites";state.q=t;$("q").value=t;renderFeed()}
-        goContent()};
-      const x=el("button",{type:"button",class:"x","aria-label":"Ne plus suivre "+t,text:"✕"});
-      x.onclick=()=>{watch=watch.filter(w=>w!==t);saveWatch();renderAll()};
+      if(openWatch===t)c.setAttribute("aria-current","true");
+      const fresh=openWatch!==t&&isNew(t);
+      const go=el("button",{type:"button","aria-expanded":String(openWatch===t),title:(s==="rupture"?"En rupture":s==="tension"?"En tension":"Pas de rupture signalée")+(fresh?" · du nouveau":"")});
+      go.append(el("span",{class:"dot","aria-hidden":"true"}));
+      if(isCls(t)){go.append(document.createTextNode(clsName(t)+" "));const n=watchItems(t).length;go.append(el("span",{class:"cls",text:n?String(n):"classe"}))}
+      else go.append(document.createTextNode(t));
+      if(fresh)go.append(el("span",{class:"nb","aria-label":"du nouveau"}));
+      go.onclick=()=>{openWatch=openWatch===t?null:t;if(openWatch&&dataReady()){seen[t]=watchSig(t);saveSeen()}renderWatch()};
+      const x=el("button",{type:"button",class:"x","aria-label":"Ne plus suivre "+(isCls(t)?clsName(t):t),text:"✕"});
+      x.onclick=()=>{watch=watch.filter(w=>w!==t);delete seen[t];saveSeen();saveWatch();renderAll()};
       c.append(go,x);return c}));
+    if(openWatch)list.after(watchCard(openWatch));
+  }
+  // Suggestions : molécules de la liste ANSM et mots-clés des articles, puis classes (domaines ANSM).
+  const CLS_PREFIX="Classe : ";
+  function fillWatchSug(){
+    const seenK=new Set(),mols=[];
+    const add=v=>{v=(v||"").trim();if(v.length<3)return;const k=norm(v);if(seenK.has(k))return;seenK.add(k);mols.push(v)};
+    for(const i of dstate.items||[]){
+      let n=i.nom.replace(/^spécialités à base (de |d'|d’)/i,"").split(/[,(]| \d/)[0].trim();
+      n=n.replace(/\s+(gé|ge|générique|generique)s?$/i,"");
+      if(n)add(n.charAt(0).toUpperCase()+n.slice(1).toLowerCase());
+    }
+    // Mots-clés d'articles « médicament » seulement : un seul mot, sans chiffre ni sigle, hors termes génériques.
+    const MED_CATS=new Set(["Nouveaux médicaments","Pharmacovigilance","Ruptures & tensions"]);
+    const GENERIC=new Set(["rupture","ruptures","tension","tensions","vaccin","vaccins","vaccination","substitution","generique","generiques","remboursement","securite","oncologie","diabete","obesite","grippe","prevention","pharmacovigilance","officine","rappel","lot","penurie","stock","antibiotique","antibiotiques"]);
+    for(const a of state.articles){if(!MED_CATS.has(a.category))continue;
+      for(const t of a.tags||[])if(!/[\s\d]/.test(t)&&t!==t.toUpperCase()&&!GENERIC.has(norm(t)))add(t.charAt(0).toUpperCase()+t.slice(1))}
+    mols.sort(coll.compare);
+    const doms=[...new Set((dstate.items||[]).flatMap(i=>i.domaines))].sort(coll.compare);
+    $("watchSug").replaceChildren(...mols.map(v=>el("option",{value:v})),...doms.map(d=>el("option",{value:CLS_PREFIX+d})));
   }
   $("watchAdd").onclick=()=>{const f=$("watchForm"),open=f.hidden;f.hidden=!open;$("watchAdd").setAttribute("aria-expanded",String(open));
-    $("watchAdd").textContent=open?"Fermer":"+ Ajouter";if(open)$("watchInput").focus()};
-  $("watchForm").addEventListener("submit",e=>{e.preventDefault();const t=$("watchInput").value.trim();if(t.length<3)return;
-    if(!watch.some(w=>norm(w)===norm(t))){watch.push(t);saveWatch()}$("watchInput").value="";renderAll()});
+    $("watchAdd").textContent=open?"Fermer":"+ Ajouter";if(open){fillWatchSug();$("watchInput").focus()}};
+  $("watchForm").addEventListener("submit",e=>{e.preventDefault();let t=$("watchInput").value.trim();
+    if(t.startsWith(CLS_PREFIX)){const d=t.slice(CLS_PREFIX.length).trim();const dom=[...new Set((dstate.items||[]).flatMap(i=>i.domaines))].find(x=>norm(x)===norm(d));if(!dom)return;t="@"+dom}
+    else if(t.length<3)return;
+    if(!watch.some(w=>norm(w)===norm(t))){watch.push(t);saveWatch();if(dataReady()){seen[t]=watchSig(t);saveSeen()}}
+    $("watchInput").value="";renderAll()});
 
   // ---------- Ruptures (liste ANSM) ----------
   const ST=[["encours","En cours",i=>i.statut==="Rupture de stock"||i.statut==="Tension d'approvisionnement"],
@@ -522,7 +627,7 @@ h1 .w-news{color:var(--brand)}
     list.replaceChildren(...shown.map(i=>{
       const cut=i.nom.search(/, (?=[a-zàâçéèêëîïôûù])/);
       const nom=cut>0?i.nom.slice(0,cut):i.nom,forme=cut>0?i.nom.slice(cut+2):"";
-      const li=el("li",{class:"dr"+(watchedIn(norm(i.nom)).length?" watched":"")});
+      const li=el("li",{class:"dr"+(watchedIn(norm(i.nom)).length||clsWatched(i)?" watched":"")});
       li.append(el("span",{class:"st "+(ST_CLASS[i.statut]||"arret"),text:ST_LABEL[i.statut]||i.statut}));
       const n=el("span",{class:"dn",text:nom});
       n.append(el("span",{class:"dd",text:[forme,i.domaines.join(", ")].filter(Boolean).join(" · ")}));li.append(n);
