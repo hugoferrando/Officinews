@@ -1,6 +1,88 @@
 {
- "updatedAt": "2026-11-27T06:38:47+01:00",
+ "updatedAt": "2026-11-28T06:38:56+01:00",
  "articles": [
+  {
+   "id": "tamiflu-suspension-buvable-reserve-jeunes-enfants",
+   "date": "2026-11-27",
+   "rank": 1,
+   "source": "ANSM",
+   "category": "Ruptures & tensions",
+   "title": "Tamiflu 6 mg/ml, suspension buvable : réservez temporairement la prescription aux plus jeunes enfants",
+   "summary": "Face à des tensions d'approvisionnement, l'ANSM demande de limiter temporairement la suspension buvable de Tamiflu aux plus jeunes enfants.",
+   "comptoir": "Pour un enfant plus grand ou un adulte, vérifier avec le prescripteur une alternative adaptée (gélules, par exemple) plutôt que de délivrer la suspension.",
+   "url": "https://ansm.sante.fr/actualites/tamiflu-6-mg-ml-suspension-buvable-reservez-temporairement-la-prescription-aux-plus-jeunes-enfants",
+   "related": [
+    {
+     "label": "Grippe : réservez Tamiflu en suspension buvable aux plus jeunes enfants",
+     "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/grippe-reservez-tamiflu-en-suspension-buvable-aux-plus-jeunes-enfants",
+     "source": "Quotidien"
+    }
+   ],
+   "tags": [
+    "Tamiflu",
+    "oseltamivir",
+    "grippe",
+    "tension",
+    "pédiatrie"
+   ]
+  },
+  {
+   "id": "reforme-legislation-pharma-ue-penuries",
+   "date": "2026-11-27",
+   "rank": 2,
+   "source": "Quotidien",
+   "category": "Réglementation",
+   "title": "Une réforme de la législation pharmaceutique et des mesures de lutte contre les pénuries définitivement adoptées",
+   "summary": "Le Parlement européen a définitivement adopté deux textes qui réforment le cadre pharmaceutique de l'Union, dont un consacré à la lutte contre les pénuries de médicaments.",
+   "comptoir": "Pas d'effet immédiat à l'officine : les mesures anti-pénuries arriveront progressivement, à suivre dans les prochains mois.",
+   "url": "https://www.lequotidiendupharmacien.fr/exercice-pro/une-reforme-de-la-legislation-pharmaceutique-et-des-mesures-de-lutte-contre-les-penuries",
+   "tags": [
+    "Europe",
+    "pénuries",
+    "législation pharmaceutique"
+   ]
+  },
+  {
+   "id": "has-cnil-ia-soins-guide",
+   "date": "2026-11-27",
+   "rank": 3,
+   "source": "HAS",
+   "category": "Recommandations",
+   "title": "IA en santé : la HAS et la CNIL posent les repères d'un usage sûr et responsable",
+   "summary": "La HAS et la CNIL publient un guide commun sur l'usage de l'intelligence artificielle en soins : supervision humaine, qualité des soins et droits des patients.",
+   "comptoir": "Rien ne change dans la pratique quotidienne, mais ce guide sert de repère si l'équipe utilise des outils d'IA avec des données de patients.",
+   "url": "https://www.has-sante.fr/jcms/p_4619911/fr/ia-en-sante-la-has-et-la-cnil-posent-les-reperes-d-un-usage-sur-et-responsable",
+   "related": [
+    {
+     "label": "Guide CNIL et HAS",
+     "url": "https://www.has-sante.fr/jcms/p_4619832/fr/ia-en-contexte-de-soins-accompagner-le-bon-usage-guide-cnil-et-has",
+     "source": "HAS"
+    }
+   ],
+   "tags": [
+    "IA",
+    "CNIL",
+    "bon usage",
+    "données de santé"
+   ]
+  },
+  {
+   "id": "depakine-tfr-supprimes-valproate",
+   "date": "2026-11-27",
+   "rank": 4,
+   "source": "Quotidien",
+   "category": "Réglementation",
+   "title": "Dépakine : les TFR de deux dosages de valproate de sodium supprimés",
+   "summary": "Une décision publiée au Journal officiel du 24 novembre supprime les tarifs forfaitaires de responsabilité de plusieurs groupes de valproate de sodium.",
+   "comptoir": "Remboursement : la suppression du TFR concerne la base de remboursement ; rappeler que les règles de prévention de la grossesse sous valproate restent inchangées.",
+   "url": "https://www.lequotidiendupharmacien.fr/medicament-parapharmacie/medicament/depakine-les-tfr-de-deux-dosages-de-valproate-de-sodium-supprimes",
+   "tags": [
+    "valproate",
+    "Dépakine",
+    "TFR",
+    "Journal officiel"
+   ]
+  },
   {
    "id": "fspf-delai-ecoulement-entree-vigueur",
    "date": "2026-11-26",

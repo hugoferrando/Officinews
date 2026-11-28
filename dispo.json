@@ -1,7 +1,89 @@
 {
- "updatedAt": "2026-11-27T06:39:01+01:00",
+ "updatedAt": "2026-11-28T06:39:11+01:00",
  "source": "https://ansm.sante.fr/disponibilites-des-produits-de-sante/medicaments",
  "items": [
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-11-27",
+   "nom": "Yellox 0,9 mg/ml, collyre en solution",
+   "remise": null,
+   "domaines": [
+    "Ophtalmologie"
+   ]
+  },
+  {
+   "statut": "Rupture de stock",
+   "maj": "2026-11-27",
+   "nom": "Tranxène 20 mg/2 ml, lyophilisat et solution pour usage parentéral",
+   "remise": null,
+   "domaines": [
+    "Psychiatrie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-27",
+   "nom": "Tamiflu 6 mg/ml, poudre pour suspension buvable",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-27",
+   "nom": "Spécialités à base de furosémide 20 mg et 40 mg, comprimés",
+   "remise": null,
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-27",
+   "nom": "Pipéracilline Panpharma 4 g, poudre pour solution injectable",
+   "remise": null,
+   "domaines": [
+    "Infectiologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-27",
+   "nom": "Likozam 1 mg/ml, suspension buvable",
+   "remise": "2026-11-27",
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Remise à disposition",
+   "maj": "2026-11-27",
+   "nom": "Icatibant Zentiva 30 mg, solution injectable",
+   "remise": "2026-11-26",
+   "domaines": [
+    "Cardiologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-27",
+   "nom": "Fluanxol 4 %, solution buvable",
+   "remise": null,
+   "domaines": [
+    "Neurologie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-27",
+   "nom": "Endoxan 50 mg, comprimé enrobé",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie",
+    "Rhumatologie"
+   ]
+  },
   {
    "statut": "Rupture de stock",
    "maj": "2026-11-26",
@@ -15,6 +97,15 @@
    "statut": "Tension d'approvisionnement",
    "maj": "2026-11-26",
    "nom": "Fluorouracile Accord 50 mg/ml, solution à diluer pour perfusion, flacon de 100 ml",
+   "remise": null,
+   "domaines": [
+    "Oncologie/Radiothérapie"
+   ]
+  },
+  {
+   "statut": "Tension d'approvisionnement",
+   "maj": "2026-11-26",
+   "nom": "Fluorouracile Accord 50 mg/ml, solution à diluer pour perfusion",
    "remise": null,
    "domaines": [
     "Oncologie/Radiothérapie"
@@ -129,15 +220,6 @@
    ]
   },
   {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-11-20",
-   "nom": "Likozam 1 mg/ml, suspension buvable",
-   "remise": null,
-   "domaines": [
-    "Neurologie"
-   ]
-  },
-  {
    "statut": "Arrêt de commercialisation",
    "maj": "2026-11-20",
    "nom": "Kanokad 25 UI/mL, poudre et solvant pour solution injectable",
@@ -193,30 +275,12 @@
    ]
   },
   {
-   "statut": "Rupture de stock",
-   "maj": "2026-11-19",
-   "nom": "Yellox 0,9 mg/ml, collyre en solution",
-   "remise": null,
-   "domaines": [
-    "Ophtalmologie"
-   ]
-  },
-  {
    "statut": "Remise à disposition",
    "maj": "2026-11-19",
    "nom": "Vinorelbine Arrow 10 mg/mL, solution à diluer pour perfusion",
    "remise": "2026-10-30",
    "domaines": [
     "Oncologie/Radiothérapie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-11-19",
-   "nom": "Spécialités à base de furosémide 20 mg et 40 mg, comprimés",
-   "remise": null,
-   "domaines": [
-    "Cardiologie"
    ]
   },
   {
@@ -577,15 +641,6 @@
    ]
   },
   {
-   "statut": "Rupture de stock",
-   "maj": "2026-11-09",
-   "nom": "Pipéracilline Panpharma 4 g, poudre pour solution injectable",
-   "remise": null,
-   "domaines": [
-    "Infectiologie"
-   ]
-  },
-  {
    "statut": "Remise à disposition",
    "maj": "2026-11-09",
    "nom": "Farmorubicine 10 mg, poudre pour solution pour perfusion",
@@ -737,24 +792,6 @@
    "remise": null,
    "domaines": [
     "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-10-30",
-   "nom": "Icatibant Zentiva 30 mg, solution injectable",
-   "remise": null,
-   "domaines": [
-    "Cardiologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-10-30",
-   "nom": "Fluorouracile Accord 50 mg/ml, solution à diluer pour perfusion",
-   "remise": null,
-   "domaines": [
-    "Oncologie/Radiothérapie"
    ]
   },
   {
@@ -1999,15 +2036,6 @@
    ]
   },
   {
-   "statut": "Rupture de stock",
-   "maj": "2026-05-21",
-   "nom": "Tranxène 20 mg/2 ml, lyophilisat et solution pour usage parentéral",
-   "remise": null,
-   "domaines": [
-    "Psychiatrie"
-   ]
-  },
-  {
    "statut": "Tension d'approvisionnement",
    "maj": "2026-05-21",
    "nom": "Acide acétylsalicylique 75 mg, comprimé gastro-résistant",
@@ -2023,16 +2051,6 @@
    "remise": null,
    "domaines": [
     "Ophtalmologie"
-   ]
-  },
-  {
-   "statut": "Tension d'approvisionnement",
-   "maj": "2026-05-19",
-   "nom": "Endoxan 50 mg, comprimé enrobé",
-   "remise": null,
-   "domaines": [
-    "Oncologie/Radiothérapie",
-    "Rhumatologie"
    ]
   },
   {
